@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<project version="2">
+  <!-- Output SWF options -->
+  <output>
+    <movie outputType="Application" />
+    <movie input="" />
+    <movie path="bin\StickyNinjaMissions_CoolMath.swf" />
+    <movie fps="60" />
+    <movie width="800" />
+    <movie height="512" />
+    <movie version="19" />
+    <movie minorVersion="0" />
+    <movie platform="Flash Player" />
+    <movie background="#000033" />
+    <movie preferredSDK="Flex 4.6.0, AIR 20.0;4.6.0, 20.0;" />
+  </output>
+  <!-- Other classes to be compiled into your SWF -->
+  <classpaths>
+    <class path="src" />
+  </classpaths>
+  <!-- Build options -->
+  <build>
+    <option accessible="False" />
+    <option advancedTelemetry="False" />
+    <option allowSourcePathOverlap="False" />
+    <option benchmark="True" />
+    <option es="False" />
+    <option inline="False" />
+    <option locale="" />
+    <option loadConfig="" />
+    <option optimize="True" />
+    <option omitTraces="True" />
+    <option showActionScriptWarnings="False" />
+    <option showBindingWarnings="False" />
+    <option showInvalidCSS="True" />
+    <option showDeprecationWarnings="False" />
+    <option showUnusedTypeSelectorWarnings="False" />
+    <option strict="True" />
+    <option useNetwork="True" />
+    <option useResourceBundleMetadata="True" />
+    <option warnings="True" />
+    <option verboseStackTraces="False" />
+    <option linkReport="" />
+    <option loadExterns="" />
+    <option staticLinkRSL="True" />
+    <option additional="-frame start Main" />
+    <option compilerConstants="PROJECT::isFinal,true&#xA;PROJECT::isWalkthrough,false&#xA;PROJECT::useStage3D,false&#xA;PROJECT::isMobile,false&#xA;PROJECT::isExternal,false&#xA;PROJECT::isAndroid,false&#xA;PROJECT::isIOS,false&#xA;PROJECT::isGamePad,false&#xA;PROJECT::isAirPC,false&#xA;PROJECT::isAmazon,false&#xA;PROJECT::isGooglePlay,false&#xA;PROJECT::isPlayHaven,false&#xA;PROJECT::isOuya,false&#xA;PROJECT::isTitan,false&#xA;PROJECT::isSamsung,false&#xA;PROJECT::isPaid,false&#xA;PROJECT::isAndroidIAB,false&#xA;PROJECT::isChartboost,false&#xA;PROJECT::isHeyzap,false&#xA;PROJECT::isAdMob,false&#xA;PROJECT::isAppleGameCenter,false&#xA;PROJECT::isAppleIAB,false&#xA;PROJECT::isAmazonIAB,false&#xA;PROJECT::isAppSponsor,false&#xA;PROJECT::isRevMob,false&#xA;PROJECT::isAdBuddiz,false" />
+    <option minorVersion="" />
+  </build>
+  <!-- SWC Include Libraries -->
+  <includeLibraries>
+    <element path="fla\lib\Main.swc" />
+    <element path="fla\lib\OtherGames.swc" />
+    <element path="fla\lib\GenericEditorBits2.swc" />
+    <element path="fla\lib\GenericEditorBits.swc" />
+    <element path="fla\lib\Music.swc" />
+    <element path="fla\lib\Sounds.swc" />
+    <element path="fla\lib\preloader.swc" />
+    <element path="fla\lib\ui_mobile.swc" />
+    <element path="fla\lib\TestAssets.swc" />
+    <element path="fla\lib\backgrounds.swc" />
+    <element path="fla\lib\Assets.swc" />
+    <element path="fla\lib\fx.swc" />
+    <element path="fla\lib\ui_generic_components.swc" />
+    <element path="fla\lib\monster_trucks.swc" />
+    <element path="fla\lib\sn2_enemies.swc" />
+    <element path="fla\lib\sn2_objects.swc" />
+    <element path="fla\lib\sn2_player.swc" />
+    <element path="fla\lib\sn2_ui.swc" />
+    <element path="fla\Lic\Lic_Kongregate.swc" />
+    <element path="fla\Lic\Lic_Kiz10.swc" />
+  </includeLibraries>
+  <!-- SWC Libraries -->
+  <libraryPaths>
+    <element path="fla\lib\as3corelib.swc" />
+    <element path="GA\lib\analytics_flash.swc" />
+    <element path="GA\lib\analytics.swc" />
+    <element path="Nape\nape-release.swc" />
+    <element path="fla\lib\StickyNinja_Assets.swc" />
+    <element path="fla\lib\StickyNinja_Chars.swc" />
+  </libraryPaths>
+  <!-- External Libraries -->
+  <externalLibraryPaths>
+    <!-- example: <element path="..." /> -->
+  </externalLibraryPaths>
+  <!-- Runtime Shared Libraries -->
+  <rslPaths>
+    <!-- example: <element path="..." /> -->
+  </rslPaths>
+  <!-- Intrinsic Libraries -->
+  <intrinsics>
+    <!-- example: <element path="..." /> -->
+  </intrinsics>
+  <!-- Assets to embed into the output SWF -->
+  <library>
+    <!-- example: <asset path="..." id="..." update="..." glyphs="..." mode="..." place="..." sharepoint="..." /> -->
+  </library>
+  <!-- Class files to compile (other referenced classes will automatically be included) -->
+  <compileTargets>
+    <compile path="src\Main.as" />
+  </compileTargets>
+  <!-- Paths to exclude from the Project Explorer tree -->
+  <hiddenPaths>
+    <hidden path="obj" />
+  </hiddenPaths>
+  <!-- Executed before build -->
+  <preBuildCommand />
+  <!-- Executed after build -->
+  <postBuildCommand alwaysRun="False" />
+  <!-- Other project options -->
+  <options>
+    <option showHiddenPaths="True" />
+    <option testMovie="Default" />
+    <option testMovieCommand="" />
+  </options>
+  <!-- Plugin storage -->
+  <storage>
+    <entry key="at_enabled"><![CDATA[0]]></entry>
+    <entry key="at_password"><![CDATA[]]></entry>
+  </storage>
+</project>
