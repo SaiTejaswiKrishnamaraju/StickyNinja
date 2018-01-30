@@ -1,0 +1,90 @@
+Sounds.swf Movie Report
+------------------------
+
+Frame #    Frame Bytes    Total Bytes    Scene
+-------    -----------    -----------    ----------------
+      1         928956         928956    Scene 1 (AS 3.0 Classes Export Frame)
+
+Scene                        Shape Bytes    Text Bytes    ActionScript Bytes
+-------------------------    -----------    ----------    ------------------
+Scene 1                                0             0                  9534
+
+Symbol                       Shape Bytes    Text Bytes    ActionScript Bytes
+-------------------------    -----------    ----------    ------------------
+
+ActionScript Bytes    Location
+------------------    --------
+               290    Scene 1:Frame 1:sfx_click
+               290    Scene 1:Frame 1:sfx_earth
+               300    Scene 1:Frame 1:sfx_exit_enter
+               298    Scene 1:Frame 1:sfx_exit_open
+               298    Scene 1:Frame 1:sfx_explosion
+               300    Scene 1:Frame 1:sfx_hit_bouncy
+               298    Scene 1:Frame 1:sfx_hit_enemy
+               300    Scene 1:Frame 1:sfx_hit_smooth
+               304    Scene 1:Frame 1:sfx_hit_sticky_1
+               304    Scene 1:Frame 1:sfx_hit_sticky_2
+               304    Scene 1:Frame 1:sfx_hit_sticky_3
+               294    Scene 1:Frame 1:sfx_launch1
+               294    Scene 1:Frame 1:sfx_launch2
+               294    Scene 1:Frame 1:sfx_launch3
+               300    Scene 1:Frame 1:sfx_ninja_die1
+               300    Scene 1:Frame 1:sfx_ninja_die2
+               304    Scene 1:Frame 1:sfx_ninja_laugh1
+               304    Scene 1:Frame 1:sfx_ninja_laugh2
+               302    Scene 1:Frame 1:sfx_ninjamaster
+               312    Scene 1:Frame 1:sfx_ninjamaster_talk
+               300    Scene 1:Frame 1:sfx_player_die
+               294    Scene 1:Frame 1:sfx_powerup
+               296    Scene 1:Frame 1:sfx_shuriken
+               292    Scene 1:Frame 1:sfx_smash1
+               292    Scene 1:Frame 1:sfx_smash2
+               292    Scene 1:Frame 1:sfx_smash3
+               308    Scene 1:Frame 1:sfx_smash_platform
+               292    Scene 1:Frame 1:sfx_switch
+               296    Scene 1:Frame 1:sfx_treasure
+               296    Scene 1:Frame 1:sfx_voidfall
+               298    Scene 1:Frame 1:sfx_waterdrop
+               288    Scene 1:Frame 1:sfx_wind
+
+Event Sounds: 44KHz Stereo 5 bit ADPCM
+
+
+Sound name                 Bytes        Format    
+-----------------------    ---------    ----------
+sfx_wind                    24515        44KHz Stereo 5 bit ADPCM
+sfx_waterdrop               12986        44KHz Stereo 5 bit ADPCM
+sfx_voidfall                13466        44KHz Mono 5 bit ADPCM
+sfx_treasure                38928        44KHz Stereo 5 bit ADPCM
+sfx_switch                  15871        44KHz Stereo 5 bit ADPCM
+sfx_smash3                  15490        44KHz Mono 5 bit ADPCM
+sfx_smash2                  13346        44KHz Mono 5 bit ADPCM
+sfx_smash1                  13906        44KHz Mono 5 bit ADPCM
+sfx_smash_platform          19687        44KHz Stereo 5 bit ADPCM
+sfx_shuriken                10102        44KHz Stereo 5 bit ADPCM
+sfx_powerup                  3733        44KHz Mono 5 bit ADPCM
+sfx_player_die             116751        44KHz Stereo 5 bit ADPCM
+sfx_ninjamaster_talk        60701        44KHz Stereo 5 bit ADPCM
+sfx_ninjamaster             13206        11KHz Stereo 5 bit ADPCM
+sfx_ninja_laugh2            62871        44KHz Stereo 5 bit ADPCM
+sfx_ninja_laugh1            95392        44KHz Stereo 5 bit ADPCM
+sfx_ninja_die2              16989        44KHz Mono 5 bit ADPCM
+sfx_ninja_die1              29479        44KHz Mono 5 bit ADPCM
+sfx_launch3.wav             14821        44KHz Stereo 5 bit ADPCM
+sfx_launch2.wav             11853        44KHz Stereo 5 bit ADPCM
+sfx_launch1.wav             12708        44KHz Stereo 5 bit ADPCM
+sfx_hit_sticky_3.wav         9147        44KHz Stereo 5 bit ADPCM
+sfx_hit_sticky_2.wav         9147        44KHz Stereo 5 bit ADPCM
+sfx_hit_sticky_1.wav         9147        44KHz Stereo 5 bit ADPCM
+sfx_hit_smooth              12221        44KHz Mono 5 bit ADPCM
+sfx_hit_enemy.wav            6350        44KHz Mono 5 bit ADPCM
+sfx_hit_bouncy              15724        44KHz Mono 5 bit ADPCM
+sfx_explosion               99779        44KHz Stereo 5 bit ADPCM
+sfx_exit_open               93694        44KHz Stereo 5 bit ADPCM
+sfx_exit_enter              24755        22KHz Mono 5 bit ADPCM
+sfx_earth                   17589        44KHz Mono 5 bit ADPCM
+sfx_click                    4492        44KHz Mono 5 bit ADPCM
+
+
+
+

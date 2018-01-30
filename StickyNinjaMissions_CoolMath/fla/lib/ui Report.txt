@@ -1,0 +1,533 @@
+﻿ui.swf Movie Report
+--------------------
+
+Frame #    Frame Bytes    Total Bytes    Scene
+-------    -----------    -----------    -----
+      1         409501         409501    Scene 1 (AS 3.0 Classes Export Frame)
+      2              0         409501    
+      3              0         409501    
+      4              0         409501    
+      5              0         409501    
+      6              0         409501    
+      7              0         409501    
+      8              0         409501    
+      9              0         409501    
+     10              0         409501    
+     11              0         409501    
+     12              0         409501    
+     13             14         409515    
+     14              0         409515    
+     15              0         409515    
+     16              0         409515    
+     17              0         409515    
+     18              0         409515    
+     19              0         409515    
+     20              0         409515    
+     21              0         409515    
+     22              0         409515    
+     23              0         409515    
+     24              0         409515    
+     25             15         409530    
+     26              0         409530    
+     27              0         409530    
+     28              0         409530    
+     29              0         409530    
+     30              0         409530    
+     31              0         409530    
+     32              0         409530    
+     33              0         409530    
+     34              0         409530    
+     35              0         409530    
+     36              0         409530    
+     37              0         409530    
+     38              0         409530    
+     39             12         409542    
+     40              0         409542    
+     41              0         409542    
+     42              0         409542    
+     43              0         409542    
+     44              0         409542    
+     45              0         409542    
+     46              0         409542    
+     47              0         409542    
+     48              0         409542    
+     49              0         409542    
+     50              0         409542    
+     51             11         409553    
+     52              0         409553    
+     53              0         409553    
+     54              0         409553    
+     55              0         409553    
+     56              0         409553    
+     57              0         409553    
+     58              0         409553    
+     59              0         409553    
+     60              0         409553    
+     61              0         409553    
+     62             11         409564    
+     63              0         409564    
+     64              0         409564    
+     65              0         409564    
+     66              0         409564    
+     67              0         409564    
+     68              0         409564    
+     69              0         409564    
+     70              0         409564    
+     71              0         409564    
+     72              0         409564    
+     73              0         409564    
+     74             13         409577    
+     75              0         409577    
+     76              0         409577    
+     77              0         409577    
+     78              0         409577    
+     79              0         409577    
+     80              0         409577    
+     81              0         409577    
+     82              0         409577    
+     83              0         409577    
+     84              0         409577    
+     85              0         409577    
+     86              0         409577    
+     87              0         409577    
+     88              0         409577    
+
+Scene      Shape Bytes    Text Bytes    ActionScript Bytes
+-------    -----------    ----------    ------------------
+Scene 1              0             0                  8386
+
+Symbol                             Shape Bytes    Text Bytes    ActionScript Bytes
+-------------------------------    -----------    ----------    ------------------
+endOverlay                                   0             0                     0
+faderClip                                   18             0                     0
+buttonAnimation                            400             0                     0
+buttonAnimation_smalltext                    0             0                     0
+buttonBack                                   0             0                     0
+buttonBack2                                  0             0                     0
+buttonBackMc                                60             0                     0
+buttonBackMc2                              111             0                     0
+buttonTint                                  32             0                     0
+buttonTint2                                 34             0                     0
+dummyButton                                 16             0                     0
+btn_cancel                                   0            69                     0
+btn_ok                                       0            67                     0
+button_bubble                              115             0                     0
+button_moreGamesKong                         0            34                     0
+buttonBack                                   0             0                     0
+buttonSubmitHighScore                        0            24                     0
+Button_ClearSave                             0            73                     0
+Button_Continue                              0            72                     0
+Button_LevelSelect                           0            71                     0
+Button_menu_smalltext                        0            72                     0
+Button_MoreGames                             0            73                     0
+Button_playgame                              0            70                     0
+Button_Quit                                  0            70                     0
+Button_rewatchIntro                          0            73                     0
+Button_Retry                                 0            71                     0
+Button_walkthrough                           0            73                     0
+advert                                       0             0                     0
+bgSpot                                      28             0                     0
+circleOver                                  41             0                     0
+havingTrouble                                0            33                     0
+level_complete_2                             0             0                     0
+level_complete_3                             0             0                     0
+level_complete_5                             0             0                     0
+level_complete_6                             0             0                     0
+levelComplet_bgOverlay                      24             0                     0
+levelComplete                                0             0                     0
+levelComplete4                               0             0                     0
+levelCompleteBg                             52             0                     0
+levelCompleteGumShadow                      38             0                     0
+levelCompletetxtAnim                         0             0                     0
+levelName                                  468            76                     0
+levelSelect_crumpleOverlay                 175             0                     0
+lvl_complete_1                             183             0                     0
+lvltxt1                                      0            30                     0
+lvltxt2                                      0            45                     0
+lvltxt4                                      0            30                     0
+lvltxt5                                      0            30                     0
+lvltxt6                                      0            45                     0
+lvlTxt3                                      0            15                     0
+LevelFailedText                              0            84                     0
+medalcoin                                    0             0                     0
+score_description                            0           160                     0
+serviceMedaltext                             0            29                     0
+spotsBg                                      0             0                     0
+starburtsOverlay                             0             0                     0
+Score Submit                                 0            72                     0
+yourRating                                   0             0                     0
+buttonAnimation_smalltext                    0             0                     0
+buttonBack                                   0             0                     0
+buttonBackMc                                60             0                     0
+buttonTint                                  32             0                     0
+dummyButton                                 16             0                     0
+Button_menu_smalltext                        0            72                     0
+bubbleOverlay                               31             0                     0
+buttonText                                   0            24                     0
+buttonTextSmall                              0             0                     0
+clipHover                                    0             0                     0
+Giftshop                                   982             0                     0
+icon_lock                                    0             0                     0
+icon_tick                                 1015             0                     0
+levelClip                                    0           137                     0
+LevelSelect_NewIndicator                     0             0                     0
+LevelSelect_medals                         177             0                     0
+levelHighlight                               0             0                     0
+LevelClipBackground                         66             0                     0
+levelSelectBtn                               0             0                     0
+medalShineMc                                 0             0                     0
+medalRing                                  176             0                     0
+medal_tex                                  193             0                     0
+medalShine                                  21             0                     0
+medalShineSpin                               0             0                     0
+Progress_bar                               107           129                     0
+ProgressBarOutline                          37             0                     0
+teamSelectButton_background                  0             0                     0
+<Compound Path>                              0             0                     0
+andkon                                       0             0                     0
+andkon copy                                982             0                     0
+AGingameButton2                             16             0                     0
+AGLogo2                                   1579            89                     0
+<Image>                                      0             0                     0
+<Path>                                      43             0                     0
+ArmorGamesButton                          7785             0                     0
+BtnSleepyLogo                                0             0                     0
+eyeshine                                     0             0                     0
+face                                         0             0                     0
+greyBacking                                  0             0                     0
+lefteye                                      0             0                     0
+lefteyelash                                  0             0                     0
+longanimals                                  0             0                     0
+righteye                                     0             0                     0
+righteyelash                                 0             0                     0
+sleepyanimals                                0             0                     0
+bubble_letter1                               0             0                     0
+bubble_letter2                               0             0                     0
+bubble_letter3                               0             0                     0
+bubble_letter4                               0             0                     0
+bubble_letter5                               0             0                     0
+bubble_letter6                               0             0                     0
+bubble_letter7                               0             0                     0
+bubble_letter8                               0             0                     0
+bubble_letter9                               0             0                     0
+bubble_letter10                              0             0                     0
+bubble_letter11                              0             0                     0
+bubble_letter12                              0             0                     0
+bubble_letter13                              0             0                     0
+bubble_letter14                              0             0                     0
+bubble_letter15                              0             0                     0
+bubble_letter16                              0             0                     0
+bubble_letter17                              0             0                     0
+bubble_letter19                              0             0                     0
+bubble_letters                               0             0                     0
+bubble_logo                                  0             0                     0
+bubble_logo1                                 0             0                     0
+bubble_logo3                                 0             0                     0
+bubble_logo4                                 0             0                     0
+bubble_logo7                                 0             0                     0
+bubble_logo9                                 0             0                     0
+BubbleBoxLogoGraphicMc                       0             0                     0
+CandyStandLogo                               0             0                     0
+CS_Logo.ai                                   0             0                     0
+kongBtn                                      0             0                     0
+clickthroughBtn                              0             0                     0
+kibalogo                                     0             0                     0
+kongButton                                  24             0                     0
+logo                                       599             0                     0
+logo_gra                                     0             0                     0
+MainLogo                                     0             0                     0
+buttonMaxGames                               0             0                     0
+MinijuegosLogo                               0             0                     0
+logo                                       599             0                     0
+robotFilled                                  0             0                     0
+shockwavelogo                                0             0                     0
+buttonSIKids                                 0             0                     0
+sikidscom_rgb_render.swf                     0             0                     0
+Symbol 386                                   0             0                     0
+title_slix                                   0             0                     0
+turboNukeLogo                                0             0                     0
+turboNukeLogoClicker                         0             0                     0
+loaderBar                                    0             0                     0
+mask_loaderbar                              29             0                     0
+ProgressBar                                 67             0                     0
+holeMask                                     0             0                     0
+Transition                                  42             0                     0
+transitionClip                             124             0                     0
+TransitionHolderB                           17             0                     0
+TransitionHolderA                           17             0                     0
+Animal1_gold                               158             0                     0
+pandaPaws_gold                             119             0                     0
+panda_face_gold                             98             0                     0
+pandaOutline_gold                           56             0                     0
+pandaStripe_gold                            69             0                     0
+pandaBody_gold                             180             0                     0
+panda_ears_gold                             67             0                     0
+powerupShine                               115             0                     0
+Animal5_gold                                 0             0                     0
+animal5_eyes_gold                           66             0                     0
+animal5_head_gold                          401             0                     0
+animal5_ear2_gold                           79             0                     0
+animal5_ear1_gold                           53             0                     0
+animal5_legs_gold                          187             0                     0
+animal5_body_gold                          100             0                     0
+Animal7_gold                                 0             0                     0
+elephantTrunk_gold                         126             0                     0
+elephantEyes_gold                           69             0                     0
+elephantTusk_gold                          208             0                     0
+elephantEar_gold                           163             0                     0
+elephantEar2_gold                          159             0                     0
+elephantFoot_gold                          126             0                     0
+elephantBody_gold                          127             0                     0
+AreYouSure                                   0            63                     0
+BG_mountains                              1408             0                     0
+sky                                         23             0                     0
+antipigHolder                                0             0                     0
+Animal2_leg                                 88             0                     0
+bear_hindPaws                              221             0                     0
+bear_nose                                  109             0                     0
+bearEar2                                    82             0                     0
+bearPaws                                   113             0                     0
+bubbleOverlay                               31             0                     0
+bubbleShadow                                26             0                     0
+burstOverlay                                37             0                     0
+BackgroundBubble                             0             0                     0
+BearBody                                   113             0                     0
+BearEar1                                    96             0                     0
+Bubble                                       0             0                     0
+BubblePiece                                 83             0                     0
+BushMc                                    1425             0                     0
+BushMc2                                    777             0                     0
+cloudOver                                   63             0                     0
+cloudOver2                                  87             0                     0
+clouds                                     464             0                     0
+credit_jimp                                  0            23                     0
+credit_longanimals                           0            30                     0
+dec_bushSad                                302             0                     0
+dec_bushSad2                               305             0                     0
+decoration_bushHighlight                   247             0                     0
+decoration_bushHighlight2                  213             0                     0
+Decoration                                   0             0                     0
+grass                                        0             0                     0
+grass2                                       0             0                     0
+iceOver                                      0             0                     0
+iceOver2                                     0             0                     0
+iceRock                                      0             0                     0
+iceRock2                                     0             0                     0
+intro_antipig_walk1                        847             0                     0
+intro_Animal1                              919             0                     0
+intro_Animal3                             1203             0                     0
+intro_quivering_animals_bg                   0             0                     0
+intro_quivering_animals_bg copy          11409             0                     0
+Intro_gateOpen                             638             0                     0
+Intro_OldClip                                0             0                     0
+leaf2                                      206             0                     0
+leafOver                                    59             0                     0
+leafOver2                                   66             0                     0
+leaves                                      62             0                     0
+levelNameBg                                 68             0                     0
+levelselect_sign                           150             0                     0
+levelselect_signangle                      169             0                     0
+levelselect_signback                        48             0                     0
+levelSelect_arcadeMc                       630            18                     0
+levelSelect_cageside                         0             0                     0
+levelSelect_car                            169             0                     0
+levelSelect_cars1_holder                     0             0                     0
+levelSelect_cars1_holder copy              103             0                     0
+levelSelect_cars2_holder                     0             0                     0
+levelSelect_cars2_holder copy               26             0                     0
+levelSelect_cars3_holder                     0             0                     0
+levelSelect_cars3_holder copy                0             0                     0
+levelSelect_cars4_holder                     0             0                     0
+levelSelect_cars4_holder2                   68             0                     0
+levelSelect_clouds                           0             0                     0
+levelSelect_cloudsMc                         0             0                     0
+levelSelect_gate                          1033             0                     0
+levelSelect_house2                         444             0                     0
+levelSelect_house3                         539             0                     0
+levelSelect_house4                         273             0                     0
+levelSelect_hut                            220             0                     0
+levelSelect_padlock                        119             0                     0
+levelSelect_tree                           348             0                     0
+levelSelect_tree2                          591             0                     0
+levelSelect_tree3                          504             0                     0
+levelSelectBench                           103             0                     0
+levelSelectCars1                             0             0                     0
+levelSelectCars2                             0             0                     0
+levelSelectCars3                             0             0                     0
+levelSelectCars4                             0             0                     0
+levelSelectIce                             396             0                     0
+levelSelectRoofs                          3177             0                     0
+levelSelectShading                        4506             0                     0
+levelSlect_house                           444             0                     0
+levelSlect_house5                          352             0                     0
+leveSelect_snow                           1206             0                     0
+logo_guineaPop                             896             0                     0
+logo_over                                  121             0                     0
+logo_shad                                  748             0                     0
+logo_sphere                                159             0                     0
+logo_tokOver                               385             0                     0
+LevelSelect_arcade                        1147             0                     0
+LevelSelect_bg                           13040             0                     0
+LevelSelect_desert                         577             0                     0
+LevelSelect_GiftshopMc                     818            19                     0
+LevelSelect_mountainOver                   222             0                     0
+LevelSelect_newIndicatorMc                   0             0                     0
+newText                                    141             0                     0
+LevelSelect_overlaySpin                     24             0                     0
+LevelSelect_tree4                          134             0                     0
+Logo_TokShine                               23             0                     0
+Logo_Tokyo                                 307             0                     0
+mushroomOver                                 0             0                     0
+mushroomShad                                 0             0                     0
+mushroomShad2                                0             0                     0
+MovieIcon                                    0             0                     0
+Mushroom                                     0             0                     0
+Mushroom2                                    0             0                     0
+oldGameImage                                29             0                     0
+oldGameScreen                                0             0                     0
+OriginalGame                                26           126                     0
+radialover                                  23             0                     0
+radialover copy                             23             0                     0
+RadicalOverlay                              52             0                     0
+RedSun                                     110             0                     0
+RedSun copy                                118             0                     0
+Rock2 copy                                   0             0                     0
+tiderPaw1                                   67             0                     0
+tiger_eyes                                  70             0                     0
+tigerBeard                                 118             0                     0
+tigerBody                                  297             0                     0
+tigerBottomMouth                           143             0                     0
+tigerEar1                                   71             0                     0
+tigerEar2                                   98             0                     0
+tigerPaw2                                   63             0                     0
+tigerSide1                                  38             0                     0
+tigerSide2                                  52             0                     0
+tigerTopMouth                              140             0                     0
+title_cage                                   0             0                     0
+title_cage2                                  0             0                     0
+title_cageBar                               34             0                     0
+title_floorOver                            173             0                     0
+title_gateaDD                                0             0                     0
+title_guineaShads                          164             0                     0
+title_mountainOver                         706             0                     0
+title_patch                                384             0                     0
+title_pep                                  381             0                     0
+title_pepOver                               99             0                     0
+title_powers                               250             0                     0
+title_wall1                                668             0                     0
+title_wall2                                777             0                     0
+title_wall3                                353             0                     0
+title_wallOver                              75             0                     0
+titleBear                                  599             0                     0
+titleBearOver                              123             0                     0
+titleCageFront                             519             0                     0
+titleCloud2                                508             0                     0
+titleFloor                                2522             0                     0
+titleGate                                 1499             0                     0
+titleMountainClouds                        641             0                     0
+titleTrees1                                  0             0                     0
+titleTrees2                                  0             0                     0
+titleZoowangler                           2018             0                     0
+Title_bar                                    0             0                     0
+Title_cageOver                             818             0                     0
+Title_gateOver                             135             0                     0
+Title_gateOver copy                        133             0                     0
+Title_gateOver2                            446             0                     0
+Title_sebOver                               67             0                     0
+TitleBear2                                 163             0                     0
+TitleBG                                   1698             0                     0
+TitleCageBack                               79             0                     0
+TitlescreenImage                          1776             0                     0
+TitleTiger                                 188             0                     0
+TitleTigerSkewed                           819             0                     0
+Tween 1                                     16             0                     0
+Tween 3                                     47             0                     0
+Button_downloadGame                        306            38                     0
+giftFishBob                                464             0                     0
+giftShop_counter                           464             0                     0
+giftShop_giftFish                            0             0                     0
+giftShop                                    40           156                     0
+Gift1                                     1165           224                     0
+GiftShopBack                               260             0                     0
+GiftShopLight1                              48             0                     0
+GameWin                                   2267           246                     0
+levelSelect                               2210           130                     0
+logo                                       599             0                     0
+LevelCompleteScreen                          0             0                     0
+medalAwardedShine                           18             0                     0
+starExplosion                                0             0                     0
+moreGamesBox                                 0            34                     0
+LevelFailedScreen                            0             0                     0
+pausedBg                                   603            21                     0
+medal_tex                                  193             0                     0
+medalShine                                  21             0                     0
+medalShineMc                                 0             0                     0
+medalShineSpin                               0             0                     0
+star_over                                  374             0                     0
+starGroup                                    0             0                     0
+more_mc                                      0             0                     0
+moreGamesHolder                              0             0                     0
+otherGamesInner                             17             0                     0
+PauseScreen                                  0           120                     0
+PreparingScreen                              0            24                     0
+Symbol 691                                   0             0                     0
+titleScreen                                 22             0                     0
+WalkthoughScreenHolder                      15             0                     0
+WalkthroughMainMC                           34           151                     0
+WalkthroughScreenMC                          0            78                     0
+
+Font Name                   Bytes         Characters
+------------------------    ----------    ----------
+KeeponTruckinFW                    979     CPaeginprs 
+8bitoperator-JVE  25 pts          3443     !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ —‘’‚“”„†•…‹›€™
+8bitoperator-JVE  19 pts          3284     !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ —‘’‚“”„†•…‹›€™
+8bitoperator-JVE  33 pts          3274     !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ —‘’‚“”„†•…‹›€™
+ArialMT                            760     BGPabeilnopu 
+CreativeBlockBB                   4348     !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[]_abcdefghijklmnopqrstuvwxyz{|} –—‘’“”…™
+Gorilla-Black Bold               25116     !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ ˆ˜–—‘’‚“”„†‡•…‰‹›™
+bubbleboddy-Fat                   1527     ?HPabdegilnorstuv 
+8bitoperator-JVE                  3429     !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ —‘’‚“”„†•…‹›€™
+ComicSansMS-Bold Bold              946    ACDEGIMNST
+Royal-Acidbath Italic             6357     !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ ˆ˜–—‘’‚“”„†‡•…‰‹›€™
+
+ActionScript Bytes    Location
+------------------    --------
+               166    Scene 1:Frame 1:AGingameButton2
+               179    Scene 1:Frame 1:Animal1_gold
+               179    Scene 1:Frame 1:Animal5_gold
+               179    Scene 1:Frame 1:Animal7_gold
+               202    Scene 1:Frame 1:AreYouSure
+               338    Scene 1:Frame 1:GameWinScreen
+               432    Scene 1:Frame 1:LevelCompleteScreen
+               372    Scene 1:Frame 1:LevelFailedScreen
+               306    Scene 1:Frame 1:PauseScreen
+               209    Scene 1:Frame 1:PreparingScreen
+               284    Scene 1:Frame 1:Transition
+               225    Scene 1:Frame 1:WalkthroughMainMC
+               268    Scene 1:Frame 1:WalkthroughScreenMC
+               269    Scene 1:Frame 1:levelClip
+               833    Scene 1:Frame 1:levelSelect
+               176    Scene 1:Frame 1:teamSelect
+               310    Scene 1:Frame 1:titleScreen
+               338    Scene 1:Frame 1:ui_fla.Giftshop_143
+               334    Scene 1:Frame 1:ui_fla.LevelClipBackground_156
+               384    Scene 1:Frame 1:ui_fla.LevelSelect_arcade_147
+               330    Scene 1:Frame 1:ui_fla.LevelSelect_medals_159
+               340    Scene 1:Frame 1:ui_fla.MainTimeline
+               483    Scene 1:Frame 1:ui_fla.buttonAnimation_83
+               296    Scene 1:Frame 1:ui_fla.icon_tick_193
+               309    Scene 1:Frame 1:ui_fla.medalShineMc_160
+               334    Scene 1:Frame 1:ui_fla.moreGamesBox_184
+               311    Scene 1:Frame 1:ui_fla.yourRating_192
+
+Bitmap                     Compressed    Original      Compression
+-----------------------    ----------    ----------    -----------
+<Image>_0                         367          7520    JPEG Quality=80
+kongLogo.png copy                 216         11088    Lossless
+badge16x16K.gif                   199           256    Lossless
+Gift_wallpapers.png              2558         55860    JPEG Quality=80
+levelSelectRollover.png           140         14000    Lossless
+
+
+
+
