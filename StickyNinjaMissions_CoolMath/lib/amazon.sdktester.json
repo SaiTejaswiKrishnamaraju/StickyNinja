@@ -1,0 +1,9 @@
+{
+    "adfree" : {
+        "itemType": "ENTITLED",
+        "price": 0.99,
+        "title": "Go Ad Free",
+        "description": "Remove all the annoying ads from the game.",
+        "smallIconUrl": "http://some/image.jpg"
+    }
+}
