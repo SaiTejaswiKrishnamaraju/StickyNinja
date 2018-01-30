@@ -1,0 +1,48 @@
+Oopla API wrapper
+-----------------
+v0.131 (29.11.12)
+------
+- Renamed everything from Oopla to Kizi
+
+v0.130 (9.9.12)
+------
+- Added OoplaAPI.showingOverlay
+
+v0.129 (9.5.12)
+------
+- moved to kizi.com instead of oopla.com
+
+v0.128 (21.2.12)
+------
+- added cache busting in dev mode
+
+v0.127 (11.12.11)
+------
+- Added purchaseItems
+
+v0.126
+------
+- added showGetCoinsDialog
+
+v0.125
+------
+- added registerCallback
+- added getCoinIcon
+
+v0.124
+------
+- Now sends game swf url to API.
+
+v0.123
+------
+- Added a game variable store - OoplaVault.
+
+v0.122
+------
+- changed the init() function to accept loaderInfo from the client
+- setContext is now overrided by the loaderInfo and not the other way around
+
+v0.121
+------
+- fixed a bug causing an exception when API loading has timed out
+
