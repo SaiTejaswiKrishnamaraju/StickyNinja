@@ -1,0 +1,28 @@
+<data>
+		
+		<material name="switch" density="1" friction_static="0.1" elasticity="0.0" />
+		<material name="average" density="0.5" friction_static="0.1" elasticity="0.2" friction_rolling="0.2" friction_dynamic="0.2"/>
+		<material name="ninja" density="0.5" friction_static="0.1" elasticity="0.2" friction_rolling="0.2" friction_dynamic="0.2"/>
+		<material name="enemy" density="0.32" friction_static="0.1" elasticity="0.2" friction_rolling="0.2" friction_dynamic="0.2"/>
+		<material name="chain" density="0.1" friction_static="0.1" elasticity="0.2" />
+		<material name="hinge" density="1" friction_static="0.5" elasticity="0.0" />
+		<material name="car" density="0.1" friction_static="0.5" elasticity="0.0" />
+		<material name="light" density="0.25" friction_static="0.5" elasticity="0.0" />
+		<material name="kite" density="0.1" friction_static="0.5" elasticity="0.0" />
+		<material name="heavy" density="1" friction_static="0.5" elasticity="0.0" />
+		<material name="veryheavy" density="2" friction_static="0.5" elasticity="0.0" />
+		<material name="bouncy" density="0.5" friction_static="0.5" elasticity="1" />
+		<material name="smooth" density="0.5" friction_static="0" elasticity="0.0" />
+		<material name="dense" density="1" friction_static="1" elasticity="0.0" />
+		<material name="massivelydense" density="50" friction_static="1" elasticity="0.0" />
+		<material name="springboard" density="1" friction_static="1" elasticity="2" />
+		<material name="rubber" density="0.25" friction_static="0.5" elasticity="0.5" />
+		<material name="rubber_light" density="0.25" friction_static="0.5" elasticity="1" />
+		<material name="poly_breakable" density="0.1" friction_static="0.1" elasticity="0.2" />
+		<material name="poly_ice" density="1" friction_static="0.01" elasticity="0" friction_rolling="0.01" friction_dynamic="0.01"/>
+		<material name="poly_average" density="1" friction_static="0.5" elasticity="0.0"  friction_rolling="1" friction_dynamic="1"/>
+		<material name="poly_mud" density="1" friction_static="100" elasticity="0.0" friction_rolling="1" friction_dynamic="1"/>
+		<material name="poly_bouncy" density="1" friction_static="0.5" elasticity="1" />
+		<material name="poly_slippery" density="1" friction_static="0" elasticity="0" friction_rolling="0" friction_dynamic="0" />
+		
+</data>

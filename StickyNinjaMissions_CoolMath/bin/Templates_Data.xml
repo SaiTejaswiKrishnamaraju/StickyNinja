@@ -1,0 +1,21 @@
+<data>
+
+<template id="test1">
+		<obj id="" type="metalpost_fixed" x="0" y="0" rot="42.30253574643908" scale="1" params="game_layer=Collidables,editor_layer=1,fixed=true" />
+		<obj id="" type="metalpost_fixed" x="10" y="0" rot="29" scale="1" params="game_layer=Collidables,editor_layer=1,fixed=true" />
+		<obj id="" type="pickup_time" x="30" y="10" rot="0" scale="1" params="game_layer=Scenery,editor_layer=1,fixed=true" />
+		<obj id="" type="pickup_time" x="50" y="-10" rot="0" scale="1" params="game_layer=Scenery,editor_layer=1,fixed=true" />
+</template>
+
+<template id="test2">
+		<obj id="" type="metalpost_fixed" x="0" y="0" rot="0" scale="1" params="game_layer=Collidables,editor_layer=1,fixed=true" />
+		<obj id="" type="metalpost_fixed" x="0" y="0" rot="30" scale="1" params="game_layer=Collidables,editor_layer=1,fixed=true" />
+		<obj id="" type="metalpost_fixed" x="0" y="0" rot="60" scale="1" params="game_layer=Collidables,editor_layer=1,fixed=true" />
+		<obj id="" type="metalpost_fixed" x="0" y="0" rot="90" scale="1" params="game_layer=Collidables,editor_layer=1,fixed=true" />
+		<obj id="" type="metalpost_fixed" x="0" y="0" rot="120" scale="1" params="game_layer=Collidables,editor_layer=1,fixed=true" />
+		<obj id="" type="metalpost_fixed" x="0" y="0" rot="150" scale="1" params="game_layer=Collidables,editor_layer=1,fixed=true" />
+		<obj id="" type="metalpost_fixed" x="0" y="0" rot="180" scale="1" params="game_layer=Collidables,editor_layer=1,fixed=true" />
+</template>
+
+
+</data>

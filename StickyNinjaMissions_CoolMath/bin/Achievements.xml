@@ -1,0 +1,183 @@
+<data>
+
+	<achievement specificlevel="1" name="Level 1 A" desc="" tounlock="Finish the level">
+		<test func="AchTest_LevelComplete" params="" />
+		<pass func="AchPass_Null" params="" />
+	</achievement>
+	<achievement specificlevel="1" name="Level 1 B" desc="" tounlock="Don't get hurt">
+		<test func="AchTest_LevelComplete" params="" />
+		<test func="AchTest_LessThanOrEqual" params="damage,0" />
+		<pass func="AchPass_Null" params="" />
+	</achievement>
+	<achievement specificlevel="1" name="Level 1 C" desc="" tounlock="Finish in 6 jumps or less">
+		<test func="AchTest_LevelComplete" params="" />
+		<test func="AchTest_LessThanOrEqual" params="jumps,6" />
+		<pass func="AchPass_Null" params="" />
+	</achievement>
+	<achievement specificlevel="1" name="Level 1 D" desc="" tounlock="Speed Run - finish in 30 seconds or less">
+		<test func="AchTest_LevelComplete" params="" />
+		<test func="AchTest_LessThanOrEqual" params="time,30" />
+		<pass func="AchPass_Null" params="" />
+	</achievement>
+	
+	
+	<achievement specificlevel="0" name="Timer A" desc="" tounlock="Play for 3 minutes">
+		<test func="AchTest_Stat_GreaterOrEqual" params="stat=Total Time Played,value=300" />
+		<pass func="AchPass_Null" params="" />
+	</achievement>
+
+	<achievement specificlevel="0" name="Nitro Timer A" desc="" tounlock="Nitro for 20 seconds">
+		<test func="AchTest_Stat_GreaterOrEqual" params="stat=Total Nitro Time,value=20" />
+		<pass func="AchPass_Null" params="" />
+	</achievement>
+	
+	<achievement specificlevel="0" name="Rolls A" desc="" tounlock="Do 10 rolls">
+		<test func="AchTest_Stat_GreaterOrEqual" params="stat=Total Rolls,value=10" />
+		<pass func="AchPass_Null" params="" />
+	</achievement>
+
+	<achievement specificlevel="0" name="Smashes A" desc="" tounlock="Smash 20 parked cars">
+		<test func="AchTest_Stat_GreaterOrEqual" params="stat=Total Vehicles Smashed,value=20" />
+		<pass func="AchPass_Null" params="" />
+	</achievement>
+
+	<achievement specificlevel="0" name="Jumps A" desc="" tounlock="Do 20 jumps">
+		<test func="AchTest_Stat_GreaterOrEqual" params="stat=Total Jumps,value=20" />
+		<pass func="AchPass_Null" params="" />
+	</achievement>
+	
+	<achievement specificlevel="0" name="All Coins A" desc="" tounlock="Get all coins on 1 level">
+		<test func="AchTest_Stat_GreaterOrEqual" params="stat=All Coin Levels,value=1" />
+		<pass func="AchPass_Null" params="" />
+	</achievement>
+	
+	<achievement specificlevel="0" name="Money A" desc="" tounlock="Have $1000 cash in the bank">
+		<test func="AchTest_Stat_GreaterOrEqual" params="stat=Most Money In Bank,value=1000" />
+		<pass func="AchPass_Null" params="" />
+	</achievement>
+
+	<achievement specificlevel="0" name="Wins A" desc="" tounlock="Win 1 race">
+		<test func="AchTest_Stat_GreaterOrEqual" params="stat=Wins,value=1" />
+		<pass func="AchPass_Null" params="" />
+	</achievement>
+
+	<achievement specificlevel="0" name="Top Threes A" desc="" tounlock="Place top 3 in 1 race">
+		<test func="AchTest_Stat_GreaterOrEqual" params="stat=Top Threes,value=1" />
+		<pass func="AchPass_Null" params="" />
+	</achievement>
+
+	<achievement specificlevel="0" name="Score A" desc="" tounlock="Score 1000 points">
+		<test func="AchTest_Stat_GreaterOrEqual" params="stat=Score,value=1000" />
+		<pass func="AchPass_Null" params="" />
+	</achievement>
+	
+	
+<!------   -->
+	
+	<achievement specificlevel="0" name="Timer B" desc="" tounlock="Play for 10 minutes">
+		<test func="AchTest_Stat_GreaterOrEqual" params="stat=Total Time Played,value=600" />
+		<pass func="AchPass_Null" params="" />
+	</achievement>
+
+	<achievement specificlevel="0" name="Nitro Timer B" desc="" tounlock="Nitro for 2 minutes">
+		<test func="AchTest_Stat_GreaterOrEqual" params="stat=Total Nitro Time,value=120" />
+		<pass func="AchPass_Null" params="" />
+	</achievement>
+	
+	<achievement specificlevel="0" name="Rolls B" desc="" tounlock="Do 80 rolls">
+		<test func="AchTest_Stat_GreaterOrEqual" params="stat=Total Rolls,value=80" />
+		<pass func="AchPass_Null" params="" />
+	</achievement>
+
+	<achievement specificlevel="0" name="Smashes B" desc="" tounlock="Smash 300 parked cars">
+		<test func="AchTest_Stat_GreaterOrEqual" params="stat=Total Vehicles Smashed,value=300" />
+		<pass func="AchPass_Null" params="" />
+	</achievement>
+
+	<achievement specificlevel="0" name="Jumps B" desc="" tounlock="Do 200 jumps">
+		<test func="AchTest_Stat_GreaterOrEqual" params="stat=Total Jumps,value=200" />
+		<pass func="AchPass_Null" params="" />
+	</achievement>
+	
+	<achievement specificlevel="0" name="All Coins B" desc="" tounlock="Get all coins on 12 levels">
+		<test func="AchTest_Stat_GreaterOrEqual" params="stat=All Coin Levels,value=12" />
+		<pass func="AchPass_Null" params="" />
+	</achievement>
+	
+	<achievement specificlevel="0" name="Money B" desc="" tounlock="Have $6000 cash in the bank">
+		<test func="AchTest_Stat_GreaterOrEqual" params="stat=Most Money In Bank,value=6000" />
+		<pass func="AchPass_Null" params="" />
+	</achievement>
+
+	<achievement specificlevel="0" name="Wins B" desc="" tounlock="Win 12 races">
+		<test func="AchTest_Stat_GreaterOrEqual" params="stat=Wins,value=12" />
+		<pass func="AchPass_Null" params="" />
+	</achievement>
+
+	<achievement specificlevel="0" name="Top Threes B" desc="" tounlock="Place top 3 in 12 races">
+		<test func="AchTest_Stat_GreaterOrEqual" params="stat=Top Threes,value=12" />
+		<pass func="AchPass_Null" params="" />
+	</achievement>
+
+	<achievement specificlevel="0" name="Score B" desc="" tounlock="Score 10000 points">
+		<test func="AchTest_Stat_GreaterOrEqual" params="stat=Score,value=10000" />
+		<pass func="AchPass_Null" params="" />
+	</achievement>
+	
+	
+<!------   -->
+	<achievement specificlevel="0" name="Timer C" desc="" tounlock="Play for 30 minutes">
+		<test func="AchTest_Stat_GreaterOrEqual" params="stat=Total Time Played,value=1800" />
+		<pass func="AchPass_Null" params="" />
+	</achievement>
+
+	<achievement specificlevel="0" name="Nitro Timer C" desc="" tounlock="Nitro for 10 minutes">
+		<test func="AchTest_Stat_GreaterOrEqual" params="stat=Total Nitro Time,value=600" />
+		<pass func="AchPass_Null" params="" />
+	</achievement>
+	
+	<achievement specificlevel="0" name="Rolls C" desc="" tounlock="Do 200 rolls">
+		<test func="AchTest_Stat_GreaterOrEqual" params="stat=Total Rolls,value=200" />
+		<pass func="AchPass_Null" params="" />
+	</achievement>
+
+	<achievement specificlevel="0" name="Smashes C" desc="" tounlock="Smash 1000 parked cars">
+		<test func="AchTest_Stat_GreaterOrEqual" params="stat=Total Vehicles Smashed,value=1000" />
+		<pass func="AchPass_Null" params="" />
+	</achievement>
+
+	<achievement specificlevel="0" name="Jumps C" desc="" tounlock="Do 1000 jumps">
+		<test func="AchTest_Stat_GreaterOrEqual" params="stat=Total Jumps,value=1000" />
+		<pass func="AchPass_Null" params="" />
+	</achievement>
+	
+	<achievement specificlevel="0" name="All Coins C" desc="" tounlock="Get all coins on 24 levels">
+		<test func="AchTest_Stat_GreaterOrEqual" params="stat=All Coin Levels,value=24" />
+		<pass func="AchPass_Null" params="" />
+	</achievement>
+	
+	<achievement specificlevel="0" name="Money C" desc="" tounlock="Have $10000 cash in the bank">
+		<test func="AchTest_Stat_GreaterOrEqual" params="stat=Most Money In Bank,value=10000" />
+		<pass func="AchPass_Null" params="" />
+	</achievement>
+
+	<achievement specificlevel="0" name="Wins C" desc="" tounlock="Win 24 races">
+		<test func="AchTest_Stat_GreaterOrEqual" params="stat=Wins,value=24" />
+		<pass func="AchPass_Null" params="" />
+	</achievement>
+
+	<achievement specificlevel="0" name="Top Threes C" desc="" tounlock="Place top 3 in 24 races">
+		<test func="AchTest_Stat_GreaterOrEqual" params="stat=Top Threes,value=24" />
+		<pass func="AchPass_Null" params="" />
+	</achievement>
+
+	<achievement specificlevel="0" name="Score C" desc="" tounlock="Score 100000 points">
+		<test func="AchTest_Stat_GreaterOrEqual" params="stat=Score,value=100000" />
+		<pass func="AchPass_Null" params="" />
+	</achievement>
+	
+	
+<!------   -->
+
+	
+</data>

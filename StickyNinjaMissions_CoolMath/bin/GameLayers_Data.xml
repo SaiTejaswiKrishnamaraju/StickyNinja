@@ -1,0 +1,17 @@
+<data>
+	
+		<!-- mr ben new layers -->
+		<gamelayer name="Far_Background" zpos="2000" />		<!-- Backgrounds -->
+		<gamelayer name="Polys_BG" zpos="1000" />			<!-- Backs of caves, etc -->
+		<gamelayer name="Scenery_BG" zpos="300" />			<!-- Trees, Clouds, non-collideable, etc -->
+		<gamelayer name="Objects_Behind" zpos="200" />		<!-- Collidable Objects behind player/enemies -->
+		<gamelayer name="Enemy" zpos="120" />				<!-- Enemies -->	
+		<gamelayer name="Centre" zpos="100" />				<!-- Player -->	
+		<gamelayer name="Objects_Front" zpos="90" />		<!-- Collidable Objects in front players/enemies -->		
+		<gamelayer name="Polys_MAIN" zpos="80" />			<!-- Solid polys -->
+		<gamelayer name="Polys_FG" zpos="70" />				<!-- Forground polys -->
+		<gamelayer name="Scenery_FG" zpos="60" />			<!-- Scenery FG -->
+		<gamelayer name="Particles" zpos="50" />			<!-- Particles -->
+		<gamelayer name="Water" zpos="40" />				<!-- Water polys, in front of player-->
+		<gamelayer name="Hud" zpos="0" />					<!-- HUD in front of everything -->
+</data>

@@ -1,0 +1,200 @@
+<data>
+
+	<!--
+	<variable name="kick_dist0" type="number" value="150" />
+	<variable name="kick_dist1" type="number" value="300" />
+	<variable name="kick_power0" type="number" value="80" />
+	<variable name="kick_power1" type="number" value="200" />
+	<variable name="kick_power0_beachball" type="number" value="2" />
+	<variable name="kick_power1_beachball" type="number" value="8" />
+	<variable name="gravity" type="number" value="1000" />
+	<variable name="ballpath_gravity_multiplier" type="number" value="0.0003" />
+	<variable name="ballpath_gravity_multiplier_beachball" type="number" value="0.0003" />
+	
+	<variable name="cannonLaunchForce" type="number" value="980" />
+	<variable name="windforce" type="number" value="12" />
+	-->
+	
+	
+	<!-- torque
+	<variable name="aaa" type="number" value="50000" />
+	<variable name="bbb" type="number" value="50000" />
+	-->
+	
+	
+	
+	<variable name="camzoom_modifier" type="number" value="0.05" />
+	
+	<variable name="trapeze_maxang" type="number" value="0.1" />
+	<variable name="trapeze_motorRate" type="number" value="100000" />
+	<variable name="trapeze_maxforce" type="number" value="10000" />
+	
+	<variable name="barrel_force_min" type="number" value="300" />
+	<variable name="barrel_force_max" type="number" value="600" />
+	<variable name="barrel_radius_max" type="number" value="200" />
+	
+	
+	<variable name="bouncyanim_initvel" type="number" value="0.1" />
+	<variable name="bouncyanim_accel" type="number" value="-0.02" />
+	
+	<variable name="breakable_reaction" type="number" value="0.6" />
+	
+	
+	<variable name="kite_max_speed" type="number" value="300" />
+
+	<!-- 0 = ninja -->
+	<!-- 0 = nunja -->
+	<!-- 0 = master -->
+	
+	<variable name="ninja_hitbreakable_vel_multiplier_0" type="number" value="0.7" />
+	<variable name="ninja_hitbreakable_vel_multiplier_1" type="number" value="0.9" />
+	<variable name="ninja_hitbreakable_vel_multiplier_2" type="number" value="0.1" />
+	<variable name="car_hitbreakable_vel_multiplier_0" type="number" value="0.99" />
+	<variable name="car_hitbreakable_vel_multiplier_1" type="number" value="0.99" />
+	<variable name="car_hitbreakable_vel_multiplier_2" type="number" value="0.99" />
+	
+	<variable name="kick_dist0_0" type="number" value="50" />
+	<variable name="kick_dist1_0" type="number" value="150" />
+	<variable name="kick_power0_0" type="number" value="100" />
+	<variable name="kick_power1_0" type="number" value="480" />
+	
+	<variable name="kick_dist0_1" type="number" value="50" />
+	<variable name="kick_dist1_1" type="number" value="150" />
+	<variable name="kick_power0_1" type="number" value="100" />
+	<variable name="kick_power1_1" type="number" value="440" />
+
+	<variable name="kick_dist0_2" type="number" value="50" />
+	<variable name="kick_dist1_2" type="number" value="150" />
+	<variable name="kick_power0_2" type="number" value="100" />
+	<variable name="kick_power1_2" type="number" value="520" />
+	
+	<variable name="gravity" type="number" value="1000" />
+	<variable name="ballpath_gravity_multiplier" type="number" value="0.0003" />
+	<variable name="ballpath_gravity_multiplier_beachball" type="number" value="0.0003" />
+	
+	<variable name="cannonLaunchForce" type="number" value="980" />
+	<variable name="windforce" type="number" value="9" />
+	
+
+	<variable name="general_uv_scale" type="number" value="0.00075" />
+	
+	<variable name="bombpos0" type="array" value="-5,-42" />
+	<variable name="bombpos1" type="array" value="-5,-42" />
+	<variable name="bombpos2" type="array" value="-15,-60" />
+	<variable name="bombpos3" type="array" value="0,-55" />
+	<variable name="bombpos4" type="array" value="-20,-68" />
+	<variable name="bombpos5" type="array" value="7,-53" />
+	<variable name="bombpos6" type="array" value="10,-50" />
+	<variable name="bombpos7" type="array" value="-40,-80" />
+	<variable name="bombpos8" type="array" value="-10,-42" />
+	
+	<variable name="rock_onscreendist" type="number" value="100" />
+	<variable name="rock_timer1" type="number" value="0.5" />
+	<variable name="rock_timer2" type="number" value="1.5" />
+	
+	<variable name="stalagtite_onscreendist" type="number" value="100" />
+	<variable name="stalagtite_timer1" type="number" value="0.5" />
+	<variable name="stalagtite_timer2" type="number" value="1" />
+	
+	<variable name="aaa" type="number" value="200" />
+	<variable name="bbb" type="number" value="2000" />
+	
+	<variable name="hydrant_force" type="number" value="800" />
+	<variable name="hydrant_delay" type="number" value="5" />
+	<variable name="hydrant_time" type="number" value="6" />
+	
+	<variable name="water_resistance" type="number" value="0.9" />
+	
+	<variable name="bullet_resistance" type="number" value="0.5" />
+	<variable name="rock_resistance" type="number" value="0.1" />
+	<variable name="angvel_slowdown" type="number" value="0.98" />
+	<variable name="linear_damping" type="number" value="0.995" />
+	
+	
+	<variable name="gravity" type="number" value="800" />
+	<variable name="windforce" type="number" value="10" />
+	<variable name="mineforce" type="number" value="800" />
+	<variable name="mineangforce" type="array" value="30,50" />
+	
+	<variable name="cycloTest_maxyvel" type="number" value="800" />
+	
+	<variable name="cycloTest_accel_a" type="number" value="30" />
+	<variable name="cycloTest_accel_b" type="number" value="30" />
+
+	<variable name="cycloTest_brake_a" type="number" value="20" />
+	<variable name="cycloTest_brake_b" type="number" value="26" />
+	
+	<variable name="cycloTest_maxvel_a" type="number" value="700" />
+	<variable name="cycloTest_maxvel_b" type="number" value="700" />
+	
+	<variable name="cycloTest_torque_a" type="number" value="500000" />
+	<variable name="cycloTest_torque_b" type="number" value="500000" />
+
+	<variable name="cycloTest_maxangvel_a" type="number" value="4" />
+	<variable name="cycloTest_maxangvel_b" type="number" value="4" />
+		
+	<variable name="cycloTest_torque_air_a" type="number" value="100000" />
+	<variable name="cycloTest_torque_air_b" type="number" value="320000" />
+	
+	<variable name="cycloTest_maxangvel_air_a" type="number" value="5" />
+	<variable name="cycloTest_maxangvel_air_b" type="number" value="8.5" />
+	
+	<variable name="cycloTest_jumpVel_a" type="number" value="400" />
+	<variable name="cycloTest_jumpVel_b" type="number" value="400" />
+	<variable name="cycloTest_jump_angle" type="number" value="0" />
+
+	<variable name="stats_upgrade_percent" type="number" value="80" />
+	<variable name="stats_character_percent" type="number" value="20" />
+	
+	
+	<variable name="player_pedal_decel_acc" type="number" value="0.02" />
+	<variable name="player_pedal_acc" type="number" value="0.02" />
+	<variable name="player_pedal_maxvel" type="number" value="1.2" />
+	
+	<variable name="greg_minxv" type="number" value="5" />
+	<variable name="greg_maxxv" type="number" value="10" />
+	<variable name="greg_mindist" type="number" value="0" />
+	<variable name="greg_maxdist" type="number" value="200" />
+	<variable name="greg_accel" type="number" value="0.5" />
+	
+	
+	
+	<variable name="stunt_mintime_wheelie" type="number" value="1" />
+	<variable name="stunt_mintime_upsidedown" type="number" value="1" />
+	<variable name="stunt_mintime_airtime" type="number" value="1" />
+	
+	<variable name="stuntvalue_rearwheelie" type="number" value="0.3" />		<!-- times number of seconds -->
+	<variable name="stuntvalue_frontwheelie" type="number" value="0.5" />		<!-- times number of seconds -->
+	<variable name="stuntvalue_upsidedown" type="number" value="0.5" />			<!-- times number of seconds -->
+	<variable name="stuntvalue_frontloop" type="number" value="0.3" />
+	<variable name="stuntvalue_backloop" type="number" value="0.3" />
+	<variable name="stuntvalue_airtime" type="number" value="0.3" />			<!-- times number of seconds -->
+	<variable name="stuntvalue_perfectlanding" type="number" value="0.4" />
+	
+	
+	<variable name="player_boosterpickup_time" type="number" value="2" />
+	<variable name="player_boosterpickup_force" type="number" value="20" />
+	
+	<variable name="boostCountdownTimer" type="number" value="10" />
+	
+	<variable name="boost_stat_multiplier_a" type="number" value="1" />
+	<variable name="boost_stat_multiplier_b" type="number" value="1.5" />
+	<variable name="boostMinAccAdd" type="number" value="3" />
+	<variable name="boostMaxAccAdd" type="number" value="10" />
+	<variable name="boostMinVelAdd" type="number" value="30" />
+	<variable name="boostMaxVelAdd" type="number" value="100" />
+	<variable name="boostMaxMultiplier" type="int" value="10" />
+	
+	<variable name="camera_intro_scale" type="Number" value="1.3" />
+	<variable name="camera_intro_time" type="Number" value="0.5" />
+	
+	<variable name="camera_zoom_min" type="Number" value="0" />
+	<variable name="camera_zoom_max" type="Number" value="20" />
+	<variable name="camera_offset_x" type="Number" value="0" />
+	<variable name="camera_offset_y" type="Number" value="-100" />
+	<variable name="camera_base_offset_y" type="Number" value="-50" />
+	
+	<variable name="bomb_vel" type="Number" value="600" />
+	<variable name="bomb_angle" type="Number" value="10" />	
+	
+</data>

@@ -1,0 +1,55 @@
+<data>
+
+		
+		<polymat name="poly_collide_sticky_brick_a" clip = "polyfill" frame = "1,20" fixed="true" inittype="poly" edtype="poly" col="1,15" sensor="0,0" staticobj="false" initfunction="InitGameObjLine_Standard_Sticky" material="poly_average" gamelayer="Polys_MAIN" />
+		<polymat name="poly_collide_sticky_brick_b" clip = "polyfill" frame = "2,20" fixed="true" inittype="poly" edtype="poly" col="1,15" sensor="0,0" staticobj="false" initfunction="InitGameObjLine_Standard_Sticky" material="poly_average" gamelayer="Polys_MAIN" />
+		<polymat name="poly_collide_sticky_brick_c" clip = "polyfill" frame = "3,20" fixed="true" inittype="poly" edtype="poly" col="1,15" sensor="0,0" staticobj="false" initfunction="InitGameObjLine_Standard_Sticky" material="poly_average" gamelayer="Polys_MAIN" />
+		<polymat name="poly_collide_sticky_rockwall_a" clip = "polyfill" frame = "4,20" fixed="true" inittype="poly" edtype="poly" col="1,15" sensor="0,0" staticobj="false" initfunction="InitGameObjLine_Standard_Sticky" material="poly_average" gamelayer="Polys_MAIN" />
+		<polymat name="poly_collide_sticky_rockwall_b" clip = "polyfill" frame = "5,20" fixed="true" inittype="poly" edtype="poly" col="1,15" sensor="0,0" staticobj="false" initfunction="InitGameObjLine_Standard_Sticky" material="poly_average" gamelayer="Polys_MAIN" />
+		<polymat name="poly_collide_sticky_rockwall_c" clip = "polyfill" frame = "6,20" fixed="true" inittype="poly" edtype="poly" col="1,15" sensor="0,0" staticobj="false" initfunction="InitGameObjLine_Standard_Sticky" material="poly_average" gamelayer="Polys_MAIN" />
+		<polymat name="poly_collide_sticky_building_a" clip = "polyfill" frame = "7,20" fixed="true" inittype="poly" edtype="poly" col="1,15" sensor="0,0" staticobj="false" initfunction="InitGameObjLine_Standard_Sticky" material="poly_average" gamelayer="Polys_MAIN" />
+		<polymat name="poly_collide_sticky_grass" clip = "polyfill" frame = "8,20" fixed="true" inittype="poly" edtype="poly" col="1,15" sensor="0,0" staticobj="false" initfunction="InitGameObjLine_Standard_Sticky" material="poly_average" gamelayer="Polys_MAIN" />
+		<polymat name="poly_collide_sticky_ship" clip = "polyfill" frame = "9,20" fixed="true" inittype="poly" edtype="poly" col="1,15" sensor="0,0" staticobj="false" initfunction="InitGameObjLine_Standard_Sticky" material="poly_average" gamelayer="Polys_MAIN" />
+		<polymat name="poly_collide_sticky_wood" clip = "polyfill" frame = "10,20" fixed="true" inittype="poly" edtype="poly" col="1,15" sensor="0,0" staticobj="false" initfunction="InitGameObjLine_Standard_Sticky" material="poly_average" gamelayer="Polys_MAIN" />
+		<polymat name="poly_collide_sticky_wood_90" clip = "polyfill" frame = "11,20" fixed="true" inittype="poly" edtype="poly" col="1,15" sensor="0,0" staticobj="false" initfunction="InitGameObjLine_Standard_Sticky" material="poly_average" gamelayer="Polys_MAIN" />
+		<polymat name="poly_collide_smooth" clip = "polyfill" frame = "12,20" fixed="true" inittype="poly" edtype="poly" col="1,15" sensor="0,0" staticobj="false" initfunction="InitGameObjLine_Standard_Test" material="poly_slippery" gamelayer="Polys_MAIN" />
+		<polymat name="poly_collide_bouncy" clip = "polyfill" frame = "13,20" fixed="true" inittype="poly" edtype="poly" col="1,15" sensor="0,0" staticobj="false" initfunction="InitGameObjLine_Standard_Bouncy" material="poly_bouncy" gamelayer="Polys_MAIN" />
+		<polymat name="poly_collide_death" clip = "polyfill" frame = "14,20" fixed="true" inittype="poly" edtype="poly" col="1,15" sensor="0,0" staticobj="false" initfunction="InitGameObjLine_Death" material="poly_average" gamelayer="Polys_MAIN" />
+		<polymat name="poly_collide_sticky_roof_a" clip = "polyfill" frame = "15,20" fixed="true" inittype="poly" edtype="poly" col="1,15" sensor="0,0" staticobj="false" initfunction="InitGameObjLine_Standard_Sticky" material="poly_average" gamelayer="Polys_MAIN" />
+		<polymat name="poly_collide_sticky_roof_b" clip = "polyfill" frame = "16,20" fixed="true" inittype="poly" edtype="poly" col="1,15" sensor="0,0" staticobj="false" initfunction="InitGameObjLine_Standard_Sticky" material="poly_average" gamelayer="Polys_MAIN" />
+		<polymat name="poly_collide_sticky_roof_c" clip = "polyfill" frame = "17,20" fixed="true" inittype="poly" edtype="poly" col="1,15" sensor="0,0" staticobj="false" initfunction="InitGameObjLine_Standard_Sticky" material="poly_average" gamelayer="Polys_MAIN" />
+		<polymat name="poly_collide_slidy_roof" clip = "polyfill" frame = "18,20" fixed="true" inittype="poly" edtype="poly" col="1,15" sensor="0,0" staticobj="false" initfunction="InitGameObjLine_Standard" material="poly_slippery" gamelayer="Polys_MAIN" />
+		<polymat name="poly_collide_bouncy_roof" clip = "polyfill" frame = "19,20" fixed="true" inittype="poly" edtype="poly" col="1,15" sensor="0,0" staticobj="false" initfunction=" InitGameObjLine_Standard_Bouncy" material="poly_bouncy" gamelayer="Polys_MAIN" />
+		<polymat name="poly_collide_water" clip = "polyfill" frame = "20,20" fixed="true" inittype="poly" edtype="poly" col="0,0" sensor="0,0" staticobj="false" initfunction="InitGameObjLine_Water" material="poly_average" gamelayer="Water" />
+		<polymat name="poly_collide_deathwire" clip = "polyfill" frame = "21,20" fixed="true" inittype="poly" edtype="poly" col="1,15" sensor="0,0" staticobj="false" initfunction="InitGameObjLine_Death" material="poly_average" gamelayer="Polys_MAIN" />
+		<polymat name="poly_collide_objects_invisible" clip = "polyfill" frame = "20,20" fixed="true" inittype="poly" edtype="poly" col="1,1" sensor="0,0" staticobj="false" initfunction="InitGameObjLine_Invisible" material="poly_average" gamelayer="Polys_BG" />
+
+		<polymat name="poly_decor_1" clip = "polyfill_bg" frame = "1,20" fixed="true" inittype="nophysics" edtype="poly" col="1,15" sensor="0,0" staticobj="false" initfunction="InitGameObjLine_Decor" material="floor" gamelayer="Polys_BG" />
+		<polymat name="poly_decor_2" clip = "polyfill_bg" frame = "2,20" fixed="true" inittype="nophysics" edtype="poly" col="1,15" sensor="0,0" staticobj="false" initfunction="InitGameObjLine_Decor" material="floor" gamelayer="Polys_BG" />
+		<polymat name="poly_decor_3" clip = "polyfill_bg" frame = "3,20" fixed="true" inittype="nophysics" edtype="poly" col="1,15" sensor="0,0" staticobj="false" initfunction="InitGameObjLine_Decor" material="floor" gamelayer="Polys_BG" />
+		<polymat name="poly_decor_4" clip = "polyfill_bg" frame = "4,20" fixed="true" inittype="nophysics" edtype="poly" col="1,15" sensor="0,0" staticobj="false" initfunction="InitGameObjLine_Decor" material="floor" gamelayer="Polys_BG" />
+		<polymat name="poly_decor_5" clip = "polyfill_bg" frame = "5,20" fixed="true" inittype="nophysics" edtype="poly" col="1,15" sensor="0,0" staticobj="false" initfunction="InitGameObjLine_Decor" material="floor" gamelayer="Polys_BG" />
+		<polymat name="poly_decor_6" clip = "polyfill_bg" frame = "6,20" fixed="true" inittype="nophysics" edtype="poly" col="1,15" sensor="0,0" staticobj="false" initfunction="InitGameObjLine_Decor" material="floor" gamelayer="Polys_BG" />
+		<polymat name="poly_decor_7" clip = "polyfill_bg" frame = "7,20" fixed="true" inittype="nophysics" edtype="poly" col="1,15" sensor="0,0" staticobj="false" initfunction="InitGameObjLine_Decor" material="floor" gamelayer="Polys_BG" />
+		<polymat name="poly_decor_8" clip = "polyfill_bg" frame = "8,20" fixed="true" inittype="nophysics" edtype="poly" col="1,15" sensor="0,0" staticobj="false" initfunction="InitGameObjLine_Decor" material="floor" gamelayer="Polys_BG" />
+		<polymat name="poly_decor_9" clip = "polyfill_bg" frame = "9,20" fixed="true" inittype="nophysics" edtype="poly" col="1,15" sensor="0,0" staticobj="false" initfunction="InitGameObjLine_Decor" material="floor" gamelayer="Polys_BG" />
+		<polymat name="poly_decor_10" clip = "polyfill_bg" frame = "10,20" fixed="true" inittype="nophysics" edtype="poly" col="1,15" sensor="0,0" staticobj="false" initfunction="InitGameObjLine_Decor" material="floor" gamelayer="Polys_BG" />
+		<polymat name="poly_decor_11" clip = "polyfill_bg" frame = "11,20" fixed="true" inittype="nophysics" edtype="poly" col="1,15" sensor="0,0" staticobj="false" initfunction="InitGameObjLine_Decor" material="floor" gamelayer="Polys_BG" />
+		<polymat name="poly_decor_12" clip = "polyfill_bg" frame = "12,20" fixed="true" inittype="nophysics" edtype="poly" col="1,15" sensor="0,0" staticobj="false" initfunction="InitGameObjLine_Decor" material="floor" gamelayer="Polys_BG" />
+		<polymat name="poly_decor_13" clip = "polyfill_bg" frame = "13,20" fixed="true" inittype="nophysics" edtype="poly" col="1,15" sensor="0,0" staticobj="false" initfunction="InitGameObjLine_Decor" material="floor" gamelayer="Polys_BG" />
+		<polymat name="poly_decor_14" clip = "polyfill_bg" frame = "14,20" fixed="true" inittype="nophysics" edtype="poly" col="1,15" sensor="0,0" staticobj="false" initfunction="InitGameObjLine_Decor" material="floor" gamelayer="Polys_BG" />
+		<polymat name="poly_decor_15" clip = "polyfill_bg" frame = "15,20" fixed="true" inittype="nophysics" edtype="poly" col="1,15" sensor="0,0" staticobj="false" initfunction="InitGameObjLine_Decor" material="floor" gamelayer="Polys_BG" />
+		<polymat name="poly_decor_16" clip = "polyfill_bg" frame = "16,20" fixed="true" inittype="nophysics" edtype="poly" col="1,15" sensor="0,0" staticobj="false" initfunction="InitGameObjLine_Decor" material="floor" gamelayer="Polys_BG" />
+		<polymat name="poly_decor_17" clip = "polyfill_bg" frame = "17,20" fixed="true" inittype="nophysics" edtype="poly" col="1,15" sensor="0,0" staticobj="false" initfunction="InitGameObjLine_Decor" material="floor" gamelayer="Polys_BG" />												
+													
+
+		<polymat name="poly_path" clip = "" frame = "1" fixed="false" inittype="path" edtype="path" col="0,0" sensor="0,0" staticobj="false" initfunction="InitGameObjLine_Path" material="average" gamelayer="Centre"/>
+		<polymat name="poly_death_invisible" clip = "polyfill" frame = "1" fixed="true" inittype="poly" edtype="poly" col="1,15" sensor="0,0" staticobj="false" initfunction="InitGameObjLine_Death_Invisible" material="smooth" gamelayer="Centre"/>
+		
+		<polymat name="poly_scrollarea" clip = "polyfill" frame = "1" fixed="true" inittype="nophysics" edtype="outline" col="0,0" sensor="0,0" staticobj="false" initfunction="InitGameObjLine_ScrollArea" material="smooth" gamelayer="Centre"/>
+		<polymat name="poly_switch" clip = "polyfill" frame = "1" fixed="true" inittype="poly" edtype="outline" col="0,0" sensor="1,15" staticobj="false" initfunction="InitGameObjLine_Switch" material="smooth" gamelayer="Centre"/>
+		<polymat name="poly_linedraw" clip = "polyfill" frame = "1" fixed="true" inittype="poly" edtype="poly" col="1,15" sensor="0,0" staticobj="false" initfunction="InitGameObjLine_ForShow" material="smooth" gamelayer="Centre"/>
+		<polymat name="poly_clicker_1" clip = "polyfill" frame = "1" fixed="true" inittype="poly" edtype="poly" col="1,15" sensor="0,0" staticobj="false" initfunction="InitGameObjLine_Clicker" material="smooth" gamelayer="Centre"/>
+	
+		
+</data>

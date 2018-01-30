@@ -1,0 +1,91 @@
+<data>
+
+<level id="1" name="quicktest" displayname="undefined" category="0" desc="" bg="1" >
+	<soccerballs gold="2" fail="10" />
+	<objgroup name="soccerballs">
+		<obj id="" type="EndPost" x="2771" y="361" rot="0" scale="1" params="game_layer=Scenery,editor_layer=1" />
+		<obj id="" type="Man" x="369" y="347" rot="0" scale="1" params="game_layer=Scenery,editor_layer=1" />
+		<obj id="" type="LevelInfo" x="190" y="208" rot="0" scale="1" params="game_layer=Scenery,level_bombtime1=100,level_difficulty=1,level_numjumps=5,level_background=1,editor_layer=1" />
+	</objgroup>
+	<objgroup name="bikes">
+		<obj id="" type="CarStartPoint1" x="131" y="348" rot="0" scale="1" params="game_layer=Player,editor_layer=1" />
+	</objgroup>
+	<joints>
+	</joints>
+<line type="0" id="" params="editor_layer=1,game_layer=Centre,line_material=poly_surface_1,line_spline=false,surface_depth=40,surface_random=20,poly_tex_rotation=0,poly_tex_scale=1" >
+<points a="-176,459, 6,364, 398,347, 665,347, 960,375, 1105,390, 1315,396, 1436,398, 1547,399, 1814,391" />
+<points a="1971,391, 2060,387, 2171,374, 2460,367, 2753,363, 2934,361, 3433,364, 3561,638" />
+</line>
+<map minx="0" maxx="0" miny="0" maxy="0" cellw="16" cellh="16" >
+<mapdata a=""/>
+</map>
+</level>
+	
+	
+<level id="1" name="test" displayname="undefined" category="0" desc="" bg="1" >
+	<soccerballs gold="2" fail="10" />
+	<objgroup name="soccerballs">
+		<obj id="" type="Man" x="476" y="266" rot="0" scale="1" params="game_layer=NormalObjects,editor_layer=1" />
+		<obj id="" type="LevelInfo" x="142" y="66" rot="0" scale="1" params="game_layer=Near_Background,level_bombtime1=70,level_difficulty=1,level_numjumps=5,level_background=2,editor_layer=1" />
+		<obj id="" type="EndPost" x="13704" y="986" rot="0" scale="1" params="game_layer=NormalObjects,editor_layer=1" />
+	</objgroup>
+	<objgroup name="bikes">
+		<obj id="" type="CarStartPoint1" x="230" y="243" rot="0" scale="1" params="game_layer=Far_Background,editor_layer=1" />
+	</objgroup>
+	<joints>
+	</joints>
+<line type="0" id="" params="editor_layer=1,game_layer=Centre,line_material=poly_surface_1,line_spline=false,surface_depth=40,surface_random=20,poly_tex_rotation=0,poly_tex_scale=1" >
+<points a="-265,680, 87,254, 239,249, 1268,268, 1312,690" />
+</line>
+<line type="0" id="" params="editor_layer=1,game_layer=Centre,line_material=poly_surface_2,line_spline=false,surface_depth=40,surface_random=20,poly_tex_rotation=0,poly_tex_scale=1" >
+<points a="1366,695, 1376,313, 1562,318, 1660,332, 1744,332, 1817,303, 1895,298, 1949,323, 2077,327, 2126,313" />
+<points a="2209,313, 2376,318, 2400,739" />
+</line>
+<line type="0" id="" params="editor_layer=1,game_layer=Centre,line_material=poly_surface_3,line_spline=false,surface_depth=40,surface_random=20,poly_tex_rotation=0,poly_tex_scale=1" >
+<points a="2477,747, 2487,365, 2673,370, 2771,384, 2855,384, 2928,355, 3006,350, 3060,375, 3188,379, 3237,365" />
+<points a="3320,365, 3487,370, 3511,791" />
+</line>
+<line type="0" id="" params="editor_layer=1,game_layer=Centre,line_material=poly_surface_4,line_spline=false,surface_depth=40,surface_random=20,poly_tex_rotation=0,poly_tex_scale=1" >
+<points a="3605,832, 3615,450, 3801,455, 3899,469, 3983,469, 4056,440, 4134,435, 4188,460, 4316,464, 4365,450" />
+<points a="4448,450, 4615,455, 4639,876" />
+</line>
+<line type="0" id="" params="editor_layer=1,game_layer=Centre,line_material=poly_surface_5,line_spline=false,surface_depth=40,surface_random=20,poly_tex_rotation=0,poly_tex_scale=1" >
+<points a="4699,901, 4709,519, 4895,524, 4993,538, 5077,538, 5150,509, 5228,504, 5282,529, 5410,533, 5459,519" />
+<points a="5542,519, 5709,524, 5733,945" />
+</line>
+<line type="0" id="" params="editor_layer=1,game_layer=Centre,line_material=poly_surface_6,line_spline=false,surface_depth=40,surface_random=20,poly_tex_rotation=0,poly_tex_scale=1" >
+<points a="5794,987, 5804,605, 5990,610, 6088,624, 6172,624, 6245,595, 6323,590, 6377,615, 6505,619, 6554,605" />
+<points a="6637,605, 6804,610, 6828,1031" />
+</line>
+<line type="0" id="" params="editor_layer=1,game_layer=Centre,line_material=poly_surface_7,line_spline=false,surface_depth=40,surface_random=20,poly_tex_rotation=0,poly_tex_scale=1" >
+<points a="6889,1072, 6899,690, 7085,695, 7183,709, 7267,709, 7340,680, 7418,675, 7472,700, 7600,704, 7649,690" />
+<points a="7732,690, 7899,695, 7923,1116" />
+</line>
+<line type="0" id="" params="editor_layer=1,game_layer=Centre,line_material=poly_surface_8,line_spline=false,surface_depth=40,surface_random=20,poly_tex_rotation=0,poly_tex_scale=1" >
+<points a="8035,1157, 8045,775, 8231,780, 8329,794, 8413,794, 8486,765, 8564,760, 8618,785, 8746,789, 8795,775" />
+<points a="8878,775, 9045,780, 9069,1201" />
+</line>
+<line type="0" id="" params="editor_layer=1,game_layer=Centre,line_material=poly_collide_mud,line_spline=false,surface_depth=40,surface_random=20,poly_tex_rotation=0,poly_tex_scale=1" >
+<points a="9147,1225, 9157,843, 9343,848, 9441,862, 9525,862, 9598,833, 9676,828, 9730,853, 9858,857, 9907,843" />
+<points a="9990,843, 10157,848, 10181,1269" />
+</line>
+<line type="0" id="" params="editor_layer=1,game_layer=Centre,line_material=poly_collide_ice,line_spline=false,surface_depth=40,surface_random=20,poly_tex_rotation=0,poly_tex_scale=1" >
+<points a="10276,1328, 10286,946, 10472,951, 10570,965, 10654,965, 10727,936, 10805,931, 10859,956, 10987,960, 11036,946" />
+<points a="11119,946, 11286,951, 11310,1372" />
+</line>
+<line type="0" id="" params="editor_layer=1,game_layer=Centre,line_material=poly_surface_1,line_spline=false,surface_depth=40,surface_random=20,poly_tex_rotation=0,poly_tex_scale=1" >
+<points a="11374,1394, 11368,980, 11605,986, 11703,1150, 11868,1181, 12069,1181, 12197,1187, 12350,1144, 12459,1114, 12539,1028" />
+<points a="12642,980, 14064,998, 13997,1455" />
+</line>
+<line type="0" id="" params="editor_layer=1,game_layer=Centre,line_material=poly_collide_water,line_spline=false,surface_depth=40,surface_random=20,poly_tex_rotation=0,poly_tex_scale=1" >
+<points a="11648,1041, 12514,1041, 12435,1120, 12185,1175, 11947,1175, 11715,1157" />
+</line>
+<map minx="0" maxx="0" miny="0" maxy="0" cellw="16" cellh="16" >
+<mapdata a=""/>
+</map>
+</level>
+
+
+
+	
+</data>

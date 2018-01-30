@@ -1,0 +1,80 @@
+TITLE,ENGLISH,ITALIAN,FRENCH,GERMAN,PORTUGUESE,SPANISH,DUTCH,TURKISH,SWEDISH,NOTES
+label,en,it,fr,de,pt,es,nl,tr,se,nn
+,,,,,,,,,,
+,,,,,,,,,,
+play game,,giocare gioco,Jouer,Spielen,jogar o jogo,jugar,Spelen,oyun oynamak,Spela,
+more games,,altri giochi,Plus de jeux,Mehr Spiele,mais jogos,más juegos,Meer Spellen,Daha fazla oyna,fler spel,
+,,,,,,,,,,
+games for your site,,giochi per il tuo sito,Jeux pour ton site,Spiele für deine Website,jogos para o seu site,juegos para tu sitio,Spellen voor jouw website,Siteniz için oyunlar,spel till din hemsida,
+credits,,crediti,crédits,Mitwirkende,créditos,créditos,De Makers,Credit,Medverkande,De Makers is literally the makers
+back,,indietro,retour,Zurück,de volta,volver,terug,geri,tillbaka,
+score,,punteggio,points,Punkte,contagem,score,score ,skor,poäng,
+download,,scaricare,télécharger,Download,télécharger,descargar,downloaden,indirmek,hämta,
+walkthrough,,spiegazione esauriente,Guide de jeu,Komplettlösung,passo a passo,paso a paso,walkthrough,walkthrough,genomgång,handleiding literally is manual. This text is not translated on the level UI
+paused,,in pausa,pause,Pause,pausada,pausado,gepauseerd,duraklatıldı,pausad,
+languages,,lingue,langues,Sprachen,línguas,idiomas,talen,diller,språk,Might be a better idea to keep this one languages everywhere
+continue,,continuare,continuer,Fortsetzen,continuar,continuar,Doorgaan,devam etmek,fortsätt,
+clear save,,cancellare salvare,effacer sauvegarder,Speicherstand löschen,limpar salvar,borrar datos,Opgeslagen spel verwijderen,kaydetmek temizleyin,rensa sparning,
+free games,,giochi gratis,jeux gratuits,Kostenlose Spiele,jogos livres,juegos gratis,gratis spelletjes,ücretsiz oyunlar,gratis spel,
+other games,,altri giochi,d'autres jeux,Andere Spiele,outros jogos,otros juegos,andere spellen,diğer oyunlar,andra spel,
+play more,,giocare di più,plus de jeux,Mehr spielen,jogar mais,más juegos,speel meer spellen,Daha fazla oyna,spela mer,
+great games,,grandi giochi,super jeux,Tolle Spiele,grandes jogos,grandes juegos,Geweldige spellen,büyük oyunlar,bra spel,
+puzzle games,,puzzle-giochi,puzzle,Puzzle-Spiele,jogos de puzzle,juegos de lógica,puzzelspellen,bulmaca oyunları,pussel spel,
+sport games,,giochi di sport,jeux de sport,Sport-Spiele,esporte jogos,juegos de deportes,sport spellen,spor oyunları,sport spel,
+driving games,,giochi di guida,jeux de conduite,Rennspiele,jogos de condução,juegos de conducir,Race spellen,sürüş oyunları,bil spel,
+play with scores,,giocare con i punteggi,Jeux avec score,"
+Mit Punkten spielen",jogar com escores,juega con puntuaciones,Speel met scores,puanları ile oynamak,spela med poäng,On the level complete/failed screen this text is not translated
+,,,,,,,,,,
+,,,,,,,,,,
+level select,,selezionare il livello,Choix de niveau,"Level auswählen
+",Nível,seleccionar nivel,Level selecteren,düzeyini seçin,välj nivå,
+level complete,,livello completato,Niveau accompli,"Level komplett
+",nível completo,nivel completado,Level gehaald,tam bir düzeyde,nivå avklarad,
+level failed,,livelo fallito,niveau a échoué,Level nicht geschafft,nível falhou, Nivel Fallado,niveau is mislukt,seviyesi başarısız,nivå misslyckades,
+match select,,selezionare la partita,Selection de match,"Spiel wählen
+",match seleciona,seleccionar partido,Match selecteren,uyuşum seçimi,välj match,
+team select / modify,,selezionare / modificare squadra,choix d'equipe/ modifier,Team auswählen / ändern,seleto time / modificar,seleccionar / modificar equipo,Team selecteren/wijzigen,değiştirmek select / takım,välj/ändra lag,
+team editor,,editore di squadra,Chef d'equipe,Team-Editor,editor de equipe,editor de equipo,team editor,takım editör,redigera lag,
+player,,giocatore,joueur,Spieler,jogador,jugador,speler,oyuncu,spelare,
+computer,,computer,ordinateur,Computer,computador,ordenador,computer,bilgisayar,dator,
+big heads,,grandi teste,Grosses tetes,Große Köpfe,cabeças grandes,cabezones,grote hoofden,büyük baş,stora huvuden,
+haddock,,eglefino,Eglefin,Schellfisch,eglefim,bacalaos,schelvis,mezgit balığı,torsk,
+exploding refs,,arbitro esplosivo,Arbitre explosif,"Explodierende Schiris
+",refs explodindo,árbitros explosivos,exploderende scheidsrechters,patlayan refs,exploderande domare,
+kicks,,calci,Tirs,Kicks,chutes,patadas,kicks,tekmeler,sparkar,
+gold,,oro,or,Gold,ouro,oro,goud,altın,guld,
+free kicks,,calci di punizione,coups francs,Freistöße,pontapés livres,tiros libres,vrije trappen,serbest vuruş,frisparkar,
+your best,,record,Votre meilleur,"Deine Bestleistung
+",o seu melhor,récord,uw beste score,en iyi,ditt bästa,"uw beste can't be used stand alone, has to be uw beste score or something like that"
+shirt,,camicia,Maillot,Hemd,camisa,camiseta,Shirt,gömlek,skjorta,
+pattern,,disegno,Motif,Muster,padrão,patrón,patroon,model,mönster,
+shorts,,pantaloncini,short,Shorts,bermudas,pantalones cortos,korte broek,şort,shorts,
+socks,,calze,chaussettes,Socken,meias,calcetas,sokken,çorap,strumpor,
+,,,,,,(Design your own - Diseña tu equipo),,,,
+,,,,,,,,,,
+Soccer Balls 2,,Soccer Balls 2,Soccer Balls 2,Soccer Balls 2,Bolas de futebol 2,Balones de Fútbol 2,Soccer Balls 2,Futbol Topları 2,Fotbollar 2,
+Knock over refs,,rovesciare arbitri,Renverser l'arbitre,"Wirf die Schiris um
+",Derrubar refs,Derriba a los árbitros,Schiet de scheidsrechters omver,Refs fazla Knock,Vält domarna,
+and score goals.,,e segnare goal,et marquer des buts,und schieße Tore.,e marcar gols.,y anota goles.,en scoor doelpunten.,ve gol.,och gör mål.,
+goal,,goal,But,Tor,meta,gol,doel,gol,mål,
+Hit switches to activate things,,colpire interruttori per accendere le cose,Appuyer sur les touches pour activer des choses,"
+Triff Schalter, um Dinge zu aktivieren",Hit chaves para ativar as coisas,Golpea los interruptores para activar cosas,raak schakelaars om dingen te activeren,Şeyler etkinleştirmek için anahtarları Hit,Träffa tryckplattor för att aktivera saker,
+pass the ball to other players,,passare il pallone ad altri giacatori,passer la balle aux autres joueurs,Passe den Ball zu anderen Spielern,passar a bola para os outros jogadores,pasa el balón a otros jugadores,paas de bal naar andere spelers,Diğer oyunculara topu,passa bollen till andra spelare,
+use any balls to score,,utilizzare qualsiasi palle per segnare,Utiliser toutes les balles pour marquer,Benutze einen beliebigen Ball zum punkten,usar as bolas para marcar,utiliza cualquier balón para anotar,gebruik alle ballen om te scoren,puan için herhangi bir topları kullanın,använd valfri boll för att göra mål,
+sometimes you have a beach ball!,,"a volte, ha un pallone da spiaggia",Parfois tu as une balle de plage!,Manchmal hast du einen Strand-Ball,às vezes você tem uma bola de praia!,¡a veces tienes una pelota de playa!,soms heb je een strandbal!,bazen bir plaj topu var!,Ibland har du en badboll!,
+beach balls dont hurt refs,,palloni da spiaggia non si fanno male agli arbitri,Les balles de plages ne font pas mal aux arbitres,Strand-Bälle tun Schiris nicht weh,bolas de praia não ferem refs,las pelotas de playa no lastiman a los árbitros,strandballen doen scheidsrechters geen schade,plaj topları refs incitme,badbollar skadar inte domarna,
+beachballs can destroy sand blocks,,palloni da spiaggia possono distruggere blocchi di sabbia,The balles de plages peuvent detruire les blocs de sable,Strand-Bälle können Sand-Blöcke zerstören,beachballs pode destruir blocos de areia,las pelotas de playa pueden destruir bloques de arena,strandballen kunnen zandblokken vernietigen,beachballs kum blokları yok edebilir,badbollar kan förstöra sand block,
+score in every goal,,segna in ogni porta,Marque dans chaque but,"Triff in jedes Tor
+",pontuação em cada gol,anota en cada portería,score in elk doel,Her gol skoru,gör mål i alla mål,
+take fewer shots for gold,,usa meno tiri per ottenere l'oro,utilise moins de tirs pour de l'or,Benötige weniger Schüsse für Gold,tomar poucos tiros para o ouro,usa menos tiros para obtener oro,neem minder schoten voor goud,altın için daha az çekim,använd färre skott för guld,
+rest objects on switches,,appoggiare oggetti su interruttori,Repose des objets sur les touches ,Bringe Objekte auf Schaltern zum Liegen,objetos de descanso em switches,coloca objetos en los interruptores,leg spullen op de schakelaars,anahtarları geri kalanı nesneleri,placera objekt på tryckplattor,
+these players jump to do headers,,questi giocatori balzano per fare colpi di testa,Ces joueurs sautent pour faire des tetes,"Diese Spieler springen, um Kopfbälle zu machen
+",estes jogadores saltar para fazer cabeçalhos,estos jugadores saltan para dar cabezazos,Deze spelers springen,bu oyuncuların başlıklarını yapmak atlamak,dessa spelare hoppar för att göra nickningar,
+pop balls!,,scoppiare palloni!,Eclate les ballons!,Bringe Bälle zum Platzen!,bolas pop!,¡revienta balones!,pop ballen!,pop topları!,poppa bollar!,
+,,,,,,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+info1,Collect 50 coins to unlock big heads (score x2),raccoglie 50 monete per sbloccare le grandi teste (punteggio x2),Collecte 50 pieces pour debloquer les grosses tetes (Score x2),"Sammle 50 Münzen, um große Köpfe freizuschalten (Punktzahl x2)",Colete 50 moedas para desbloquear grandes cabeças (pontuação x2),Consigue 50 monedas para desbloquear cabezones (puntuación x2),Verzamel 50 munten om grote hoofden te ontgrendelen (score x2),Büyük kafaları (skor x2) kilidini açmak için 50 Topladığımız paralar,Samla 50 mynt för att låsa upp stora huvuden (poäng x 2),
+info2,Collect all coins to unlock haddock heads (score x2),raccoglie tutte le monete per sbloccare le teste dei eglefini (punteggio x2),Recolte toutes les pieces pour debloquer la tete d'eglefin (Score x2),"Sammle alle Münzen, um Schellfisch-Köpfe freizuschalten (Punktzahl x2)",Colete todas as moedas para desbloquear arinca cabeças (pontuação x2),Consigue todas las monedas para desbloquear cabezas de bacalao (puntuación x2),Verzamel alle munten om schelvis hoofden te ontgrendelen (score x2),Mezgit kafaları (skor x2) kilidini açmak için tüm paraları toplayın,Samla alla mynt för att låsa upp torsk huvuden (poäng x2),
+info3,Collect all trophies to unlock exploding referees (score x2),raccoglie tutti i trofei per sbloccare gli arbitri esplosivi (punteggio x2),Collecte tous les trophees pour debloquer les arbitres explosif (Score x2),"Sammle alle Trophäen, um explodierende Schiedsrichter freizuschalten (Punktzahl x2)",Colete todos os troféus para desbloquear árbitros explodindo (pontuação x2),Consigue todos los trofeos para desbloquear árbitros explosivos (puntuación x2),verzamel alle trofeeën om exploderende scheidsrechters te ontgrendelen (score x2),Patlayan hakemler (skor x2) kilidini tüm ödüller toplayın,Samla alla troféer för att låsa upp exploderande domare (score x2),
+info4,Get all gold medals to unlock golden football (score x2),ottiene tutte medaglie d'oro per sbloccare il pallone dorato (punteggio x2),Obtiens toutes les medailles d'or pour debloquer la balle en or (Score x2),"Erlange alle Goldmedaillen, um goldene Fußbälle freizuschalten (Punktzahl x2)",Obter todas as medalhas de ouro de ouro para destravar futebol (pontuação x2),Consigue todas las medallas de oro para desbloquear balón dorado (puntuación x2),verzamel alle gouden medailles om de gouden voetbal te ontgrendelen (score x2),Altın futbol (skor x2) kilidini açmak için tüm altın madalyaları alın,Samla alla guldmedaljer för att låsa upp guld fotboll (score x2),

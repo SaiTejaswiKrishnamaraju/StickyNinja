@@ -1,0 +1,968 @@
+<data>
+
+<globals transitionDelayMultiplier="1" />
+
+<page name="page_upgrades">
+<instance component="Component_Background" params="uix_instancename=bg,uix_text=,uix_textscale=1,uix_textalign=centre"pos="0,0,960" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_NitroUprade" params="uix_instancename=,uix_text=,uix_textscale=1,uix_textalign=centre"pos="20,117,121" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_NitroUprade" params="uix_instancename=,uix_text=,uix_textscale=1,uix_textalign=centre"pos="22,253,121" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_NitroUprade" params="uix_instancename=,uix_text=,uix_textscale=1,uix_textalign=centre"pos="286,117,100" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_ButtonUpgrade" params="uix_instancename=upgradeButton2,uix_text=,uix_textscale=1,uix_textalign=centre"pos="454,133,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_NitroUprade" params="uix_instancename=,uix_text=,uix_textscale=1,uix_textalign=centre"pos="550,117,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_UpgradeBlobContainer" params="uix_instancename=upgradeBar2,uix_text=,uix_textscale=1,uix_textalign=centre"pos="294,150,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_ButtonUpgrade" params="uix_instancename=upgradeButton3,uix_text=,uix_textscale=1,uix_textalign=centre"pos="717,133,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_ButtonUpgrade" params="uix_instancename=upgradeButton1,uix_text=,uix_textscale=1,uix_textalign=centre"pos="188,133,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_UpgradeBlobContainer" params="uix_instancename=upgradeBar1,uix_text=,uix_textscale=1,uix_textalign=centre"pos="28,150,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_UpgradesText" params="uix_instancename=,uix_text=,uix_textscale=1,uix_textalign=centre"pos="18,3,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_UpgradeBlobContainer" params="uix_instancename=upgradeBar3,uix_text=,uix_textscale=1,uix_textalign=centre"pos="558,150,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_NitroUpgrade1" params="uix_instancename=,uix_text=,uix_textscale=1,uix_textalign=centre"pos="15,79,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Text" params="uix_instancename=cost2,uix_text=$1000,uix_textscale=1,uix_textalign=centre"pos="367,172,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Text" params="uix_instancename=cost3,uix_text=$1000,uix_textscale=1,uix_textalign=centre"pos="633,173,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Text" params="uix_instancename=cost4,uix_text=$1000,uix_textscale=1,uix_textalign=centre"pos="106,309,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Text" params="uix_instancename=cost1,uix_text=$1000,uix_textscale=1,uix_textalign=centre"pos="104,173,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_NitroUpgrade4" params="uix_instancename=,uix_text=,uix_textscale=1,uix_textalign=centre"pos="15,218,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Button_MoreGames" params="uix_instancename=,uix_text=,uix_textscale=1,uix_textalign=centre"pos="593,429,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_CashBox" params="uix_instancename=cashBox,uix_text=,uix_textscale=1,uix_textalign=centre"pos="19,458,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Button_Play" params="uix_instancename=buttonNext,uix_text=,uix_textscale=1,uix_textalign=centre"pos="680,397,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_NitroUprade" params="uix_instancename=,uix_text=,uix_textscale=1,uix_textalign=centre"pos="288,253,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_NitroUpgrade3" params="uix_instancename=,uix_text=,uix_textscale=1,uix_textalign=centre"pos="284,83,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_NitroUprade" params="uix_instancename=,uix_text=,uix_textscale=1,uix_textalign=centre"pos="552,253,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_ButtonUpgrade" params="uix_instancename=upgradeButton4,uix_text=,uix_textscale=1,uix_textalign=centre"pos="190,269,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_ButtonUpgrade" params="uix_instancename=upgradeButton5,uix_text=,uix_textscale=1,uix_textalign=centre"pos="456,269,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Text" params="uix_instancename=cost6,uix_text=$1000,uix_textscale=1,uix_textalign=centre"pos="635,309,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_UpgradeBlobContainer" params="uix_instancename=upgradeBar4,uix_text=,uix_textscale=1,uix_textalign=centre"pos="30,286,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_UpgradeBlobContainer" params="uix_instancename=upgradeBar5,uix_text=,uix_textscale=1,uix_textalign=centre"pos="297,286,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_UpgradeBlobContainer" params="uix_instancename=upgradeBar6,uix_text=,uix_textscale=1,uix_textalign=centre"pos="561,288,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_NitroUpgrade5" params="uix_instancename=,uix_text=,uix_textscale=1,uix_textalign=centre"pos="551,81,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Text" params="uix_instancename=cost5,uix_text=$1000,uix_textscale=1,uix_textalign=centre"pos="370,308,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_NitroUpgrade6" params="uix_instancename=,uix_text=,uix_textscale=1,uix_textalign=centre"pos="290,219,-100" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_NitroUpgrade2" params="uix_instancename=,uix_text=,uix_textscale=1,uix_textalign=centre"pos="550,218,-200" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_ButtonUpgrade" params="uix_instancename=upgradeButton6,uix_text=,uix_textscale=1,uix_textalign=centre"pos="719,269,-200" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<dpad from="buttonNext" up="upgradeButton6" right="" down="" left="flag10" />
+<dpad from="upgradeButton1" up="" right="upgradeButton2" down="upgradeButton4" left="" />
+<dpad from="upgradeButton2" up="" right="upgradeButton3" down="upgradeButton5" left="upgradeButton1" />
+<dpad from="upgradeButton3" up="" right="" down="upgradeButton6" left="upgradeButton2" />
+<dpad from="upgradeButton4" up="upgradeButton1" right="upgradeButton5" down="flag1" left="" />
+<dpad from="upgradeButton6" up="upgradeButton3" right="" down="buttonNext" left="upgradeButton5" />
+<dpad from="upgradeButton5" up="upgradeButton2" right="upgradeButton6" down="buttonNext" left="upgradeButton4" />
+<dpad from="flag1" up="upgradeButton4" right="flag2" down="flag6" left="" />
+<dpad from="flag2" up="upgradeButton4" right="flag3" down="flag7" left="flag1" />
+<dpad from="flag3" up="upgradeButton5" right="flag4" down="flag8" left="flag2" />
+<dpad from="flag4" up="upgradeButton5" right="flag5" down="flag9" left="flag3" />
+<dpad from="flag5" up="upgradeButton6" right="buttonNext" down="flag10" left="flag4" />
+<dpad from="flag6" up="flag1" right="flag7" down="" left="" />
+<dpad from="flag7" up="flag2" right="flag8" down="" left="flag6" />
+<dpad from="flag8" up="flag3" right="flag9" down="" left="flag7" />
+<dpad from="flag9" up="flag4" right="flag10" down="" left="flag8" />
+<dpad from="flag10" up="flag5" right="buttonNext" down="" left="flag9" />
+</page>
+<page name="page_title">
+<instance component="Component_TitleBackdrop" params="uix_instancename=background,uix_text=,uix_textscale=1,uix_textalign=centre"pos="400,256,1000" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Title_Image" params="uix_instancename=image,uix_text=,uix_textscale=1,uix_textalign=centre"pos="400,256,90" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_MainLogo" params="uix_instancename=title,uix_text=,uix_textscale=1,uix_textalign=centre"pos="404.8541259765625,73.62774658203122,90" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Button_Facebook" params="uix_instancename=buttonFacebook,uix_text=,uix_textscale=1,uix_textalign=centre"pos="45,388,50" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Button_Twitter" params="uix_instancename=buttonTwitter,uix_text=,uix_textscale=1,uix_textalign=centre"pos="45,313,50" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Button_Credits" params="uix_instancename=buttonCredits,uix_text=,uix_textscale=1,uix_textalign=centre"pos="733,475,50" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Button_Play" params="uix_instancename=buttonPlay,uix_text=,uix_textscale=1,uix_textalign=centre"pos="399,389,50" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Button_ClearSave" params="uix_instancename=buttonClearSave,uix_text=,uix_textscale=1,uix_textalign=centre"pos="754,50,50" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_UIHud" params="uix_instancename=generic,uix_text=,uix_textscale=1,uix_textalign=centre"pos="0,-1,50" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_ButtonControls" params="uix_instancename=buttonControls,uix_text=,uix_textscale=1,uix_textalign=centre"pos="-97,555,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Donate_Ouya" params="uix_instancename=buttonDonate,uix_text=,uix_textscale=1,uix_textalign=centre"pos="842,690,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Button_MoreGames" params="uix_instancename=moregames,uix_text=,uix_textscale=1,uix_textalign=centre"pos="733,410,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Button_Download" params="uix_instancename=buttonDownload,uix_text=,uix_textscale=1,uix_textalign=centre"pos="733,345,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_SponsorLogo" params="uix_instancename=sponsorlogo,uix_text=,uix_textscale=1,uix_textalign=centre"pos="404,468,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_ButtonY8" params="uix_instancename=,uix_text=,uix_textscale=1,uix_textalign=centre"pos="11,13,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Button_RestorePurchases" params="uix_instancename=buttonRestorePurchases,uix_text=,uix_textscale=1,uix_textalign=centre"pos="689,98,-22" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Button_Tutorial" params="uix_instancename=buttonTutorial,uix_text=Tutorial,uix_textscale=1,uix_textalign=centre"pos="490,380,-100" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<dpad from="buttonPlay" up="buttonClearSave" right="buttonDonate" down="" left="buttonCredits" />
+<dpad from="buttonCredits" up="buttonClearSave" right="buttonPlay" down="" left="" />
+<dpad from="buttonDonate" up="buttonClearSave" right="buttonTutorial" down="" left="buttonPlay" />
+<dpad from="buttonTutorial" up="buttonClearSave" right="" down="" left="buttonDonate" />
+<dpad from="buttonClearSave" up="" right="" down="buttonPlay" left="" />
+</page>
+<page name="page_story1">
+<instance component="Component_Background" params="uix_instancename=bg,uix_text=,uix_textscale=1,uix_textalign=centre"pos="0,0,960" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Button_Play" params="uix_instancename=buttonContinue,uix_text=,uix_textscale=1,uix_textalign=centre"pos="738,450,50" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Story_S1" params="uix_instancename=frame1,uix_text=,uix_textscale=1,uix_textalign=centre"pos="266,125,50" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="left" transonFunc="InitStoryAppear"  />
+<instance component="Component_Story_S2" params="uix_instancename=frame2,uix_text=,uix_textscale=1,uix_textalign=centre"pos="538,125,50" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="25" transonType="right" transonFunc="InitStoryAppear"  />
+<instance component="Component_Story_S3" params="uix_instancename=frame3,uix_text=,uix_textscale=1,uix_textalign=centre"pos="266,362,50" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="50" transonType="left" transonFunc="InitStoryAppear"  />
+<instance component="Component_Story_S4" params="uix_instancename=frame4,uix_text=,uix_textscale=1,uix_textalign=centre"pos="538,362,50" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="75" transonType="right" transonFunc="InitStoryAppear"  />
+</page>
+<page name="page_story2">
+<instance component="Component_Background" params="uix_instancename=bg,uix_text=,uix_textscale=1,uix_textalign=centre"pos="0,0,960" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Button_Play" params="uix_instancename=buttonContinue,uix_text=,uix_textscale=1,uix_textalign=centre"pos="738,450,50" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Story_F1" params="uix_instancename=frame1,uix_text=,uix_textscale=1,uix_textalign=centre"pos="266,125,50" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="left" transonFunc="InitStoryAppear"  />
+<instance component="Component_Story_F2" params="uix_instancename=frame2,uix_text=,uix_textscale=1,uix_textalign=centre"pos="538,125,50" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="25" transonType="right" transonFunc="InitStoryAppear"  />
+<instance component="Component_Story_F3" params="uix_instancename=frame3,uix_text=,uix_textscale=1,uix_textalign=centre"pos="266,362,50" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="50" transonType="left" transonFunc="InitStoryAppear"  />
+<instance component="Component_Story_F4" params="uix_instancename=frame4,uix_text=,uix_textscale=1,uix_textalign=centre"pos="538,362,50" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="75" transonType="right" transonFunc="InitStoryAppear"  />
+</page>
+<page name="page_highscores">
+<instance component="Component_Background" params="uix_instancename=bg,uix_text=,uix_textscale=1,uix_textalign=centre"pos="0,0,960" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Button_BackArrow" params="uix_instancename=btn_back,uix_text=,uix_textscale=1,uix_textalign=centre"pos="730,41,500" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_MatchSelectBox" params="uix_instancename=,uix_text=,uix_textscale=1,uix_textalign=centre"pos="285,164,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+</page>
+<page name="page_purchase_mobile">
+<instance component="Component_Screen_MobileVersion" params="uix_instancename=bg,uix_text=,uix_textscale=1,uix_textalign=centre"pos="0,0,960" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Button_BackArrow" params="uix_instancename=btn_back,uix_text=,uix_textscale=1,uix_textalign=centre"pos="723,447,500" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Button_AppStore" params="uix_instancename=buttonAppStore,uix_text=,uix_textscale=1,uix_textalign=centre"pos="123,445,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Button_GooglePlay" params="uix_instancename=buttonGooglePlay,uix_text=,uix_textscale=1,uix_textalign=centre"pos="317,446,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Button_AmazonStore" params="uix_instancename=buttonAmazonStore,uix_text=,uix_textscale=1,uix_textalign=centre"pos="503,446,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+</page>
+<page name="page_purchase_ouya">
+<instance component="Component_Background" params="uix_instancename=bg,uix_text=,uix_textscale=1,uix_textalign=centre"pos="0,0,960" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_OuyaPurchase" params="uix_instancename=,uix_text=,uix_textscale=1,uix_textalign=centre"pos="0,0,960" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Button_Cross" params="uix_instancename=buttonNo,uix_text=,uix_textscale=1,uix_textalign=centre"pos="545,416,-34" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Button_Tick" params="uix_instancename=buttonYes,uix_text=,uix_textscale=1,uix_textalign=centre"pos="686,420,-44" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<dpad from="buttonYes" up="" right="" down="" left="buttonNo" />
+<dpad from="buttonNo" up="" right="buttonYes" down="" left="" />
+</page>
+<page name="page_achievements">
+<instance component="Component_Background" params="uix_instancename=bg,uix_text=,uix_textscale=1,uix_textalign=centre"pos="0,0,960" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Button_BackArrow" params="uix_instancename=btn_back,uix_text=,uix_textscale=1,uix_textalign=centre"pos="739,39,500" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Button_Stats" params="uix_instancename=buttonStats,uix_text=,uix_textscale=1,uix_textalign=centre"pos="413,16,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_AchievementsText" params="uix_instancename=,uix_text=,uix_textscale=1,uix_textalign=centre"pos="18,7,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Button_Awards" params="uix_instancename=buttonAwards,uix_text=,uix_textscale=1,uix_textalign=centre"pos="489,16,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Button_PrevPage" params="uix_instancename=prev,uix_text=,uix_textscale=1,uix_textalign=centre"pos="560,-84,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Button_NextPage" params="uix_instancename=next,uix_text=,uix_textscale=1,uix_textalign=centre"pos="634,-84,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<dpad from="buttonStats" up="" right="buttonAwards" down="" left="" />
+<dpad from="buttonAwards" up="" right="btn_back" down="" left="buttonStats" />
+<dpad from="btn_back" up="" right="" down="" left="buttonAwards" />
+</page>
+<page name="page_run_explorer">
+<instance component="Component_Background" params="uix_instancename=bg,uix_text=,uix_textscale=1,uix_textalign=centre"pos="0,0,960" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Button_BackArrow" params="uix_instancename=btn_back,uix_text=,uix_textscale=1,uix_textalign=centre"pos="731,41,500" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Text" params="uix_instancename=text1,uix_text=36/36,uix_textscale=1,uix_textalign=left"pos="365,10,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Button" params="uix_instancename=test5,uix_text=Show all,uix_textscale=1,uix_textalign=centre"pos="94,236,-22" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Button" params="uix_instancename=test3,uix_text=Next Run Index,uix_textscale=1,uix_textalign=centre"pos="99,156,-22" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Button" params="uix_instancename=test1,uix_text=Test Load All,uix_textscale=1,uix_textalign=centre"pos="91,64,-22" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Button" params="uix_instancename=test2,uix_text=Save Binary,uix_textscale=1,uix_textalign=centre"pos="94,109,-22" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Button" params="uix_instancename=test6,uix_text=Next Levevl,uix_textscale=1,uix_textalign=centre"pos="91,298,-22" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Button" params="uix_instancename=test7,uix_text=!,uix_textscale=1,uix_textalign=centre"pos="93,357,-22" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Button" params="uix_instancename=test8,uix_text=!,uix_textscale=1,uix_textalign=centre"pos="95,415,-22" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Button" params="uix_instancename=test4,uix_text=DELETE!,uix_textscale=1,uix_textalign=centre"pos="240,22,-22" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+</page>
+<page name="page_controls">
+<instance component="Component_Background" params="uix_instancename=,uix_text=,uix_textscale=1,uix_textalign=centre"pos="0,0,960" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Button_BackArrow" params="uix_instancename=btn_back,uix_text=,uix_textscale=1,uix_textalign=centre"pos="734,41,500" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_ControlSelectFrame1" params="uix_instancename=layout1,uix_text=,uix_textscale=1,uix_textalign=centre"pos="160,117,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_ControlSelectFrame2" params="uix_instancename=layout2,uix_text=,uix_textscale=1,uix_textalign=centre"pos="471,118,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_ControlSelectFrame3" params="uix_instancename=layout3,uix_text=,uix_textscale=1,uix_textalign=centre"pos="161,288,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_ControlSelectFrame4" params="uix_instancename=layout4,uix_text=,uix_textscale=1,uix_textalign=centre"pos="474,293,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+</page>
+<page name="page_matchcomplete">
+<instance component="Component_Background" params="uix_instancename=,uix_text=,uix_textscale=1,uix_textalign=centre"pos="0,0,960" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Button_Play" params="uix_instancename=buttonPlay,uix_text=,uix_textscale=1,uix_textalign=centre"pos="350,388,50" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Text" params="uix_instancename=text3,uix_text=NEXT SERIES UNLOCKED,uix_textscale=1,uix_textalign=centre"pos="399,262,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Text" params="uix_instancename=text2,uix_text=RACE SERIES COMPLETE,uix_textscale=1,uix_textalign=centre"pos="400,164,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Text" params="uix_instancename=text1,uix_text=CONGRATULATIONS!,uix_textscale=1,uix_textalign=centre"pos="400,110,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<dpad from="buttonPlay" up="" right="" down="" left="" />
+</page>
+<page name="page_gamecomplete">
+<instance component="Component_Background" params="uix_instancename=,uix_text=,uix_textscale=1,uix_textalign=centre"pos="0,0,960" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_EndGame_Background" params="uix_instancename=bg,uix_text=,uix_textscale=1,uix_textalign=centre"pos="1,2,800" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Button_Play" params="uix_instancename=buttonPlay,uix_text=,uix_textscale=1,uix_textalign=centre"pos="372,399,50" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Text" params="uix_instancename=text1,uix_text=36/36,uix_textscale=1,uix_textalign=centre"pos="262,318,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Text" params="uix_instancename=text2,uix_text=36/36,uix_textscale=1,uix_textalign=centre"pos="425,318,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Text" params="uix_instancename=text3,uix_text=36/36,uix_textscale=1,uix_textalign=centre"pos="589,317,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<dpad from="buttonPlay" up="" right="" down="" left="" />
+</page>
+<page name="page_hud">
+<instance component="Component_Hud_Achievement_Popup" params="uix_instancename=achievementPopup,uix_text=,uix_textscale=1,uix_textalign=centre"pos="275,56,100" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Hud_Countdown" params="uix_instancename=countdown,uix_text=,uix_textscale=1,uix_textalign=centre"pos="400,165,100" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Button_Levels" params="uix_instancename=buttonPause,uix_text=,uix_textscale=1,uix_textalign=centre"pos="770,36,100" scale="0.5,0.5" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Button_MoreGames" params="uix_instancename=moregames,uix_text=,uix_textscale=1,uix_textalign=centre"pos="60,35,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_ButtonSFXToggle" params="uix_instancename=buttonMuteSFX,uix_text=,uix_textscale=1,uix_textalign=centre"pos="710,36,0" scale="0.7,0.7" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Hud_Retry" params="uix_instancename=buttonRetry,uix_text=,uix_textscale=1,uix_textalign=centre"pos="-88,9,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Hud_ControlsInGame" params="uix_instancename=controls,uix_text=,uix_textscale=1,uix_textalign=centre"pos="663,417,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_HUD_Objective" params="uix_instancename=objective3,uix_text=,uix_textscale=1,uix_textalign=centre"pos="17,375,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_HUD_Objective" params="uix_instancename=objective2,uix_text=,uix_textscale=1,uix_textalign=centre"pos="16,422,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_HUD_Objective" params="uix_instancename=objective1,uix_text=,uix_textscale=1,uix_textalign=centre"pos="16,468,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_HUD_Info" params="uix_instancename=info,uix_text=,uix_textscale=1,uix_textalign=centre"pos="617,460,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_HUD_Startlevel_Objective" params="uix_instancename=startLevelObjective1,uix_text=,uix_textscale=1,uix_textalign=centre"pos="411,46,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_HUD_Startlevel_Objective" params="uix_instancename=startLevelObjective2,uix_text=,uix_textscale=1,uix_textalign=centre"pos="411,113,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_HUD_Startlevel_Objective" params="uix_instancename=startLevelObjective3,uix_text=,uix_textscale=1,uix_textalign=centre"pos="411,183,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+</page>
+<page name="page_hud_ouya">
+<instance component="Component_Hud_Achievement_Popup" params="uix_instancename=achievementPopup,uix_text=,uix_textscale=1,uix_textalign=centre"pos="275,56,100" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Hud_Countdown" params="uix_instancename=countdown,uix_text=,uix_textscale=1,uix_textalign=centre"pos="400,165,100" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Button_Levels" params="uix_instancename=buttonPause,uix_text=,uix_textscale=1,uix_textalign=centre"pos="770,36,100" scale="0.5,0.5" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Button_MoreGames" params="uix_instancename=moregames,uix_text=,uix_textscale=1,uix_textalign=centre"pos="42,20,0" scale="0.5,0.5" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_ButtonSFXToggle" params="uix_instancename=buttonMuteSFX,uix_text=,uix_textscale=1,uix_textalign=centre"pos="710,36,0" scale="0.7,0.7" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Hud_Retry" params="uix_instancename=buttonRetry,uix_text=,uix_textscale=1,uix_textalign=centre"pos="-88,9,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Hud_ControlsInGame" params="uix_instancename=controls,uix_text=,uix_textscale=1,uix_textalign=centre"pos="663,417,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_HUD_Startlevel_Objective" params="uix_instancename=startLevelObjective3,uix_text=,uix_textscale=1,uix_textalign=centre"pos="408,51,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_HUD_Startlevel_Objective" params="uix_instancename=startLevelObjective2,uix_text=,uix_textscale=1,uix_textalign=centre"pos="408,118,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_HUD_Startlevel_Objective" params="uix_instancename=startLevelObjective1,uix_text=,uix_textscale=1,uix_textalign=centre"pos="408,188,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_HUD_Objective" params="uix_instancename=objective3,uix_text=,uix_textscale=1,uix_textalign=centre"pos="17,375,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_HUD_Objective" params="uix_instancename=objective2,uix_text=,uix_textscale=1,uix_textalign=centre"pos="16,422,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_HUD_Objective" params="uix_instancename=objective1,uix_text=,uix_textscale=1,uix_textalign=centre"pos="16,468,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_HUD_Info" params="uix_instancename=info,uix_text=,uix_textscale=1,uix_textalign=centre"pos="617,460,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+</page>
+<page name="page_hud_mobile_1">
+<instance component="Component_Hud_Achievement_Popup" params="uix_instancename=achievementPopup,uix_text=,uix_textscale=1,uix_textalign=centre"pos="275,56,100" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Hud_Countdown" params="uix_instancename=countdown,uix_text=,uix_textscale=1,uix_textalign=centre"pos="400,165,100" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Button_Levels" params="uix_instancename=buttonPause,uix_text=,uix_textscale=1,uix_textalign=centre"pos="770,36,100" scale="0.5,0.5" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Button_MoreGames" params="uix_instancename=moregames,uix_text=,uix_textscale=1,uix_textalign=centre"pos="42,20,0" scale="0.5,0.5" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_ButtonSFXToggle" params="uix_instancename=buttonMuteSFX,uix_text=,uix_textscale=1,uix_textalign=centre"pos="710,36,0" scale="0.7,0.7" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Hud_Retry" params="uix_instancename=buttonRetry,uix_text=,uix_textscale=1,uix_textalign=centre"pos="-88,9,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Hud_ControlsInGame" params="uix_instancename=controls,uix_text=,uix_textscale=1,uix_textalign=centre"pos="663,417,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_HUD_Startlevel_Objective" params="uix_instancename=startLevelObjective3,uix_text=,uix_textscale=1,uix_textalign=centre"pos="408,51,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_HUD_Startlevel_Objective" params="uix_instancename=startLevelObjective2,uix_text=,uix_textscale=1,uix_textalign=centre"pos="408,118,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_HUD_Startlevel_Objective" params="uix_instancename=startLevelObjective1,uix_text=,uix_textscale=1,uix_textalign=centre"pos="408,188,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_HUD_Objective" params="uix_instancename=objective3,uix_text=,uix_textscale=1,uix_textalign=centre"pos="17,375,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_HUD_Objective" params="uix_instancename=objective2,uix_text=,uix_textscale=1,uix_textalign=centre"pos="16,422,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_HUD_Objective" params="uix_instancename=objective1,uix_text=,uix_textscale=1,uix_textalign=centre"pos="16,468,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_HUD_Info" params="uix_instancename=info,uix_text=,uix_textscale=1,uix_textalign=centre"pos="617,460,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+</page>
+<page name="page_clearsave_areyousure">
+<instance component="Component_TitleBackdrop" params="uix_instancename=players,uix_text=,uix_textscale=1,uix_textalign=centre"pos="400,256,1000" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Button_Cross" params="uix_instancename=buttonNo,uix_text=,uix_textscale=1,uix_textalign=centre"pos="330,277,-34" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Button_Tick" params="uix_instancename=buttonYes,uix_text=,uix_textscale=1,uix_textalign=centre"pos="473,277,-44" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Text" params="uix_instancename=,uix_text=Clear Save.,uix_textscale=1,uix_textalign=centre"pos="400,141,-93" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Text" params="uix_instancename=,uix_text=Are You Sure?,uix_textscale=1,uix_textalign=centre"pos="403,192,-106" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<dpad from="buttonYes" up="" right="" down="" left="buttonNo" />
+<dpad from="buttonNo" up="" right="buttonYes" down="" left="" />
+</page>
+<page name="page_tutorial_yesno">
+<instance component="Component_Background" params="uix_instancename=,uix_text=,uix_textscale=1,uix_textalign=centre"pos="0,0,960" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Button_Cross" params="uix_instancename=buttonNo,uix_text=,uix_textscale=1,uix_textalign=centre"pos="290,275,-34" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Button_Tick" params="uix_instancename=buttonYes,uix_text=,uix_textscale=1,uix_textalign=centre"pos="424,278,-44" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Text" params="uix_instancename=,uix_text=Would you like to,uix_textscale=1,uix_textalign=centre"pos="400,141,-93" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Text" params="uix_instancename=,uix_text=view the tutorial?,uix_textscale=1,uix_textalign=centre"pos="403,192,-106" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<dpad from="buttonYes" up="" right="" down="" left="buttonNo" />
+<dpad from="buttonNo" up="" right="buttonYes" down="" left="" />
+</page>
+<page name="page_helpscreen">
+<instance component="Component_HelpScreen" params="uix_instancename=page,uix_text=,uix_textscale=1,uix_textalign=centre"pos="0,0,960" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Button_Play" params="uix_instancename=buttonContinue,uix_text=,uix_textscale=1,uix_textalign=centre"pos="348,405,50" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<dpad from="buttonContinue" up="" right="" down="" left="" />
+</page>
+<page name="page_helpscreen_mobile">
+<instance component="Component_HelpScreenMobile" params="uix_instancename=page,uix_text=,uix_textscale=1,uix_textalign=centre"pos="0,0,960" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Button_Play" params="uix_instancename=buttonContinue,uix_text=,uix_textscale=1,uix_textalign=centre"pos="348,407,50" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<dpad from="buttonContinue" up="" right="" down="" left="" />
+</page>
+<page name="page_helpscreen_ouya">
+<instance component="Component_HelpScreenOuya" params="uix_instancename=page,uix_text=,uix_textscale=1,uix_textalign=centre"pos="0,0,960" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Button_Play" params="uix_instancename=buttonContinue,uix_text=,uix_textscale=1,uix_textalign=centre"pos="348,407,50" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<dpad from="buttonContinue" up="" right="" down="" left="" />
+</page>
+<page name="page_credits">
+<instance component="Component_TitleBackdrop" params="uix_instancename=background,uix_text=,uix_textscale=1,uix_textalign=centre"pos="400,256,1000" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Button_BackArrow" params="uix_instancename=btn_back,uix_text=,uix_textscale=1,uix_textalign=centre"pos="750,51,500" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="top" transonFunc="InitAppear"  />
+<instance component="Component_Button_MoreGames" params="uix_instancename=moregames,uix_text=MORE GAMES,uix_textscale=1,uix_textalign=centre"pos="731,476,50" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="top" transonFunc="InitAppear"  />
+<instance component="Component_Credits_BiscuitLocker" params="uix_instancename=buttonRobotJAM,uix_text=,uix_textscale=1,uix_textalign=centre"pos="557,203,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="top" transonFunc="InitAppear"  />
+<instance component="Component_Credits_SnakeEngine" params="uix_instancename=buttonSnakeEngine,uix_text=,uix_textscale=1,uix_textalign=centre"pos="405,288,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="top" transonFunc="InitAppear"  />
+<instance component="Component_Credits_LongAnimals" params="uix_instancename=buttonLongAnimals,uix_text=,uix_textscale=1,uix_textalign=centre"pos="251,203,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="top" transonFunc="InitAppear"  />
+<instance component="Component_Credits_Title" params="uix_instancename=,uix_text=Credits,uix_textscale=1,uix_textalign=centre"pos="30,12,-106" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Credits_Disclaimer" params="uix_instancename=,uix_text=Credits,uix_textscale=1,uix_textalign=centre"pos="12,381,-106" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+</page>
+<page name="page_pause">
+<instance component="Component_Background" params="uix_instancename=background,uix_text=,uix_textscale=1,uix_textalign=centre"pos="0,0,1081" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_PausedText" params="uix_instancename=,uix_text=,uix_textscale=1,uix_textalign=centre"pos="300,4,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Button_Levels" params="uix_instancename=buttonQuit,uix_text=,uix_textscale=1,uix_textalign=centre"pos="274,228,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Button_Replay" params="uix_instancename=buttonRestart,uix_text=,uix_textscale=1,uix_textalign=centre"pos="392,228,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Button_Play" params="uix_instancename=buttonContinue,uix_text=,uix_textscale=1,uix_textalign=centre"pos="509,227,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_TickButton" params="uix_instancename=option0,uix_text=OPTION 1,uix_textscale=1,uix_textalign=centre"pos="113,83,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_TickButton" params="uix_instancename=option1,uix_text=OPTION 2,uix_textscale=1,uix_textalign=centre"pos="117,134,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_TickButton" params="uix_instancename=option2,uix_text=OPTION 2,uix_textscale=1,uix_textalign=centre"pos="317,85,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_TickButton" params="uix_instancename=option3,uix_text=OPTION 2,uix_textscale=1,uix_textalign=centre"pos="317,126,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_TickButton" params="uix_instancename=option4,uix_text=OPTION 2,uix_textscale=1,uix_textalign=centre"pos="541,85,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_TickButton" params="uix_instancename=option5,uix_text=OPTION 2,uix_textscale=1,uix_textalign=centre"pos="540,128,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_TickButton" params="uix_instancename=option6,uix_text=OPTION 2,uix_textscale=1,uix_textalign=centre"pos="700,85,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_TickButton" params="uix_instancename=option7,uix_text=OPTION 2,uix_textscale=1,uix_textalign=centre"pos="700,130,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Button" params="uix_instancename=prevLevel,uix_text=PREV LEV,uix_textscale=1,uix_textalign=centre"pos="400,430,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Button" params="uix_instancename=nextLevel,uix_text=NEXT LEV,uix_textscale=1,uix_textalign=centre"pos="600,430,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Button_MoreGames" params="uix_instancename=moregames,uix_text=,uix_textscale=1,uix_textalign=centre"pos="391,340,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<dpad from="buttonContinue" up="" right="" down="" left="buttonRestart" />
+<dpad from="buttonRestart" up="" right="buttonContinue" down="" left="buttonQuit" />
+<dpad from="buttonQuit" up="" right="buttonRestart" down="" left="" />
+</page>
+<page name="page_matchselect">
+<instance component="Component_TitleBackdrop" params="uix_instancename=background,uix_text=,uix_textscale=1,uix_textalign=centre"pos="400,256,1000" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Button_BackArrow" params="uix_instancename=btn_back,uix_text=,uix_textscale=1,uix_textalign=centre"pos="752,44,500" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_DragBox" params="uix_instancename=dragBox,uix_text=,uix_textscale=1,uix_textalign=centre"pos="-159,-7,500" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_UIHud" params="uix_instancename=generic,uix_text=,uix_textscale=1,uix_textalign=left"pos="0,0,50" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_StageSelectText" params="uix_instancename=text_title,uix_text=,uix_textscale=1,uix_textalign=centre"pos="21,11,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_MatchIcon" params="uix_instancename=mission1,uix_text=,uix_textscale=1,uix_textalign=centre"pos="228,135,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_MatchIcon" params="uix_instancename=mission2,uix_text=,uix_textscale=1,uix_textalign=centre"pos="228,219,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_MatchIcon" params="uix_instancename=mission3,uix_text=,uix_textscale=1,uix_textalign=centre"pos="228,303,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_MatchIcon" params="uix_instancename=mission4,uix_text=,uix_textscale=1,uix_textalign=centre"pos="228,386,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_MatchIcon" params="uix_instancename=mission5,uix_text=,uix_textscale=1,uix_textalign=centre"pos="590,135,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_MatchIcon" params="uix_instancename=mission6,uix_text=,uix_textscale=1,uix_textalign=centre"pos="590,219,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_MatchIcon" params="uix_instancename=mission7,uix_text=,uix_textscale=1,uix_textalign=centre"pos="590,303,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_MatchIcon" params="uix_instancename=mission8,uix_text=,uix_textscale=1,uix_textalign=centre"pos="590,386,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Button_MoreGames" params="uix_instancename=moregames,uix_text=,uix_textscale=1,uix_textalign=centre"pos="731,474,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Text" params="uix_instancename=text_missionName,uix_text=CHOOSE A DAY,uix_textscale=1,uix_textalign=centre"pos="402,55,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+</page>
+<page name="page_levelselect">
+<instance component="Component_TitleBackdrop" params="uix_instancename=background,uix_text=,uix_textscale=1,uix_textalign=centre"pos="400,256,1000" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Button_BackArrow" params="uix_instancename=btn_back,uix_text=,uix_textscale=1,uix_textalign=centre"pos="735,67,500" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_LevelIcon" params="uix_instancename=icon1,uix_text=,uix_textscale=1,uix_textalign=centre"pos="252,110,300" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_LevelIcon" params="uix_instancename=icon5,uix_text=,uix_textscale=1,uix_textalign=centre"pos="252,413,300" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_LevelIcon" params="uix_instancename=icon3,uix_text=,uix_textscale=1,uix_textalign=centre"pos="254,262,300" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_LevelIcon" params="uix_instancename=icon4,uix_text=,uix_textscale=1,uix_textalign=centre"pos="549,350,300" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_LevelIcon" params="uix_instancename=icon2,uix_text=,uix_textscale=1,uix_textalign=centre"pos="551,178,300" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_UIHud" params="uix_instancename=generic,uix_text=,uix_textscale=1,uix_textalign=centre"pos="0,0,50" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Text" params="uix_instancename=text_missionName,uix_text=CHOOSE A MISSION,uix_textscale=1,uix_textalign=centre"pos="401,23,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Button_MoreGames" params="uix_instancename=moregames,uix_text=,uix_textscale=1,uix_textalign=centre"pos="730,474,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_LevelSelectText" params="uix_instancename=text_title,uix_text=,uix_textscale=1,uix_textalign=centre"pos="26,7,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+</page>
+<page name="page_playerselect">
+<instance component="Component_TitleBackdrop" params="uix_instancename=background,uix_text=,uix_textscale=1,uix_textalign=centre"pos="400,256,1000" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Button_BackArrow" params="uix_instancename=btn_back,uix_text=,uix_textscale=1,uix_textalign=centre"pos="752,51,500" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_PlayerIcon" params="uix_instancename=icon1,uix_text=,uix_textscale=1,uix_textalign=centre"pos="405,99,300" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_PlayerIcon" params="uix_instancename=icon3,uix_text=,uix_textscale=1,uix_textalign=centre"pos="405,407,300" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_PlayerIcon" params="uix_instancename=icon2,uix_text=,uix_textscale=1,uix_textalign=centre"pos="406,253,300" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_UIHud" params="uix_instancename=generic,uix_text=,uix_textscale=1,uix_textalign=centre"pos="-6,-5,50" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Button_MoreGames" params="uix_instancename=,uix_text=,uix_textscale=1,uix_textalign=centre"pos="738,468,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_CarSelectText" params="uix_instancename=,uix_text=,uix_textscale=1,uix_textalign=centre"pos="12,13,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Text" params="uix_instancename=text_levelInfo2,uix_text=LEVEL INFO2,uix_textscale=1,uix_textalign=centre"pos="443,453,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+</page>
+<page name="page_unlockcontent">
+<instance component="Component_TitleBackdrop" params="uix_instancename=background,uix_text=,uix_textscale=1,uix_textalign=centre"pos="400,256,1000" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Button_BackArrow" params="uix_instancename=btn_back,uix_text=,uix_textscale=1,uix_textalign=centre"pos="745,63,500" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Button_WatchVideo" params="uix_instancename=buttonOK,uix_text=,uix_textscale=1,uix_textalign=centre"pos="395,356,500" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_PlayerIcon" params="uix_instancename=icon,uix_text=,uix_textscale=1,uix_textalign=centre"pos="400,133,300" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Text" params="uix_instancename=text_watchVideo,uix_text=Please watch an advert to unlock this content,uix_textscale=1,uix_textalign=centre"pos="400,271,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Text" params="uix_instancename=text_status,uix_text=Video unavailable. try again later.,uix_textscale=1,uix_textalign=centre"pos="399,445,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+</page>
+<page name="page_levelcomplete">
+<instance component="Component_TitleBackdrop" params="uix_instancename=background,uix_text=,uix_textscale=1,uix_textalign=centre"pos="400,256,1000" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Zone1" params="uix_instancename=container,uix_text=eeeeee ,uix_textscale=1,uix_textalign=centre"pos="265,245,90" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_UIHud" params="uix_instancename=generic,uix_text=,uix_textscale=1,uix_textalign=centre"pos="-5,-5,50" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_AdvertBox" params="uix_instancename=adBox,uix_text=,uix_textscale=1,uix_textalign=centre"pos="535,134,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Button_Play" params="uix_instancename=btn_continue,uix_text=,uix_textscale=1,uix_textalign=centre"pos="739,453,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Button_Replay" params="uix_instancename=btn_tryagain,uix_text=,uix_textscale=1,uix_textalign=centre"pos="631,453,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Button_MoreGames" params="uix_instancename=,uix_text=,uix_textscale=1,uix_textalign=centre"pos="521,473,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_SubmitScore" params="uix_instancename=submitscore,uix_text=,uix_textscale=1,uix_textalign=centre"pos="631,247,-22" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<dpad from="btn_continue" up="" right="" down="" left="btn_tryagain" />
+<dpad from="btn_tryagain" up="" right="btn_continue" down="" left="buttonAwards" />
+<dpad from="buttonAwards" up="" right="btn_tryagain" down="" left="" />
+</page>
+<page name="page_levelfailed">
+<instance component="Component_TitleBackdrop" params="uix_instancename=background,uix_text=,uix_textscale=1,uix_textalign=centre"pos="400,256,1000" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Zone1" params="uix_instancename=container,uix_text=,uix_textscale=1,uix_textalign=centre"pos="265,245,90" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_UIHud" params="uix_instancename=generic,uix_text=,uix_textscale=1,uix_textalign=centre"pos="-5,-5,50" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Button_Play" params="uix_instancename=btn_continue,uix_text=,uix_textscale=1,uix_textalign=centre"pos="739,453,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_AdvertBox" params="uix_instancename=adBox,uix_text=,uix_textscale=1,uix_textalign=centre"pos="535,134,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Button_MoreGames" params="uix_instancename=,uix_text=,uix_textscale=1,uix_textalign=centre"pos="521,473,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_Button_Replay" params="uix_instancename=btn_tryagain,uix_text=,uix_textscale=1,uix_textalign=centre"pos="631,453,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<instance component="Component_SubmitScore" params="uix_instancename=submitscore,uix_text=,uix_textscale=1,uix_textalign=centre"pos="631,247,-22" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+<dpad from="btn_continue" up="" right="" down="" left="btn_tryagain" />
+<dpad from="btn_tryagain" up="" right="btn_continue" down="" left="buttonAwards" />
+<dpad from="buttonAwards" up="" right="btn_tryagain" down="" left="" />
+</page>
+
+<component name="Component_ControlSelectFrame1" type="normal" mc="Component_ControlSelectFrame" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="0,0,200,130"  />
+ <instance component="Component_Controls_Accel" params="uix_instancename=buttonBrake,uix_text=,uix_textscale=1,uix_textalign=centre"pos="176,106,0" scale="0.3,0.3" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+</component>
+<component name="Component_ControlSelectFrame2" type="normal" mc="Component_ControlSelectFrame" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="0,0,200,130"  />
+ <instance component="Component_Controls_Accel" params="uix_instancename=buttonBrake,uix_text=,uix_textscale=1,uix_textalign=centre"pos="24,106,0" scale="0.3,0.3" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+</component>
+<component name="Component_ControlSelectFrame3" type="normal" mc="Component_ControlSelectFrame" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="0,0,200,130"  />
+ <instance component="Component_Controls_Accel" params="uix_instancename=buttonBrake,uix_text=,uix_textscale=1,uix_textalign=centre"pos="174,105,0" scale="0.3,0.3" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+</component>
+<component name="Component_ControlSelectFrame4" type="normal" mc="Component_ControlSelectFrame" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="0,0,200,130"  />
+ <instance component="Component_Controls_Accel" params="uix_instancename=buttonBrake,uix_text=,uix_textscale=1,uix_textalign=centre"pos="174,105,0" scale="0.3,0.3" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+</component>
+<component name="Component_Credits_Disclaimer" type="normal" mc="Component_Credits_Disclaimer" frame="1" autotype="disclaimer" uipage="0" >
+ <collision type="rectangle" values="0,0,15,15"  />
+</component>
+<component name="Component_Credits_Title" type="normal" mc="Component_Credits_Title" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="0,0,15,15"  />
+</component>
+<component name="Component_StageSelectText" type="normal" mc="Component_StageSelectText" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="0,0,15,15"  />
+</component>
+<component name="Component_LevelSelectText" type="normal" mc="Component_LevelSelectText" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="0,0,15,15"  />
+</component>
+<component name="Component_Level_Star" type="normal" mc="Component_Level_Star" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="0,0,15,15"  />
+</component>
+<component name="Component_Level_Star_Large" type="normal" mc="Component_Level_Star_Large" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="0,0,15,15"  />
+</component>
+<component name="Component_Level_Image" type="normal" mc="Component_Level_Image" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="0,0,15,15"  />
+</component>
+<component name="Component_Gold" type="normal" mc="Component_Gold" frame="1" autotype="" uipage="1" >
+ <collision type="rectangle" values="-20,-20,20,20"  />
+</component>
+<component name="Component_UIHud" type="normal" mc="" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="0,0,15,15"  />
+ <instance component="Component_Text" params="uix_instancename=textScore,uix_text=1233567,uix_textscale=1,uix_textalign=left"pos="133,494,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+ <instance component="Component_Gold" params="uix_instancename=goldIcon,uix_text=,uix_textscale=1,uix_textalign=centre"pos="111,494,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+ <instance component="Component_ButtonSFXToggle" params="uix_instancename=buttonMuteSFX,uix_text=,uix_textscale=1,uix_textalign=centre"pos="45,467,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+</component>
+<component name="Component_Hud_Achievement_Popup" type="normal" mc="Component_Hud_Achievement_Popup" frame="1" autotype="" uipage="1" >
+ <collision type="rectangle" values="0,0,15,15"  />
+ <instance component="Component_Text" params="uix_instancename=text1,uix_text=TEXT 1,uix_textscale=1,uix_textalign=centre"pos="136,13,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+ <instance component="Component_Text" params="uix_instancename=text2,uix_text=TEXT 1,uix_textscale=1,uix_textalign=centre"pos="120,36,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+</component>
+<component name="Component_Hud_Countdown" type="normal" mc="Component_Hud_Countdown" frame="1" autotype="" uipage="1" >
+ <collision type="rectangle" values="-20,-20,20,20"  />
+</component>
+<component name="Component_Hud_BoostBlob" type="normal" mc="Component_Hud_BoostBlob" frame="1" autotype="" uipage="1" >
+ <collision type="rectangle" values="-20,-20,20,20"  />
+</component>
+<component name="Component_Controls_Spin" type="normal" mc="Component_Controls" frame="1" autotype="" uipage="1" >
+ <collision type="rectangle" values="0,0,15,15"  />
+</component>
+<component name="Component_Controls_Slam" type="normal" mc="Component_Controls" frame="2" autotype="" uipage="1" >
+ <collision type="rectangle" values="0,0,15,15"  />
+</component>
+<component name="Component_Controls_Accel" type="normal" mc="Component_Controls" frame="3" autotype="" uipage="1" >
+ <collision type="rectangle" values="0,0,15,15"  />
+</component>
+<component name="Component_Controls_Jump" type="normal" mc="Component_Controls" frame="4" autotype="" uipage="1" >
+ <collision type="rectangle" values="0,0,15,15"  />
+</component>
+<component name="Component_DragBox" type="dragbox" mc="" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="0,130,1000,400"  />
+</component>
+<component name="Component_Button_Levels" type="normal" mc="Component_Button_Levels" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="-55,-54,54,54"  />
+</component>
+<component name="Component_Button_Replay" type="normal" mc="Component_Button_Replay" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="-46,-45,48,47"  />
+</component>
+<component name="Component_Hud_Retry" type="normal" mc="Component_Hud_Retry" frame="1" autotype="" uipage="1" >
+ <collision type="rectangle" values="-2,-6,70,68"  />
+</component>
+<component name="Component_Hud_PlacementNeeded" type="normal" mc="Component_Hud_PlacementNeeded" frame="1" autotype="" uipage="1" >
+ <collision type="rectangle" values="-2,-7,108,104"  />
+</component>
+<component name="Component_Button_Shop" type="normal" mc="Component_Button_Shop" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="0,0,80,80"  />
+</component>
+<component name="Component_Button_Tutorial" type="normal" mc="Component_Button_Tutorial" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="1,-7,104,99"  />
+</component>
+<component name="Component_Button_Credits" type="normal" mc="Component_Button_Credits" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="-49,-24,46,22"  />
+</component>
+<component name="Component_Button_NextPage" type="normal" mc="Component_ButtonNextPage" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="-2,-6,70,68"  />
+</component>
+<component name="Component_Button_PrevPage" type="normal" mc="Component_ButtonPrevPage" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="-2,-6,70,68"  />
+</component>
+<component name="Component_Button_Play" type="normal" mc="Component_Button_Play" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="-46,-45,48,47"  />
+</component>
+<component name="Component_Donate_Ouya" type="normal" mc="Component_Donate_Ouya" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="-2,-7,108,104"  />
+</component>
+<component name="Component_Button_GoAdFree" type="normal" mc="Component_Button_GoAdFree" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="-2,-7,108,104"  />
+</component>
+<component name="Component_Button_ClearSave" type="normal" mc="Component_Button_ClearSave" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="-39,-39,39,40"  />
+</component>
+<component name="Component_Button_Stats" type="normal" mc="Component_Button_Stats" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="-2,-6,70,68"  />
+</component>
+<component name="Component_Button_Awards" type="normal" mc="Component_Button_Awards" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="-2,-6,70,68"  />
+</component>
+<component name="Component_UI_Award_Box" type="normal" mc="Component_UI_Award_Box" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="-2,-7,108,104"  />
+</component>
+<component name="Component_Hud_ControlsInGame" type="normal" mc="Component_Hud_ControlsInGame" frame="1" autotype="" uipage="1" >
+ <collision type="rectangle" values="0,0,10,10"  />
+</component>
+<component name="Component_Hud_Pause" type="normal" mc="Component_Hud_Pause" frame="1" autotype="" uipage="1" >
+ <collision type="rectangle" values="0,0,70,70"  />
+</component>
+<component name="Component_Hud_ProgressBar" type="normal" mc="Component_Hud_ProgressBar" frame="1" autotype="" uipage="1" >
+ <collision type="rectangle" values="0,0,15,15"  />
+</component>
+<component name="Component_HUD_FinishFor" type="normal" mc="Component_HUD_FinishFor" frame="1" autotype="" uipage="1" >
+ <collision type="rectangle" values="0,0,15,15"  />
+</component>
+<component name="Component_Hud_Coins" type="normal" mc="Component_Hud_Coins" frame="1" autotype="" uipage="1" >
+ <collision type="rectangle" values="0,0,15,15"  />
+</component>
+<component name="Component_Hud_CarMarker" type="normal" mc="Component_Hud_CarMarker" frame="1" autotype="" uipage="1" >
+ <collision type="rectangle" values="0,0,15,15"  />
+</component>
+<component name="Component_Hud_CarMarker_AI" type="normal" mc="Component_Hud_CarMarker_AI" frame="1" autotype="" uipage="1" >
+ <collision type="rectangle" values="0,0,15,15"  />
+</component>
+<component name="Component_Credits_LongAnimals" type="normal" mc="Component_Credits_LongAnimals" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="-100,-98,100,96"  />
+</component>
+<component name="Component_Credits_BiscuitLocker" type="normal" mc="Component_Credits_BiscuitLocker" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="-100,-98,100,96"  />
+</component>
+<component name="Component_Credits_RobotJAM" type="normal" mc="Component_Credits_RobotJAM" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="-100,-98,100,96"  />
+</component>
+<component name="Component_Credits_Asute" type="normal" mc="Component_Credits_Asute" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="0,0,200,190"  />
+</component>
+<component name="Component_Credits_SnakeEngine" type="normal" mc="Component_Credits_SnakeEngine" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="-42,-35,42,36"  />
+</component>
+<component name="Component_Sponsor_AddictingGames" type="normal" mc="Component_Sponsor_AddictingGames" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="-200,-32,200,32"  />
+</component>
+<component name="Component_Sponsor_ArmorGames" type="normal" mc="Component_Sponsor_ArmorGames" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="-244,-70,250,60"  />
+</component>
+<component name="Component_Sponsor_Kongregate" type="normal" mc="Component_Sponsor_Kongregate" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="-149,-27,145,24"  />
+</component>
+<component name="Component_Sponsor_MouseBreaker" type="normal" mc="Component_Sponsor_MouseBreaker" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="-180,-15,180,15"  />
+</component>
+<component name="Component_Sponsor_TurboNuke" type="normal" mc="Component_Sponsor_TurboNuke" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="-71,-33,57,20"  />
+</component>
+<component name="Component_Sponsor_Kiz10" type="normal" mc="Component_Sponsor_Kiz10" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="-187,-42,184,48"  />
+</component>
+<component name="Component_SponsorLogo" type="normal" mc="" frame="1" autotype="sponsorlogo" uipage="0" >
+ <collision type="rectangle" values="0,0,15,15"  />
+ <instance component="Component_Sponsor_AddictingGames" params="uix_instancename=addictinggames,uix_text=,uix_textscale=1,uix_textalign=centre"pos="32,-1,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+ <instance component="Component_Sponsor_ArmorGames" params="uix_instancename=armorgames,uix_text=,uix_textscale=1,uix_textalign=centre"pos="11,-3,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+ <instance component="Component_Sponsor_MouseBreaker" params="uix_instancename=mousebreaker,uix_text=,uix_textscale=1,uix_textalign=centre"pos="-20,-9,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+ <instance component="Component_Sponsor_TurboNuke" params="uix_instancename=turbonuke,uix_text=,uix_textscale=1,uix_textalign=centre"pos="3,13,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+ <instance component="Component_Sponsor_Kongregate" params="uix_instancename=kongregate,uix_text=,uix_textscale=1,uix_textalign=centre"pos="1,7,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+ <instance component="Component_Sponsor_Kiz10" params="uix_instancename=kiz10,uix_text=,uix_textscale=1,uix_textalign=centre"pos="1,7,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+</component>
+<component name="Component_Button_Twitter" type="normal" mc="Component_Button_Twitter" frame="1" autotype="twitter" uipage="0" >
+ <collision type="rectangle" values="-35,-33,33,35"  />
+</component>
+<component name="Component_Button_Facebook" type="normal" mc="Component_Button_Facebook" frame="1" autotype="facebook" uipage="0" >
+ <collision type="rectangle" values="-35,-33,33,35"  />
+</component>
+<component name="Component_ButtonY8" type="normal" mc="Component_ButtonY8" frame="1" autotype="y8" uipage="0" >
+ <collision type="rectangle" values="0,0,120,76"  />
+</component>
+<component name="Component_Button_Download" type="normal" mc="Component_Button_Download" frame="1" autotype="download" uipage="0" >
+ <collision type="rectangle" values="-49,-24,46,22"  />
+</component>
+<component name="Component_ButtonControls" type="normal" mc="Component_ButtonControls" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="-2,-6,70,68"  />
+</component>
+<component name="Component_ScoreBoxBack" type="normal" mc="Component_ScoreBox" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="0,0,15,15"  />
+</component>
+<component name="Component_ScoreBox" type="normal" mc="" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="0,0,15,15"  />
+ <instance component="Component_ScoreBoxBack" params="uix_instancename=,uix_text=,uix_textscale=1,uix_textalign=centre"pos="0,0,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+ <instance component="Component_Text" params="uix_instancename=textScore,uix_text=1233567,uix_textscale=1,uix_textalign=centre"pos="86,7,-1" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+</component>
+<component name="Component_CashBoxBack" type="normal" mc="Component_CashBox" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="0,0,15,15"  />
+</component>
+<component name="Component_CashBox" type="normal" mc="" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="0,0,15,15"  />
+ <instance component="Component_CashBoxBack" params="uix_instancename=,uix_text=,uix_textscale=1,uix_textalign=centre"pos="0,0,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+ <instance component="Component_Text" params="uix_instancename=textCash,uix_text=1233567,uix_textscale=1,uix_textalign=centre"pos="84,7,-1" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+</component>
+<component name="Component_HighscoreButtonBack" type="normal" mc="Component_HighscoreButton" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="0,0,15,15"  />
+</component>
+<component name="Component_HighscoreButton" type="normal" mc="" frame="1" autotype="highscore" uipage="0" >
+ <collision type="rectangle" values="-74,-2,71,38"  />
+ <instance component="Component_HighscoreButtonBack" params="uix_instancename=,uix_text=,uix_textscale=1,uix_textalign=centre"pos="0,0,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+ <instance component="Component_Text" params="uix_instancename=textScore,uix_text=,uix_textscale=1,uix_textalign=centre"pos="3,-3,-1" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+</component>
+<component name="Component_ButtonSFXToggleOverlay" type="normal" mc="Component_ButtonSFXToggleOverlay" frame="1" autotype="" uipage="1" >
+ <collision type="rectangle" values="0,0,15,15"  />
+</component>
+<component name="Component_ButtonSFXToggle" type="normal" mc="Component_ButtonSFXToggle" frame="1" autotype="" uipage="1" >
+ <collision type="rectangle" values="-39,-38,39,38"  />
+ <instance component="Component_ButtonSFXToggleOverlay" params="uix_instancename=toggleIcon,uix_text=,uix_textscale=1,uix_textalign=centre"pos="0,0,-1" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+</component>
+<component name="Component_ButtonMusicToggleOverlay" type="normal" mc="Component_ButtonMusicToggleOverlay" frame="1" autotype="" uipage="1" >
+ <collision type="rectangle" values="0,0,15,15"  />
+</component>
+<component name="Component_ButtonMusicToggle" type="normal" mc="Component_ButtonMusicToggle" frame="1" autotype="" uipage="1" >
+ <collision type="rectangle" values="-2,-6,70,68"  />
+ <instance component="Component_ButtonMusicToggleOverlay" params="uix_instancename=toggleIcon,uix_text=,uix_textscale=1,uix_textalign=centre"pos="0,0,-1" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+</component>
+<component name="Component_Button_Tick" type="normal" mc="Component_Button_Tick" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="-58,-26,60,29"  />
+</component>
+<component name="Component_Button_Cross" type="normal" mc="Component_Button_Cross" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="-58,-26,60,29"  />
+</component>
+<component name="Component_Text" type="text" mc="" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="0,0,15,15"  />
+</component>
+<component name="Component_Page" type="normal" mc="" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="0,0,15,15"  />
+</component>
+<component name="Component_InfoButton_Qmark" type="normal" mc="Component_InfoButton_Qmark" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="0,0,15,15"  />
+</component>
+<component name="Component_InfoButton_Popup" type="normal" mc="Component_InfoButton_Popup" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="0,0,15,15"  />
+</component>
+<component name="Component_InfoButton" type="normal" mc="" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="0,0,22,22"  />
+ <instance component="Component_InfoButton_Popup" params="uix_instancename=popup,uix_text=,uix_textscale=1,uix_textalign=centre"pos="-151,-59,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+ <instance component="Component_InfoButton_Qmark" params="uix_instancename=,uix_text=,uix_textscale=0,uix_textalign=centre"pos="0,0,-10" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+ <instance component="Component_Text" params="uix_instancename=text1,uix_text=TEXTLINE1,uix_textscale=1,uix_textalign=centre"pos="-38,-60,-58" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+ <instance component="Component_Text" params="uix_instancename=text2,uix_text=TEXTLINE2,uix_textscale=1,uix_textalign=centre"pos="-38,-32,-59" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+ <instance component="Component_Text" params="uix_instancename=text3,uix_text=TEXTLINE3,uix_textscale=1,uix_textalign=centre"pos="-48,3,-60" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+</component>
+<component name="Component_Button" type="normal" mc="" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="-65,-13,65,21"  />
+ <instance component="Component_ButtonBack" params="uix_instancename=,uix_text=,uix_textscale=1,uix_textalign=centre"pos="0,0,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+ <instance component="Component_Text" params="uix_instancename=text,uix_text=TEXT,uix_textscale=1,uix_textalign=centre"pos="0,-9,-58" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="1" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+</component>
+<component name="Component_ButtonInner_Tick" type="normal" mc="Component_ButtonInner_Tick" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="0,0,15,15"  />
+</component>
+<component name="Component_ButtonInner_TickCross" type="normal" mc="Component_ButtonInner_TickCross" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="0,0,15,15"  />
+</component>
+<component name="Component_TickButton" type="normal" mc="" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="-65,-13,65,13"  />
+ <instance component="Component_ButtonBack" params="uix_instancename=,uix_text=,uix_textscale=1,uix_textalign=centre"pos="0,0,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+ <instance component="Component_Text" params="uix_instancename=text,uix_text=TEXT,uix_textscale=1,uix_textalign=centre"pos="2,-14,-58" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="1" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+ <instance component="Component_ButtonInner_Tick" params="uix_instancename=tick,uix_text=,uix_textscale=1,uix_textalign=centre"pos="54,3,-166" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+</component>
+<component name="Component_Button_MoreGames" type="normal" mc="Component_Button_MoreGames" frame="1" autotype="moregames" uipage="0" >
+ <collision type="rectangle" values="-54,-28,52,26"  />
+</component>
+<component name="Component_Button_MoreGames_HUD" type="normal" mc="Component_Button_MoreGames_HUD" frame="1" autotype="moregames" uipage="1" >
+ <collision type="rectangle" values="0,0,70,60"  />
+</component>
+<component name="Component_Button_RestorePurchases" type="normal" mc="Component_Button_RestorePurchases" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="-2,-7,108,104"  />
+</component>
+<component name="Component_Button_MobileShops" type="normal" mc="Component_Button_MobileShops" frame="1" autotype="mobilegames_all" uipage="0" >
+ <collision type="rectangle" values="-58,-59,58,62"  />
+</component>
+<component name="Component_Button_AppStore" type="normal" mc="Component_Button_AppStore" frame="1" autotype="mobilegames_ios" uipage="0" >
+ <collision type="rectangle" values="0,0,130,43"  />
+ <instance component="Component_FreeIcon" params="uix_instancename=free,uix_text=,uix_textscale=1,uix_textalign=centre"pos="131,-7,-100" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+</component>
+<component name="Component_Button_GooglePlay" type="normal" mc="Component_Button_GooglePlay" frame="1" autotype="mobilegames_android" uipage="0" >
+ <collision type="rectangle" values="0,0,130,43"  />
+ <instance component="Component_FreeIcon" params="uix_instancename=free,uix_text=,uix_textscale=1,uix_textalign=centre"pos="131,-7,-100" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+</component>
+<component name="Component_Button_AmazonStore" type="normal" mc="Component_Button_AmazonStore" frame="1" autotype="mobilegames_amazon" uipage="0" >
+ <collision type="rectangle" values="0,0,130,43"  />
+ <instance component="Component_FreeIcon" params="uix_instancename=free,uix_text=,uix_textscale=1,uix_textalign=centre"pos="131,-7,-100" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+</component>
+<component name="Component_FreeIcon" type="normal" mc="Component_FreeIcon" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="0,0,15,15"  />
+</component>
+<component name="Component_EndGame_Background" type="normal" mc="Component_EndGame_Background" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="0,0,15,15"  />
+</component>
+<component name="Component_Background" type="normal" mc="Component_Background" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="0,0,15,15"  />
+</component>
+<component name="Component_TitleBackdrop" type="normal" mc="Component_TitleBackdrop" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="0,0,15,15"  />
+</component>
+<component name="Component_Title_Image" type="normal" mc="Component_Title_Image" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="-92,-84,78,59"  />
+</component>
+<component name="Component_MainLogo" type="normal" mc="Component_MainLogo" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="0,0,15,15"  />
+</component>
+<component name="Component_ButtonEdit" type="normal" mc="Component_ButtonEdit" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="-19,-28,56,45"  />
+</component>
+<component name="Component_ButtonContinueArrow" type="normal" mc="Component_ButtonContinueArrow" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="-19,-28,56,45"  />
+</component>
+<component name="Component_Button_BackArrow" type="normal" mc="Component_Button_BackArrow" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="-39,-39,39,41"  />
+</component>
+<component name="Component_LevelSelectButton" type="normal" mc="Component_LevelSelectButton" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="-19,-28,56,45"  />
+</component>
+<component name="Component_MatchSelectBox" type="normal" mc="" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="-150,-116,150,116"  />
+ <instance component="Component_Zone" params="uix_instancename=flags,uix_text=,uix_textscale=1,uix_textalign=centre"pos="119,41,-2" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+ <instance component="Component_LevelIcon" params="uix_instancename=level0,uix_text=text,uix_textscale=1,uix_textalign=centre"pos="120,-64,-200" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+ <instance component="Component_LevelIcon" params="uix_instancename=level1,uix_text=text,uix_textscale=1,uix_textalign=centre"pos="123,8,-200" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+ <instance component="Component_LevelIcon" params="uix_instancename=level2,uix_text=text,uix_textscale=1,uix_textalign=centre"pos="128,79,-200" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+ <instance component="Component_LevelIcon" params="uix_instancename=level3,uix_text=text,uix_textscale=1,uix_textalign=centre"pos="126,146,-200" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+ <instance component="Component_Text" params="uix_instancename=textMissionName,uix_text=Mission Name,uix_textscale=1,uix_textalign=centre"pos="86,-137,-200" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+</component>
+<component name="Component_MatchIcon" type="normal" mc="" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="-146,-40,130,30"  />
+ <instance component="Component_Day_BG" params="uix_instancename=background,uix_text=,uix_textscale=1,uix_textalign=centre"pos="-9,-3,-5" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+ <instance component="Component_Level_New" params="uix_instancename=newicon,uix_text=,uix_textscale=1,uix_textalign=centre"pos="117,-36,-100" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+ <instance component="Component_Level_Star" params="uix_instancename=star2,uix_text=,uix_textscale=1,uix_textalign=centre"pos="32,1,-200" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+ <instance component="Component_Text" params="uix_instancename=nameText,uix_text=HELLO,uix_textscale=1,uix_textalign=centre"pos="-82,-3,-200" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+ <instance component="Component_Level_Star" params="uix_instancename=star1,uix_text=,uix_textscale=1,uix_textalign=centre"pos="12,1,-200" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+ <instance component="Component_Level_Star" params="uix_instancename=star4,uix_text=,uix_textscale=1,uix_textalign=centre"pos="72,1,-200" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+ <instance component="Component_Level_Star" params="uix_instancename=star3,uix_text=,uix_textscale=1,uix_textalign=centre"pos="52,1,-200" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+ <instance component="Component_Level_Star" params="uix_instancename=star5,uix_text=,uix_textscale=1,uix_textalign=centre"pos="92,1,-200" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+ <instance component="Component_Lock" params="uix_instancename=lock,uix_text=,uix_textscale=1,uix_textalign=centre"pos="-82,-3,-300" scale="0.8,0.8" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+</component>
+<component name="Component_Zone1" type="normal" mc="Component_Zone" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="0,0,15,15"  />
+ <instance component="Component_Text" params="uix_instancename=text5,uix_text=(Gold ,uix_textscale=1,uix_textalign=centre"pos="1,53,-1" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+ <instance component="Component_Text" params="uix_instancename=text6,uix_text=Coins Collected,uix_textscale=1,uix_textalign=centre"pos="2,115,-1" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+ <instance component="Component_Text" params="uix_instancename=text7,uix_text=,uix_textscale=1,uix_textalign=centre"pos="-219,80,-1" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+ <instance component="Component_Text" params="uix_instancename=text4,uix_text=Jump Award,uix_textscale=1,uix_textalign=centre"pos="2,24,-1" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+ <instance component="Component_Text" params="uix_instancename=text3,uix_text=BestLevelJmps,uix_textscale=1,uix_textalign=centre"pos="3,-37,-1" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+ <instance component="Component_Text" params="uix_instancename=text2,uix_text=Level Jumps,uix_textscale=1,uix_textalign=centre"pos="3,-67,-1" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+ <instance component="Component_Text" params="uix_instancename=text8,uix_text=,uix_textscale=1,uix_textalign=centre"pos="-206,121,-1" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+ <instance component="Component_Text" params="uix_instancename=text1,uix_text=Level Complete,uix_textscale=1,uix_textalign=centre"pos="0,-115,-1" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+</component>
+<component name="Component_Zone" type="normal" mc="Component_Zone" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="0,0,15,15"  />
+</component>
+<component name="Component_Level_New" type="normal" mc="Component_Level_New" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="0,0,15,15"  />
+</component>
+<component name="Component_HelpScreen" type="normal" mc="Component_HelpScreen" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="0,0,15,15"  />
+</component>
+<component name="Component_HelpScreenMobile" type="normal" mc="Component_HelpScreenMobile" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="0,0,15,15"  />
+</component>
+<component name="Component_HelpScreenOuya" type="normal" mc="Component_HelpScreenOuya" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="0,0,15,15"  />
+</component>
+<component name="Component_ButtonPageLeft" type="normal" mc="Component_ButtonPageLeft" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="-56,-53,53,51"  />
+</component>
+<component name="Component_ButtonPageRight" type="normal" mc="Component_ButtonPageRight" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="-52,-52,54,54"  />
+</component>
+<component name="Component_LevelSelect_TextBack" type="normal" mc="Component_LevelSelect_TextBack" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="0,0,15,15"  />
+</component>
+<component name="Component_Lock" type="normal" mc="Component_Lock" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="0,0,15,15"  />
+</component>
+<component name="Component_Level_BG" type="normal" mc="Component_Level_BG" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="0,0,15,15"  />
+</component>
+<component name="Component_Hud_Mission_BG" type="normal" mc="Component_Hud_Mission_BG" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="0,0,15,15"  />
+</component>
+<component name="Component_Day_BG" type="normal" mc="Component_Day_BG" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="0,0,15,15"  />
+</component>
+<component name="Component_Mission_Icons" type="normal" mc="Component_Mission_Icons" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="-16,-15,16,17"  />
+</component>
+<component name="Component_Hud_MissionBar" type="normal" mc="Component_Hud_MissionBar" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="-16,-15,16,17"  />
+</component>
+<component name="Component_Hud_ScoreBar" type="normal" mc="Component_Hud_ScoreBar" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="-16,-15,16,17"  />
+</component>
+<component name="Component_Hud_Heart" type="normal" mc="Component_Hud_Heart" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="-16,-15,16,17"  />
+</component>
+<component name="Component_Hud_JumpCounter" type="normal" mc="Component_Hud_JumpCounter" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="-16,-15,16,17"  />
+</component>
+<component name="Component_LevelIcon" type="normal" mc="" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="-149,-72,129,70"  />
+ <instance component="Component_Level_BG" params="uix_instancename=background,uix_text=,uix_textscale=1,uix_textalign=centre"pos="-9,-3,-5" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+ <instance component="Component_Level_Star_Large" params="uix_instancename=star,uix_text=,uix_textscale=1,uix_textalign=centre"pos="-100,22,-200" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+ <instance component="Component_Text" params="uix_instancename=textInfo,uix_text=HELLO,uix_textscale=0.7,uix_textalign=left"pos="-130,-28,-200" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+ <instance component="Component_Level_Image" params="uix_instancename=levelImage,uix_text=,uix_textscale=1,uix_textalign=centre"pos="77,-1,-300" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+ <instance component="Component_Lock" params="uix_instancename=lock,uix_text=,uix_textscale=1,uix_textalign=centre"pos="0,11,-300" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+ <instance component="Component_Level_New" params="uix_instancename=newicon,uix_text=,uix_textscale=1,uix_textalign=centre"pos="107,-56,-400" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+</component>
+<component name="Component_HUD_Startlevel_Objective" type="normal" mc="" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="-236,-24,218,17"  />
+ <instance component="Component_Hud_Mission_BG" params="uix_instancename=background,uix_text=,uix_textscale=1,uix_textalign=centre"pos="-9,-3,-5" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+ <instance component="Component_Text" params="uix_instancename=textInfo,uix_text=HELLO,uix_textscale=1,uix_textalign=left"pos="-157,-4,-200" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+ <instance component="Component_Mission_Icons" params="uix_instancename=icon,uix_text=,uix_textscale=1,uix_textalign=left"pos="157,0,-200" scale="0.8,0.8" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+</component>
+<component name="Component_HUD_Objective" type="normal" mc="" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="-10,-2,117,38"  />
+ <instance component="Component_Hud_MissionBar" params="uix_instancename=,uix_text=,uix_textscale=1,uix_textalign=left"pos="92,20,200" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+ <instance component="Component_Text" params="uix_instancename=textInfo,uix_text=HELLO,uix_textscale=1,uix_textalign=left"pos="57,18,-200" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+ <instance component="Component_Mission_Icons" params="uix_instancename=icon,uix_text=,uix_textscale=1,uix_textalign=left"pos="20,19,-200" scale="0.7,0.7" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+ <instance component="Component_ButtonInner_Tick" params="uix_instancename=tick,uix_text=,uix_textscale=1,uix_textalign=left"pos="35,20,-200" scale="0.6,0.6" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+</component>
+<component name="Component_HUD_Info" type="normal" mc="" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="-10,-2,117,38"  />
+ <instance component="Component_Hud_ScoreBar" params="uix_instancename=,uix_text=,uix_textscale=1,uix_textalign=left"pos="2,4,200" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+ <instance component="Component_Text" params="uix_instancename=lives,uix_text=3,uix_textscale=1,uix_textalign=left"pos="65,27,-200" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+ <instance component="Component_Text" params="uix_instancename=jumps,uix_text=1/12,uix_textscale=1,uix_textalign=left"pos="149,27,-200" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+ <instance component="Component_Text" params="uix_instancename=gold,uix_text=1234,uix_textscale=1,uix_textalign=left"pos="-38,27,-200" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+ <instance component="Component_Hud_Heart" params="uix_instancename=heartIcon,uix_text=,uix_textscale=1,uix_textalign=left"pos="41,26,-200" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+ <instance component="Component_Hud_JumpCounter" params="uix_instancename=jumpIcon,uix_text=,uix_textscale=1,uix_textalign=left"pos="124,26,-200" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+ <instance component="Component_Gold" params="uix_instancename=goldIcon,uix_text=,uix_textscale=1,uix_textalign=left"pos="-67,28,-200" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+</component>
+<component name="Component_PlayerIcon" type="normal" mc="Component_PlayerIcon" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="-242,-70,238,71"  />
+ <instance component="Component_Lock" params="uix_instancename=lock,uix_text=,uix_textscale=1,uix_textalign=centre"pos="-169,-2,-300" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+</component>
+<component name="Component_AdvertBox" type="normal" mc="Component_AdvertBox" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="0,0,15,15"  />
+</component>
+<component name="Component_LevelPlaceContainer" type="normal" mc="Component_LevelPlaceContainer" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="0,0,15,15"  />
+ <instance component="Component_Text" params="uix_instancename=text1,uix_text=TEXT 1,uix_textscale=1,uix_textalign=left"pos="47,5,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+</component>
+<component name="Component_LevelStatsContainer1" type="normal" mc="Component_LevelStatsContainer" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="0,0,15,15"  />
+ <instance component="Component_Text" params="uix_instancename=text1,uix_text=TEXT 1,uix_textscale=1,uix_textalign=left"pos="40,8,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+</component>
+<component name="Component_LevelStatsContainer2" type="normal" mc="Component_LevelStatsContainer" frame="2" autotype="" uipage="0" >
+ <collision type="rectangle" values="0,0,15,15"  />
+ <instance component="Component_Text" params="uix_instancename=text1,uix_text=TEXT 1,uix_textscale=1,uix_textalign=left"pos="38,8,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+</component>
+<component name="Component_LevelStatsContainer3" type="normal" mc="Component_LevelStatsContainer" frame="3" autotype="" uipage="0" >
+ <collision type="rectangle" values="0,0,15,15"  />
+ <instance component="Component_Text" params="uix_instancename=text1,uix_text=TEXT 1,uix_textscale=1,uix_textalign=left"pos="40,8,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+</component>
+<component name="Component_LevelStatsContainer4" type="normal" mc="Component_LevelStatsContainer" frame="4" autotype="" uipage="0" >
+ <collision type="rectangle" values="0,0,15,15"  />
+ <instance component="Component_Text" params="uix_instancename=text1,uix_text=TEXT 1,uix_textscale=1,uix_textalign=left"pos="47,10,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+</component>
+<component name="Component_LevelComplete_YourPosition" type="normal" mc="Component_LevelComplete_YourPosition" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="0,0,50,50"  />
+</component>
+<component name="Component_LevelComplete_YourPositionText" type="normal" mc="Component_LevelComplete_YourPositionText" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="0,0,50,50"  />
+</component>
+<component name="Component_LevelFailedText" type="normal" mc="Component_LevelFailedText" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="0,0,15,15"  />
+</component>
+<component name="Component_LevelFailedPanel" type="normal" mc="" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="0,0,15,15"  />
+ <instance component="Component_LevelFailedText" params="uix_instancename=,uix_text=,uix_textscale=1,uix_textalign=centre"pos="159,27,900" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+ <instance component="Component_Button_Levels" params="uix_instancename=buttonLevelSelect,uix_text=,uix_textscale=1,uix_textalign=centre"pos="185,265,900" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+ <instance component="Component_Button_Replay" params="uix_instancename=btn_tryagain,uix_text=,uix_textscale=1,uix_textalign=centre"pos="48,266,900" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+</component>
+<component name="Component_ButtonLanguage" type="normal" mc="Component_ButtonLanguage" frame="1" autotype="" uipage="0" >
+ <collision type="circle" values="0,0,100"  />
+ <instance component="Component_ButtonBack" params="uix_instancename=,uix_text=,uix_textscale=1,uix_textalign=centre"pos="0,0,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+</component>
+<component name="Component_ButtonBack" type="normal" mc="Component_ButtonBack" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="0,0,15,15"  />
+</component>
+<component name="Component_POOP" type="normal" mc="Component_ButtonBack" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="0,0,15,15"  />
+ <instance component="Component_Text" params="uix_instancename=,uix_text=,uix_textscale=1,uix_textalign=centre"pos="0,0,0" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+</component>
+<component name="Component_NextLevelUnlocked" type="normal" mc="Component_NextLevelUnlocked" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="0,0,15,15"  />
+</component>
+<component name="Component_CarIcons" type="normal" mc="Component_CarIcons" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="0,0,15,15"  />
+</component>
+<component name="Component_NitroUpgrade1" type="normal" mc="Component_NitroUpgrade1" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="0,0,15,15"  />
+</component>
+<component name="Component_NitroUpgrade2" type="normal" mc="Component_NitroUpgrade2" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="0,0,15,15"  />
+</component>
+<component name="Component_NitroUpgrade3" type="normal" mc="Component_NitroUpgrade3" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="0,0,15,15"  />
+</component>
+<component name="Component_NitroUpgrade4" type="normal" mc="Component_NitroUpgrade4" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="0,0,15,15"  />
+</component>
+<component name="Component_NitroUpgrade5" type="normal" mc="Component_NitroUpgrade5" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="0,0,15,15"  />
+</component>
+<component name="Component_NitroUpgrade6" type="normal" mc="Component_NitroUpgrade6" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="0,0,15,15"  />
+</component>
+<component name="Component_NitroUprade" type="normal" mc="Component_NitroUprade" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="0,0,15,15"  />
+</component>
+<component name="Component_CarUpgrade" type="normal" mc="Component_CarUpgrade" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="0,0,15,15"  />
+</component>
+<component name="Component_ButtonUpgrade" type="normal" mc="Component_ButtonUpgrade" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="-2,-6,70,68"  />
+</component>
+<component name="Component_UpgradesText" type="normal" mc="Component_UpgradesText" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="0,0,15,15"  />
+</component>
+<component name="Component_AchievementsText" type="normal" mc="Component_AchievementsText" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="0,0,15,15"  />
+</component>
+<component name="Component_PausedText" type="normal" mc="Component_PausedText" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="0,0,15,15"  />
+</component>
+<component name="Component_CarSelectText" type="normal" mc="Component_CarSelectText" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="0,0,15,15"  />
+</component>
+<component name="Component_Screen_MobileVersion" type="normal" mc="Component_Screen_MobileVersion" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="0,0,15,15"  />
+</component>
+<component name="Component_OuyaPurchase" type="normal" mc="Component_OuyaPurchase" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="0,0,15,15"  />
+</component>
+<component name="Component_UpgradeBlob" type="normal" mc="Component_UpgradeBlob" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="0,0,15,15"  />
+</component>
+<component name="Component_UpgradeBlobContainer" type="normal" mc="" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="0,0,15,15"  />
+ <instance component="Component_UpgradeBlob" params="uix_instancename=blob0,uix_text=,uix_textscale=1,uix_textalign=centre"pos="0,0,100" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+ <instance component="Component_UpgradeBlob" params="uix_instancename=blob1,uix_text=,uix_textscale=1,uix_textalign=centre"pos="20,0,100" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+ <instance component="Component_UpgradeBlob" params="uix_instancename=blob2,uix_text=,uix_textscale=1,uix_textalign=centre"pos="40,0,100" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+ <instance component="Component_UpgradeBlob" params="uix_instancename=blob3,uix_text=,uix_textscale=1,uix_textalign=centre"pos="60,0,100" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+ <instance component="Component_UpgradeBlob" params="uix_instancename=blob4,uix_text=,uix_textscale=1,uix_textalign=centre"pos="80,0,100" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+ <instance component="Component_UpgradeBlob" params="uix_instancename=blob5,uix_text=,uix_textscale=1,uix_textalign=centre"pos="100,0,100" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+ <instance component="Component_UpgradeBlob" params="uix_instancename=blob6,uix_text=,uix_textscale=1,uix_textalign=centre"pos="120,0,100" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+ <instance component="Component_UpgradeBlob" params="uix_instancename=blob7,uix_text=,uix_textscale=1,uix_textalign=centre"pos="140,0,100" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+</component>
+<component name="Component_LoadingLevel" type="normal" mc="Component_LoadingLevel" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="0,0,15,15"  />
+</component>
+<component name="Component_InputText" type="inputtext" mc="" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="-80,0,80,30"  />
+</component>
+<component name="Component_SubmitScore_Back" type="normal" mc="Component_SubmitScore_Back" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="-80,0,80,30"  />
+</component>
+<component name="Component_SubmitScore_Button" type="normal" mc="Component_SubmitScore_Button" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="-60,-13,120,26"  />
+</component>
+<component name="Component_SubmitScore" type="normal" mc="" frame="1" autotype="submitscore" uipage="0" >
+ <collision type="rectangle" values="0,0,15,15"  />
+ <instance component="Component_SubmitScore_Back" params="uix_instancename=,uix_text=,uix_textscale=1,uix_textalign=centre"pos="0,0,100" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+ <instance component="Component_SubmitScore_Button" params="uix_instancename=buttonSubmit,uix_text=,uix_textscale=1,uix_textalign=centre"pos="0,40,100" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+ <instance component="Component_InputText" params="uix_instancename=inputtext,uix_text=asdasdasd,uix_textscale=1,uix_textalign=centre"pos="0,-20,50" scale="1,1" rot="0" alpha="1" color="1.1.1" textparent="0" transonDelay="0" transonType="none" transonFunc="InitAppear"  />
+</component>
+<component name="Component_Story_F1" type="normal" mc="Component_Story_F1" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="0,0,15,15"  />
+</component>
+<component name="Component_Story_F2" type="normal" mc="Component_Story_F2" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="0,0,15,15"  />
+</component>
+<component name="Component_Story_F3" type="normal" mc="Component_Story_F3" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="0,0,15,15"  />
+</component>
+<component name="Component_Story_F4" type="normal" mc="Component_Story_F4" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="0,0,15,15"  />
+</component>
+<component name="Component_Story_S1" type="normal" mc="Component_Story_S1" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="0,0,15,15"  />
+</component>
+<component name="Component_Story_S2" type="normal" mc="Component_Story_S2" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="0,0,15,15"  />
+</component>
+<component name="Component_Story_S3" type="normal" mc="Component_Story_S3" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="0,0,15,15"  />
+</component>
+<component name="Component_Story_S4" type="normal" mc="Component_Story_S4" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="0,0,15,15"  />
+</component>
+<component name="Component_Button_WatchVideo" type="normal" mc="Component_Button_WatchVideo" frame="1" autotype="" uipage="0" >
+ <collision type="rectangle" values="-81,-42,82,42"  />
+</component>
+</data>

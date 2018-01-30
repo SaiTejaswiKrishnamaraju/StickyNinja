@@ -1,0 +1,139 @@
+<data>
+	
+		
+		<objparam name="general_timer" type="number" def="1"></objparam>
+		<objparam name="general_timer_startoffset" type="number" def="0"></objparam>
+		
+		<objparam name="mathpath_speed" type="number" def="0"></objparam>
+		<objparam name="mathpath_radius" type="number" def="0"></objparam>
+		<objparam name="mathpath_startpos" type="number" def="0"></objparam>
+		<objparam name="mathpath_scalex" type="number" def="1"></objparam>
+		<objparam name="mathpath_scaley" type="number" def="1"></objparam>
+		<objparam name="mathpath_num" type="number" def="1"></objparam>
+		<objparam name="mathpath_wavespeed" type="number" def="0"></objparam>
+		<objparam name="mathpath_waveradius" type="number" def="0"></objparam>
+		<objparam name="mathpath_numpertype" type="number" def="0"></objparam>
+
+		<objparam name="rotator_vel" type="number" def="0"></objparam>
+		<objparam name="rotator_pause" type="number" def="0"></objparam>
+		<objparam name="rotator_anglechange" type="number" def="0"></objparam>
+		
+		<objparam name="circlepath_radius" type="number" def="100"></objparam>
+		<objparam name="circlepath_startang" type="angle" def="0"></objparam>
+		<objparam name="circlepath_angvel" type="number" def="5"></objparam>
+		<objparam name="pendulum_accel" type="number" def="0.001"></objparam>
+		<objparam name="pendulum_maxvel" type="number" def="0.1"></objparam>
+		
+		<objparam name="cannon_minang" type="number" def="0"></objparam>
+		<objparam name="cannon_maxang" type="number" def="0"></objparam>
+		<objparam name="cannon_mode" type="number" def="0"></objparam>
+		<objparam name="cannon_speed" type="number" def="0"></objparam>
+		
+		<objparam name="pickup_count" type="number" def="3"></objparam>
+		<objparam name="force" type="number" def="100"></objparam>
+
+		<objparam name="obj_on" type="bool" def="true"></objparam>
+		
+		<objparam name="path_startmode" type="list" def="stop" values="stop,start,start_reverse"></objparam>
+		<objparam name="path_endmode" type="list" def="stop" values="stop,bounce,loop,reset"></objparam>
+		<objparam name="path_switchmode" type="list" def="start" values="start,start_doubleswitch,stop,toggle_dir,toggle_movement"></objparam>
+		
+		<objparam name="path_line" type="linelink" def=""></objparam>
+		<objparam name="path_speed" type="number" def="30">	</objparam>		
+		<objparam name="path_loop" type="bool" def="false"></objparam>			
+		<objparam name="path_spline" type="bool" def="true"></objparam>			
+		<objparam name="path_ease" type="list" def="linear" values="linear,power_in,power_out,power_inout,spring_in,spring_out,spring_inout"></objparam>
+		<objparam name="path_easevalue" type="number" def="1"></objparam>			
+		<objparam name="path_endreset" type="bool" def="false"></objparam>			
+		<objparam name="path_startpos" type="number" def="0"></objparam>			
+		<objparam name="path_2way" type="bool" def="false">	</objparam>		
+		<objparam name="path_rotatetopath" type="bool" def="true" ></objparam>		
+		<objparam name="path_pointtoobject" type="objlink" def="" ></objparam>		
+		<objparam name="path_startmoving" type="bool" def="true"></objparam>			
+		<objparam name="linkobj_line" type="linelink" def=""></objparam>			
+		<objparam name="linkobj_linka" type="objlink" def=""></objparam>			
+		<objparam name="linkobj_linkb" type="objlink" def=""></objparam>			
+		<objparam name="linkobj_minang" type="number" def="0"></objparam>
+		<objparam name="linkobj_maxang" type="number" def="0"></objparam>
+		<objparam name="linkobj_x0" type="number" def="0"></objparam>
+		<objparam name="linkobj_y0" type="number" def="0"></objparam>
+		<objparam name="linkobj_x1" type="number" def="0"></objparam>
+		<objparam name="linkobj_y1" type="number" def="0"></objparam>
+		
+
+		
+		<objparam name="prismatic_axisangle" type="angle" def="0"></objparam>
+		<objparam name="prismatic_enablelimit" type="bool" def="true"></objparam>
+		<objparam name="prismatic_lowertranslation" type="number" def="0"></objparam>
+		<objparam name="prismatic_uppertranslation" type="number" def="0"></objparam>
+		<objparam name="prismatic_enablemotor" type="bool" def="false"></objparam>
+		<objparam name="prismatic_motorspeed" type="number" def="0"></objparam>
+		<objparam name="prismatic_maxmotorforce" type="number" def="0"></objparam>
+
+		
+		
+		<objparam name="line_type" type="list" def="normal" values="normal,transparent"></objparam>
+		<objparam name="line_thickness" type="number" def="1"></objparam>
+		<objparam name="line_fixed" type="bool" def="true"></objparam>
+		<objparam name="line_physmaterial" type="list" def="average" values="average,bouncy,smooth,dense"></objparam>
+		<objparam name="line_function" type="list" def="InitGameObjLine_Grassy" values="InitGameObjLine_Grassy,InitGameObjLine_Smooth,InitGameObjLine_Death,InitGameObjLine_Bouncy,InitGameObjLine_Icy,InitGameObjLine_ScrollArea,InitGameObjLine_Background,InitGameObjLine_Switch,InitGameObjLine_NonCollision,InitGameObjLine_KnifeEdge,InitGameObjLine_TriggerHitMissile,InitGameObjLine_ForShow"></objparam>
+		<objparam name="line_background_frame" type="int" def="1" ></objparam>
+		
+		<objparam name="editor_layer" type="editorlayer" def="1"></objparam>
+		
+		
+		<objparam name="switch_name" type="text" def=""></objparam>
+		<objparam name="switch_type" type="list" def="once" values="once,timed,2way"></objparam>
+		<objparam name="switch_time" type="number" def="3"></objparam>
+		<objparam name="helptext_text" type="text" def="help text"></objparam>
+		<objparam name="helptext_initialdelay" type="number" def="0"></objparam>
+		<objparam name="helptext_color" type="list" def="ffffff" values="ffffff,ff0000,00ff00,0000ff"></objparam>
+		
+		
+		<objparam name="disk_velocity" type="number" def="20"></objparam>
+		<objparam name="disk_type" type="list" def="constant" values="constant"></objparam>
+		
+		<objparam name="hintpopup_frame" type="number" def="1" ></objparam>
+		<objparam name="hintpopup_timer" type="number" def="5" ></objparam>
+		
+		<objparam name="spawner_initialdelay" type="number" def="0" ></objparam>
+		<objparam name="spawner_frequency" type="number" def="3" ></objparam>
+		 <objparam name="spawner_spawnobject" type="list" def="once" values="ball_tiny,spikyball,shark"></objparam>
+		<objparam name="spawner_totalamount" type="number" def="10" ></objparam>
+		<objparam name="spawner_angle" type="angle" def="0" ></objparam>
+		<objparam name="spawner_velocity" type="number" def="1" ></objparam>
+		<objparam name="spawner_object_timeout" type="number" def="0" ></objparam>
+		<objparam name="spawner_visible" type="bool" def="true" ></objparam>
+		<objparam name="spawner_frame" type="number" def="1" ></objparam>
+
+		
+		
+		<objparam name="player_ammo" type="number" def="0" ></objparam>
+		<objparam name="doorswitch_openangle" type="angle" def="90" ></objparam>
+		<objparam name="doorswitch_2way" type="bool" def="true"></objparam>
+		<objparam name="doorswitch_ccw" type="bool" def="false"></objparam>
+		<objparam name="doorswitch_linkid" type="number" def="0" ></objparam>
+		<objparam name="doorswitch_rotvel" type="number" def="6" ></objparam>
+		<objparam name="doorswitch_link" type="objlink" def="" ></objparam>
+		
+		<objparam name="level_bombtime1" type="number" def="10" ></objparam>
+		<objparam name="level_bombtime2" type="number" def="9" ></objparam>
+		<objparam name="level_bombtime3" type="number" def="8" ></objparam>
+		<objparam name="level_background" type="list" def="1" values="1,2,3,4,5"></objparam>
+		<objparam name="help_distance" type="number" def="1000"></objparam>
+
+		
+		<objparam name="kite_force" type="number" def="80" ></objparam>
+		
+		<objparam name="conveyor_speed" type="number" def="50" ></objparam>
+		<objparam name="keeper_action" type="list" def="stationary" values="stationary,jump1,crouch1,jumpcrouch1"></objparam>
+		<objparam name="keeper_initialdelay" type="number" def="0"></objparam>
+		<objparam name="keeper_delayoffset" type="number" def="0"></objparam>
+		
+		
+<!-- Object editor params -->		
+		<objparam name="obj_rot" type="number" def="0"></objparam>
+		<objparam name="obj_scale" type="number" def="1"></objparam>
+		<objparam name="obj_xflip" type="bool" def="false"></objparam>
+		
+</data>

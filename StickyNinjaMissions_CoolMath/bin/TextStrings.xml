@@ -1,0 +1,81 @@
+<data>
+<textstring name="" en="" it="" fr="" de="" pt="" es="" nl="" tr="" se="" nn="" />
+<textstring name="" en="" it="" fr="" de="" pt="" es="" nl="" tr="" se="" nn="" />
+<textstring name="play game" en="" it="giocare gioco" fr="Jouer" de="Spielen" pt="jogar o jogo" es="jugar" nl="Spelen" tr="oyun oynamak" se="Spela" nn="" />
+<textstring name="more games" en="" it="altri giochi" fr="Plus de jeux" de="Mehr Spiele" pt="mais jogos" es="más juegos" nl="Meer Spellen" tr="Daha fazla oyna" se="fler spel" nn="" />
+<textstring name="" en="" it="" fr="" de="" pt="" es="" nl="" tr="" se="" nn="" />
+<textstring name="games for your site" en="" it="giochi per il tuo sito" fr="Jeux pour ton site" de="Spiele für deine Website" pt="jogos para o seu site" es="juegos para tu sitio" nl="Spellen voor jouw website" tr="Siteniz için oyunlar" se="spel till din hemsida" nn="" />
+<textstring name="credits" en="" it="crediti" fr="crédits" de="Mitwirkende" pt="créditos" es="créditos" nl="De Makers" tr="Credit" se="Medverkande" nn="De Makers is literally the makers" />
+<textstring name="back" en="" it="indietro" fr="retour" de="Zurück" pt="de volta" es="volver" nl="terug" tr="geri" se="tillbaka" nn="" />
+<textstring name="score" en="" it="punteggio" fr="points" de="Punkte" pt="contagem" es="score" nl="score " tr="skor" se="poäng" nn="" />
+<textstring name="download" en="" it="scaricare" fr="télécharger" de="Download" pt="télécharger" es="descargar" nl="downloaden" tr="indirmek" se="hämta" nn="" />
+<textstring name="walkthrough" en="" it="spiegazione esauriente" fr="Guide de jeu" de="Komplettlösung" pt="passo a passo" es="paso a paso" nl="walkthrough" tr="walkthrough" se="genomgång" nn="handleiding literally is manual. This text is not translated on the level UI" />
+<textstring name="paused" en="" it="in pausa" fr="pause" de="Pause" pt="pausada" es="pausado" nl="gepauseerd" tr="duraklatıldı" se="pausad" nn="" />
+<textstring name="languages" en="" it="lingue" fr="langues" de="Sprachen" pt="línguas" es="idiomas" nl="talen" tr="diller" se="språk" nn="Might be a better idea to keep this one languages everywhere" />
+<textstring name="continue" en="" it="continuare" fr="continuer" de="Fortsetzen" pt="continuar" es="continuar" nl="Doorgaan" tr="devam etmek" se="fortsätt" nn="" />
+<textstring name="clear save" en="" it="cancellare salvare" fr="effacer sauvegarder" de="Speicherstand löschen" pt="limpar salvar" es="borrar datos" nl="Opgeslagen spel verwijderen" tr="kaydetmek temizleyin" se="rensa sparning" nn="" />
+<textstring name="free games" en="" it="giochi gratis" fr="jeux gratuits" de="Kostenlose Spiele" pt="jogos livres" es="juegos gratis" nl="gratis spelletjes" tr="ücretsiz oyunlar" se="gratis spel" nn="" />
+<textstring name="other games" en="" it="altri giochi" fr="d'autres jeux" de="Andere Spiele" pt="outros jogos" es="otros juegos" nl="andere spellen" tr="diğer oyunlar" se="andra spel" nn="" />
+<textstring name="play more" en="" it="giocare di più" fr="plus de jeux" de="Mehr spielen" pt="jogar mais" es="más juegos" nl="speel meer spellen" tr="Daha fazla oyna" se="spela mer" nn="" />
+<textstring name="great games" en="" it="grandi giochi" fr="super jeux" de="Tolle Spiele" pt="grandes jogos" es="grandes juegos" nl="Geweldige spellen" tr="büyük oyunlar" se="bra spel" nn="" />
+<textstring name="puzzle games" en="" it="puzzle-giochi" fr="puzzle" de="Puzzle-Spiele" pt="jogos de puzzle" es="juegos de lógica" nl="puzzelspellen" tr="bulmaca oyunları" se="pussel spel" nn="" />
+<textstring name="sport games" en="" it="giochi di sport" fr="jeux de sport" de="Sport-Spiele" pt="esporte jogos" es="juegos de deportes" nl="sport spellen" tr="spor oyunları" se="sport spel" nn="" />
+<textstring name="driving games" en="" it="giochi di guida" fr="jeux de conduite" de="Rennspiele" pt="jogos de condução" es="juegos de conducir" nl="Race spellen" tr="sürüş oyunları" se="bil spel" nn="" />
+<textstring name="play with scores" en="" it="giocare con i punteggi" fr="Jeux avec score" de="
+Mit Punkten spielen" pt="jogar com escores" es="juega con puntuaciones" nl="Speel met scores" tr="puanları ile oynamak" se="spela med poäng" nn="On the level complete/failed screen this text is not translated" />
+<textstring name="" en="" it="" fr="" de="" pt="" es="" nl="" tr="" se="" nn="" />
+<textstring name="" en="" it="" fr="" de="" pt="" es="" nl="" tr="" se="" nn="" />
+<textstring name="level select" en="" it="selezionare il livello" fr="Choix de niveau" de="Level auswählen
+" pt="Nível" es="seleccionar nivel" nl="Level selecteren" tr="düzeyini seçin" se="välj nivå" nn="" />
+<textstring name="level complete" en="" it="livello completato" fr="Niveau accompli" de="Level komplett
+" pt="nível completo" es="nivel completado" nl="Level gehaald" tr="tam bir düzeyde" se="nivå avklarad" nn="" />
+<textstring name="level failed" en="" it="livelo fallito" fr="niveau a échoué" de="Level nicht geschafft" pt="nível falhou" es=" Nivel Fallado" nl="niveau is mislukt" tr="seviyesi başarısız" se="nivå misslyckades" nn="" />
+<textstring name="match select" en="" it="selezionare la partita" fr="Selection de match" de="Spiel wählen
+" pt="match seleciona" es="seleccionar partido" nl="Match selecteren" tr="uyuşum seçimi" se="välj match" nn="" />
+<textstring name="team select / modify" en="" it="selezionare / modificare squadra" fr="choix d'equipe/ modifier" de="Team auswählen / ändern" pt="seleto time / modificar" es="seleccionar / modificar equipo" nl="Team selecteren/wijzigen" tr="değiştirmek select / takım" se="välj/ändra lag" nn="" />
+<textstring name="team editor" en="" it="editore di squadra" fr="Chef d'equipe" de="Team-Editor" pt="editor de equipe" es="editor de equipo" nl="team editor" tr="takım editör" se="redigera lag" nn="" />
+<textstring name="player" en="" it="giocatore" fr="joueur" de="Spieler" pt="jogador" es="jugador" nl="speler" tr="oyuncu" se="spelare" nn="" />
+<textstring name="computer" en="" it="computer" fr="ordinateur" de="Computer" pt="computador" es="ordenador" nl="computer" tr="bilgisayar" se="dator" nn="" />
+<textstring name="big heads" en="" it="grandi teste" fr="Grosses tetes" de="Große Köpfe" pt="cabeças grandes" es="cabezones" nl="grote hoofden" tr="büyük baş" se="stora huvuden" nn="" />
+<textstring name="haddock" en="" it="eglefino" fr="Eglefin" de="Schellfisch" pt="eglefim" es="bacalaos" nl="schelvis" tr="mezgit balığı" se="torsk" nn="" />
+<textstring name="exploding refs" en="" it="arbitro esplosivo" fr="Arbitre explosif" de="Explodierende Schiris
+" pt="refs explodindo" es="árbitros explosivos" nl="exploderende scheidsrechters" tr="patlayan refs" se="exploderande domare" nn="" />
+<textstring name="kicks" en="" it="calci" fr="Tirs" de="Kicks" pt="chutes" es="patadas" nl="kicks" tr="tekmeler" se="sparkar" nn="" />
+<textstring name="gold" en="" it="oro" fr="or" de="Gold" pt="ouro" es="oro" nl="goud" tr="altın" se="guld" nn="" />
+<textstring name="free kicks" en="" it="calci di punizione" fr="coups francs" de="Freistöße" pt="pontapés livres" es="tiros libres" nl="vrije trappen" tr="serbest vuruş" se="frisparkar" nn="" />
+<textstring name="your best" en="" it="record" fr="Votre meilleur" de="Deine Bestleistung
+" pt="o seu melhor" es="récord" nl="uw beste score" tr="en iyi" se="ditt bästa" nn="uw beste can't be used stand alone. has to be uw beste score or something like that" />
+<textstring name="shirt" en="" it="camicia" fr="Maillot" de="Hemd" pt="camisa" es="camiseta" nl="Shirt" tr="gömlek" se="skjorta" nn="" />
+<textstring name="pattern" en="" it="disegno" fr="Motif" de="Muster" pt="padrão" es="patrón" nl="patroon" tr="model" se="mönster" nn="" />
+<textstring name="shorts" en="" it="pantaloncini" fr="short" de="Shorts" pt="bermudas" es="pantalones cortos" nl="korte broek" tr="şort" se="shorts" nn="" />
+<textstring name="socks" en="" it="calze" fr="chaussettes" de="Socken" pt="meias" es="calcetas" nl="sokken" tr="çorap" se="strumpor" nn="" />
+<textstring name="" en="" it="" fr="" de="" pt="" es="(Design your own - Diseña tu equipo)" nl="" tr="" se="" nn="" />
+<textstring name="" en="" it="" fr="" de="" pt="" es="" nl="" tr="" se="" nn="" />
+<textstring name="Soccer Balls 2" en="" it="Soccer Balls 2" fr="Soccer Balls 2" de="Soccer Balls 2" pt="Bolas de futebol 2" es="Balones de Fútbol 2" nl="Soccer Balls 2" tr="Futbol Topları 2" se="Fotbollar 2" nn="" />
+<textstring name="Knock over refs" en="" it="rovesciare arbitri" fr="Renverser l'arbitre" de="Wirf die Schiris um
+" pt="Derrubar refs" es="Derriba a los árbitros" nl="Schiet de scheidsrechters omver" tr="Refs fazla Knock" se="Vält domarna" nn="" />
+<textstring name="and score goals." en="" it="e segnare goal" fr="et marquer des buts" de="und schieße Tore." pt="e marcar gols." es="y anota goles." nl="en scoor doelpunten." tr="ve gol." se="och gör mål." nn="" />
+<textstring name="goal" en="" it="goal" fr="But" de="Tor" pt="meta" es="gol" nl="doel" tr="gol" se="mål" nn="" />
+<textstring name="Hit switches to activate things" en="" it="colpire interruttori per accendere le cose" fr="Appuyer sur les touches pour activer des choses" de="
+Triff die Schalter. um Dinge zu aktivieren" pt="Hit chaves para ativar as coisas" es="Golpea los interruptores para activar cosas" nl="raak schakelaars om dingen te activeren" tr="Şeyler etkinleştirmek için anahtarları Hit" se="Träffa tryckplattor för att aktivera saker" nn="" />
+<textstring name="pass the ball to other players" en="" it="passare il pallone ad altri giacatori" fr="passer la balle aux autres joueurs" de="Passe den Ball zu anderen Spielern" pt="passar a bola para os outros jogadores" es="pasa el balón a otros jugadores" nl="paas de bal naar andere spelers" tr="Diğer oyunculara topu" se="passa bollen till andra spelare" nn="" />
+<textstring name="use any balls to score" en="" it="utilizzare qualsiasi palle per segnare" fr="Utiliser toutes les balles pour marquer" de="Benutze einen beliebigen Ball zum punkten" pt="usar as bolas para marcar" es="utiliza cualquier balón para anotar" nl="gebruik alle ballen om te scoren" tr="puan için herhangi bir topları kullanın" se="använd valfri boll för att göra mål" nn="" />
+<textstring name="sometimes you have a beach ball!" en="" it="a volte. ha un pallone da spiaggia" fr="Parfois tu as une balle de plage!" de="Manchmal hast du einen Strand-Ball" pt="às vezes você tem uma bola de praia!" es="¡a veces tienes una pelota de playa!" nl="soms heb je een strandbal!" tr="bazen bir plaj topu var!" se="Ibland har du en badboll!" nn="" />
+<textstring name="beach balls dont hurt refs" en="" it="palloni da spiaggia non si fanno male agli arbitri" fr="Les balles de plages ne font pas mal aux arbitres" de="Strand-Bälle tun Schiris nicht weh" pt="bolas de praia não ferem refs" es="las pelotas de playa no lastiman a los árbitros" nl="strandballen doen scheidsrechters geen schade" tr="plaj topları refs incitme" se="badbollar skadar inte domarna" nn="" />
+<textstring name="beachballs can destroy sand blocks" en="" it="palloni da spiaggia possono distruggere blocchi di sabbia" fr="The balles de plages peuvent detruire les blocs de sable" de="Strand-Bälle können Sand-Blöcke zerstören" pt="beachballs pode destruir blocos de areia" es="las pelotas de playa pueden destruir bloques de arena" nl="strandballen kunnen zandblokken vernietigen" tr="beachballs kum blokları yok edebilir" se="badbollar kan förstöra sand block" nn="" />
+<textstring name="score in every goal" en="" it="segna in ogni porta" fr="Marque dans chaque but" de="Triff in jedes Tor
+" pt="pontuação em cada gol" es="anota en cada portería" nl="score in elk doel" tr="Her gol skoru" se="gör mål i alla mål" nn="" />
+<textstring name="take fewer shots for gold" en="" it="usa meno tiri per ottenere l'oro" fr="utilise moins de tirs pour de l'or" de="Benötige weniger Schüsse für Gold" pt="tomar poucos tiros para o ouro" es="usa menos tiros para obtener oro" nl="neem minder schoten voor goud" tr="altın için daha az çekim" se="använd färre skott för guld" nn="" />
+<textstring name="rest objects on switches" en="" it="appoggiare oggetti su interruttori" fr="Repose des objets sur les touches " de="Bringe Objekte auf Schaltern zum Liegen" pt="objetos de descanso em switches" es="coloca objetos en los interruptores" nl="leg spullen op de schakelaars" tr="anahtarları geri kalanı nesneleri" se="placera objekt på tryckplattor" nn="" />
+<textstring name="these players jump to do headers" en="" it="questi giocatori balzano per fare colpi di testa" fr="Ces joueurs sautent pour faire des tetes" de="Diese Spieler springen. um Kopfbälle zu machen
+" pt="estes jogadores saltar para fazer cabeçalhos" es="estos jugadores saltan para dar cabezazos" nl="Deze spelers springen" tr="bu oyuncuların başlıklarını yapmak atlamak" se="dessa spelare hoppar för att göra nickningar" nn="" />
+<textstring name="pop balls!" en="" it="scoppiare palloni!" fr="Eclate les ballons!" de="Bringe Bälle zum Platzen!" pt="bolas pop!" es="¡revienta balones!" nl="pop ballen!" tr="pop topları!" se="poppa bollar!" nn="" />
+<textstring name="" en="" it="" fr="" de="" pt="" es="" nl="" tr="" se="" nn="" />
+<textstring name="" en="" it="" fr="" de="" pt="" es="" nl="" tr="" se="" nn="" />
+<textstring name="" en="" it="" fr="" de="" pt="" es="" nl="" tr="" se="" nn="" />
+<textstring name="info1" en="Collect 50 coins to unlock big heads (score x2)" it="raccoglie 50 monete per sbloccare le grandi teste (punteggio x2)" fr="Collecte 50 pieces pour debloquer les grosses tetes (Score x2)" de="Sammle 50 Münzen. um große Köpfe freizuschalten (Punktzahl x2)" pt="Colete 50 moedas para desbloquear grandes cabeças (pontuação x2)" es="Consigue 50 monedas para desbloquear cabezones (puntuación x2)" nl="Verzamel 50 munten om grote hoofden te ontgrendelen (score x2)" tr="Büyük kafaları (skor x2) kilidini açmak için 50 Topladığımız paralar" se="Samla 50 mynt för att låsa upp stora huvuden (poäng x 2)" nn="" />
+<textstring name="info2" en="Collect all coins to unlock haddock heads (score x2)" it="raccoglie tutte le monete per sbloccare le teste dei eglefini (punteggio x2)" fr="Recolte toutes les pieces pour debloquer la tete d'eglefin (Score x2)" de="Sammle alle Münzen. um Schellfisch-Köpfe freizuschalten (Punktzahl x2)" pt="Colete todas as moedas para desbloquear arinca cabeças (pontuação x2)" es="Consigue todas las monedas para desbloquear cabezas de bacalao (puntuación x2)" nl="Verzamel alle munten om schelvis hoofden te ontgrendelen (score x2)" tr="Mezgit kafaları (skor x2) kilidini açmak için tüm paraları toplayın" se="Samla alla mynt för att låsa upp torsk huvuden (poäng x2)" nn="" />
+<textstring name="info3" en="Collect all trophies to unlock exploding referees (score x2)" it="raccoglie tutti i trofei per sbloccare gli arbitri esplosivi (punteggio x2)" fr="Collecte tous les trophees pour debloquer les arbitres explosif (Score x2)" de="Sammle alle Trophäen. um explodierende Schiedsrichter freizuschalten (Punktzahl x2)" pt="Colete todos os troféus para desbloquear árbitros explodindo (pontuação x2)" es="Consigue todos los trofeos para desbloquear árbitros explosivos (puntuación x2)" nl="verzamel alle trofeeën om exploderende scheidsrechters te ontgrendelen (score x2)" tr="Patlayan hakemler (skor x2) kilidini tüm ödüller toplayın" se="Samla alla troféer för att låsa upp exploderande domare (score x2)" nn="" />
+<textstring name="info4" en="Get all gold medals to unlock golden football (score x2)" it="ottiene tutte medaglie d'oro per sbloccare il pallone dorato (punteggio x2)" fr="Obtiens toutes les medailles d'or pour debloquer la balle en or (Score x2)" de="Erlange alle Goldmedaillen. um goldene Fußbälle freizuschalten (Punktzahl x2)" pt="Obter todas as medalhas de ouro de ouro para destravar futebol (pontuação x2)" es="Consigue todas las medallas de oro para desbloquear balón dorado (puntuación x2)" nl="verzamel alle gouden medailles om de gouden voetbal te ontgrendelen (score x2)" tr="Altın futbol (skor x2) kilidini açmak için tüm altın madalyaları alın" se="Samla alla guldmedaljer för att låsa upp guld fotboll (score x2)" nn="" />
+
+</data>

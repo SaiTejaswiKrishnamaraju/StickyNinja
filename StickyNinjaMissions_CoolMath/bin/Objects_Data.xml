@@ -1,0 +1,1684 @@
+<data>
+<physobj name ="wind" inlibrary="true" initfunction="InitWind" initparams="" initfunction2="" editorrender="null" libclass="reaction" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="game_layer" def="Particles" />
+	<parameter name="editor_layer" def="1" />
+	<parameter name="fixed" def="true" />
+	<graphic clip="obj_windblock" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="true" >
+		<shape type="poly" name="" col="0,0" sensor="8,2" shiftcom="false" rot="0" vertices="-50,-50, 50,-50, 50,50, -50,50" material="average" />
+	</body>
+</physobj>
+
+<physobj name ="chopper" inlibrary="true" initfunction="InitChopper" initparams="" initfunction2="" editorrender="null" libclass="blocks" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Behind" />
+	<parameter name="fixed" def="false" />
+	<graphic clip="obj_chopper" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="true" >
+		<shape type="poly" name="" col="1,15" sensor="0,0" shiftcom="false" rot="0" vertices="-57,-6, -14,-40, 109,-39, 99,-13, 62,2, 39,53, -37,55, -60,20" material="average" />
+	</body>
+</physobj>
+
+<physobj name ="LevelInfo" inlibrary="true" initfunction="InitLevelInfo" initparams="" initfunction2="" editorrender="null" libclass="generic" hasphysics="false" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="game_layer" def="Scenery_BG" />
+	<parameter name="level_bombtime1" def="10" />
+	<parameter name="level_bombtime2" def="9" />
+	<parameter name="level_bombtime3" def="8" />
+	<parameter name="level_background" def="1" />
+	<parameter name="editor_layer" def="1" />
+	<graphic clip="LevelInfo" frame="1" pos="0,0" rot="0" />
+</physobj>
+
+<physobj name ="ninja" inlibrary="true" initfunction="InitNinja" initparams="" initfunction2="" editorrender="null" libclass="player" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="game_layer" def="Centre" />
+	<parameter name="editor_layer" def="1" />
+	<parameter name="fixed" def="false" />
+	<graphic clip="player_a_base" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="false" >
+		<shape type="circle" name="" col="2,15" sensor="2,15" shiftcom="false" pos="0,0" radius="20" material="ninja" />
+	</body>
+</physobj>
+
+<physobj name ="enemy_easy_fly" inlibrary="true" initfunction="InitEnemyEasyFly" initparams="" initfunction2="" editorrender="null" libclass="enemy" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="game_layer" def="Enemy" />
+	<parameter name="editor_layer" def="1" />
+	<parameter name="fixed" def="false" />
+	<graphic clip="enemy_a_fly" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="false" >
+		<shape type="poly" name="" col="4,15" sensor="0,0" shiftcom="false" rot="0" vertices="-35,-12, -21,-34, 21,-34, 35,-12, 24,15, -24,15" material="enemy" />
+	</body>
+</physobj>
+
+<physobj name ="enemy_hard_fly" inlibrary="true" initfunction="InitEnemyHardFly" initparams="" initfunction2="" editorrender="null" libclass="enemy" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="game_layer" def="Enemy" />
+	<parameter name="editor_layer" def="1" />
+	<parameter name="fixed" def="false" />
+	<graphic clip="enemy_b_fly" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="false" >
+		<shape type="poly" name="" col="4,15" sensor="0,0" shiftcom="false" rot="0" vertices="-35,-12, -21,-34, 21,-34, 35,-12, 24,15, -24,15" material="enemy" />
+	</body>
+</physobj>
+
+<physobj name ="enemy_easy" inlibrary="true" initfunction="InitEnemyEasy" initparams="" initfunction2="" editorrender="null" libclass="enemy" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="game_layer" def="Enemy" />
+	<parameter name="editor_layer" def="1" />
+	<parameter name="fixed" def="false" />
+	<graphic clip="enemy_a_base" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="false" >
+		<shape type="poly" name="" col="4,15" sensor="0,0" shiftcom="false" rot="0" vertices="-30,29, -35,0, 0,-45, 35,0, 30,29" material="enemy" />
+	</body>
+</physobj>
+
+<physobj name ="enemy_hard" inlibrary="true" initfunction="InitEnemyHard" initparams="" initfunction2="" editorrender="null" libclass="enemy" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="game_layer" def="Enemy" />
+	<parameter name="editor_layer" def="1" />
+	<parameter name="fixed" def="false" />
+	<graphic clip="enemy_b_base" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="false" >
+		<shape type="poly" name="" col="4,15" sensor="0,0" shiftcom="false" rot="0" vertices="-30,29, -35,0, 0,-45, 35,0, 30,29" material="enemy" />
+	</body>
+</physobj>
+
+<physobj name ="enemy_deadly" inlibrary="true" initfunction="InitEnemyDeadly" initparams="" initfunction2="" editorrender="null" libclass="enemy" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="game_layer" def="Enemy" />
+	<parameter name="editor_layer" def="1" />
+	<parameter name="fixed" def="false" />
+	<graphic clip="enemy_c_base" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="false" >
+		<shape type="poly" name="" col="4,15" sensor="0,0" shiftcom="false" rot="0" vertices="-30,29, -35,0, -13,-34, 13,-34, 35,0, 30,29" material="enemy" />
+	</body>
+</physobj>
+
+<physobj name ="hintpopup" inlibrary="true" initfunction="InitHintPopup" initparams="" initfunction2="" editorrender="null" libclass="enemy" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="hintpopup_frame" def="1" />
+	<parameter name="hintpopup_timer" def="5" />
+	<parameter name="game_layer" def="Enemy" />
+	<parameter name="editor_layer" def="1" />
+	<parameter name="fixed" def="false" />
+	<graphic clip="editorobj_hintpopup_trigger" frame="1" pos="0,0" rot="0" />
+</physobj>
+
+<physobj name ="breakable_arcade" inlibrary="true" initfunction="InitBreakable" initparams="fragment_dark" initfunction2="" editorrender="null" libclass="breakable" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<marker frame="0" x="-13" y="-37" type="" radius="10" data="" />
+	<marker frame="0" x="14" y="-39" type="" radius="10" data="" />
+	<marker frame="0" x="-15" y="-11" type="" radius="10" data="" />
+	<marker frame="0" x="13" y="-11" type="" radius="10" data="" />
+	<marker frame="0" x="-16" y="17" type="" radius="10" data="" />
+	<marker frame="0" x="13" y="14" type="" radius="10" data="" />
+	<marker frame="0" x="-12" y="40" type="" radius="10" data="" />
+	<marker frame="0" x="9" y="39" type="" radius="10" data="" />
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Behind" />
+	<parameter name="fixed" def="true" />
+	<graphic clip="obj_arcade_machine" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="true" >
+		<shape type="poly" name="" col="8,13" sensor="8,2" shiftcom="false" rot="0" vertices="-25,-50, 25,-50, 25,50, -25,50" material="poly_breakable" />
+	</body>
+</physobj>
+
+<physobj name ="breakable_barrel_wood" inlibrary="true" initfunction="InitBreakable" initparams="fragment_wood" initfunction2="" editorrender="null" libclass="breakable" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<marker frame="0" x="-13" y="-10" type="" radius="10" data="" />
+	<marker frame="0" x="11" y="-11" type="" radius="10" data="" />
+	<marker frame="0" x="-10" y="11" type="" radius="10" data="" />
+	<marker frame="0" x="13" y="11" type="" radius="10" data="" />
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Behind" />
+	<parameter name="fixed" def="false" />
+	<graphic clip="obj_barrel_wood" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="false" >
+		<shape type="poly" name="" col="8,13" sensor="8,2" shiftcom="false" rot="0" vertices="-15,-25, 15,-25, 25,0, 15,25, -15,25, -25,0" material="poly_breakable" />
+	</body>
+</physobj>
+
+<physobj name ="breakable_barrel_wood_round" inlibrary="true" initfunction="InitBreakable" initparams="fragment_wood" initfunction2="" editorrender="null" libclass="breakable" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<marker frame="0" x="-15" y="-11" type="" radius="10" data="" />
+	<marker frame="0" x="10" y="-10" type="" radius="10" data="" />
+	<marker frame="0" x="-11" y="9" type="" radius="10" data="" />
+	<marker frame="0" x="11" y="8" type="" radius="10" data="" />
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Behind" />
+	<parameter name="fixed" def="false" />
+	<graphic clip="obj_barrel_wood_front" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="false" >
+		<shape type="circle" name="" col="8,13" sensor="8,2" shiftcom="false" pos="0,0" radius="25" material="poly_breakable" />
+	</body>
+</physobj>
+
+<physobj name ="breakable_barrier" inlibrary="true" initfunction="InitBreakable" initparams="fragment_white" initfunction2="" editorrender="null" libclass="breakable" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<marker frame="0" x="-27" y="-16" type="" radius="10" data="" />
+	<marker frame="0" x="1" y="-19" type="" radius="10" data="" />
+	<marker frame="0" x="28" y="-17" type="" radius="10" data="" />
+	<marker frame="0" x="29" y="10" type="" radius="10" data="" />
+	<marker frame="0" x="-4" y="10" type="" radius="10" data="" />
+	<marker frame="0" x="-28" y="10" type="" radius="10" data="" />
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Behind" />
+	<parameter name="fixed" def="false" />
+	<graphic clip="obj_barrier" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="false" >
+		<shape type="poly" name="" col="8,13" sensor="8,2" shiftcom="false" rot="0" vertices="-37.5,-24, 37.5,-24, 37.5,24, -37.5,24" material="poly_breakable" />
+	</body>
+</physobj>
+
+<physobj name ="breakable_block" inlibrary="true" initfunction="InitBreakable" initparams="fragment_dark" initfunction2="" editorrender="null" libclass="breakable" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<marker frame="0" x="-13" y="-14" type="" radius="10" data="" />
+	<marker frame="0" x="11" y="-15" type="" radius="10" data="" />
+	<marker frame="0" x="-12" y="10" type="" radius="10" data="" />
+	<marker frame="0" x="14" y="12" type="" radius="10" data="" />
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Behind" />
+	<parameter name="fixed" def="true" />
+	<graphic clip="obj_block_break" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="true" >
+		<shape type="poly" name="" col="8,13" sensor="8,2" shiftcom="false" rot="0" vertices="-25,-25, 25,-25, 25,25, -25,25" material="poly_breakable" />
+	</body>
+</physobj>
+
+<physobj name ="breakable_bin" inlibrary="true" initfunction="InitBreakable" initparams="fragment_dark" initfunction2="" editorrender="null" libclass="breakable" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<marker frame="0" x="-13" y="-14" type="" radius="10" data="" />
+	<marker frame="0" x="11" y="-15" type="" radius="10" data="" />
+	<marker frame="0" x="-12" y="10" type="" radius="10" data="" />
+	<marker frame="0" x="14" y="12" type="" radius="10" data="" />
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Behind" />
+	<parameter name="fixed" def="true" />
+	<graphic clip="obj_bin" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="true" >
+		<shape type="poly" name="" col="8,13" sensor="8,2" shiftcom="false" rot="0" vertices="-20,-30, -7,-34, 7,-34, 20,-30, 20,25, -20,25" material="poly_breakable" />
+	</body>
+</physobj>
+
+<physobj name ="breakable_chair" inlibrary="true" initfunction="InitBreakable" initparams="fragment_wood" initfunction2="" editorrender="null" libclass="breakable" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<marker frame="0" x="-12" y="-16" type="" radius="10" data="" />
+	<marker frame="0" x="10" y="-15" type="" radius="10" data="" />
+	<marker frame="0" x="-12" y="8" type="" radius="10" data="" />
+	<marker frame="0" x="10" y="8" type="" radius="10" data="" />
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Behind" />
+	<parameter name="fixed" def="false" />
+	<graphic clip="obj_chair" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="false" >
+		<shape type="poly" name="" col="8,13" sensor="8,2" shiftcom="false" rot="0" vertices="-20,-25, 20,-25, 20,25, -20,25" material="poly_breakable" />
+	</body>
+</physobj>
+
+<physobj name ="breakable_crate_wood" inlibrary="true" initfunction="InitBreakable" initparams="fragment_wood" initfunction2="" editorrender="null" libclass="breakable" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<marker frame="0" x="-12" y="-14" type="" radius="10" data="" />
+	<marker frame="0" x="13" y="-15" type="" radius="10" data="" />
+	<marker frame="0" x="-12" y="11" type="" radius="10" data="" />
+	<marker frame="0" x="12" y="12" type="" radius="10" data="" />
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Front" />
+	<parameter name="fixed" def="false" />
+	<graphic clip="obj_crate_wood" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="false" >
+		<shape type="poly" name="" col="8,13" sensor="8,2" shiftcom="false" rot="0" vertices="-25,-25, 25,-25, 25,25, -25,25" material="poly_breakable" />
+	</body>
+</physobj>
+
+<physobj name ="breakable_fence_wood" inlibrary="true" initfunction="InitBreakable" initparams="fragment_wood" initfunction2="" editorrender="null" libclass="breakable" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<marker frame="0" x="-37" y="-36" type="" radius="10" data="" />
+	<marker frame="0" x="-7" y="-36" type="" radius="10" data="" />
+	<marker frame="0" x="17" y="-36" type="" radius="10" data="" />
+	<marker frame="0" x="40" y="-37" type="" radius="10" data="" />
+	<marker frame="0" x="37" y="-11" type="" radius="10" data="" />
+	<marker frame="0" x="16" y="-12" type="" radius="10" data="" />
+	<marker frame="0" x="-3" y="-12" type="" radius="10" data="" />
+	<marker frame="0" x="-37" y="-12" type="" radius="10" data="" />
+	<marker frame="0" x="-40" y="6" type="" radius="10" data="" />
+	<marker frame="0" x="-11" y="7" type="" radius="10" data="" />
+	<marker frame="0" x="18" y="7" type="" radius="10" data="" />
+	<marker frame="0" x="41" y="8" type="" radius="10" data="" />
+	<marker frame="0" x="37" y="38" type="" radius="10" data="" />
+	<marker frame="0" x="19" y="34" type="" radius="10" data="" />
+	<marker frame="0" x="-9" y="33" type="" radius="10" data="" />
+	<marker frame="0" x="-38" y="35" type="" radius="10" data="" />
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Front" />
+	<parameter name="fixed" def="true" />
+	<graphic clip="obj_fence_wood" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="false" >
+		<shape type="poly" name="" col="8,15" sensor="8,2" shiftcom="false" rot="0" vertices="-50,-50, 50,-50, 50,50, -50,50" material="poly_breakable" />
+	</body>
+</physobj>
+
+<physobj name ="breakable_glasspane" inlibrary="true" initfunction="InitBreakable" initparams="fragment_glass" initfunction2="" editorrender="null" libclass="breakable" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<marker frame="0" x="-13" y="-13" type="" radius="10" data="" />
+	<marker frame="0" x="13" y="-14" type="" radius="10" data="" />
+	<marker frame="0" x="-14" y="11" type="" radius="10" data="" />
+	<marker frame="0" x="13" y="12" type="" radius="10" data="" />
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Front" />
+	<parameter name="fixed" def="true" />
+	<graphic clip="obj_glasspane" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="true" >
+		<shape type="poly" name="" col="8,13" sensor="8,2" shiftcom="false" rot="0" vertices="-25,-25, 25,-25, 25,25, -25,25" material="poly_breakable" />
+	</body>
+</physobj>
+
+<physobj name ="breakable_glasspane_tall" inlibrary="true" initfunction="InitBreakable" initparams="fragment_glass" initfunction2="" editorrender="null" libclass="breakable" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<marker frame="0" x="-14" y="-36" type="" radius="10" data="" />
+	<marker frame="0" x="11" y="-36" type="" radius="10" data="" />
+	<marker frame="0" x="-16" y="-13" type="" radius="10" data="" />
+	<marker frame="0" x="13" y="-13" type="" radius="10" data="" />
+	<marker frame="0" x="-14" y="8" type="" radius="10" data="" />
+	<marker frame="0" x="12" y="9" type="" radius="10" data="" />
+	<marker frame="0" x="-15" y="33" type="" radius="10" data="" />
+	<marker frame="0" x="10" y="33" type="" radius="10" data="" />
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Front" />
+	<parameter name="fixed" def="true" />
+	<graphic clip="obj_glasspane_tall" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="true" >
+		<shape type="poly" name="" col="8,13" sensor="8,2" shiftcom="false" rot="0" vertices="-25,-50, 25,-50, 25,50, -25,50" material="poly_breakable" />
+	</body>
+</physobj>
+
+<physobj name ="breakable_phone_box" inlibrary="true" initfunction="InitBreakable" initparams="fragment_glass" initfunction2="" editorrender="null" libclass="breakable" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<marker frame="0" x="-15" y="-37" type="" radius="10" data="" />
+	<marker frame="0" x="15" y="-37" type="" radius="10" data="" />
+	<marker frame="0" x="-15" y="-14" type="" radius="10" data="" />
+	<marker frame="0" x="15" y="-14" type="" radius="10" data="" />
+	<marker frame="0" x="-13" y="12" type="" radius="10" data="" />
+	<marker frame="0" x="15" y="9" type="" radius="10" data="" />
+	<marker frame="0" x="-14" y="32" type="" radius="10" data="" />
+	<marker frame="0" x="14" y="35" type="" radius="10" data="" />
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Behind" />
+	<parameter name="fixed" def="true" />
+	<graphic clip="obj_phone_box" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="true" >
+		<shape type="poly" name="" col="8,13" sensor="8,2" shiftcom="false" rot="0" vertices="-25,-50, 25,-50, 25,50, -25,50" material="poly_breakable" />
+	</body>
+</physobj>
+
+<physobj name ="breakable_plank" inlibrary="true" initfunction="InitBreakable" initparams="fragment_wood" initfunction2="" editorrender="null" libclass="breakable" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<marker frame="0" x="-38" y="1" type="" radius="10" data="" />
+	<marker frame="0" x="-8" y="1" type="" radius="10" data="" />
+	<marker frame="0" x="19" y="-1" type="" radius="10" data="" />
+	<marker frame="0" x="41" y="0" type="" radius="10" data="" />
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Behind" />
+	<parameter name="fixed" def="false" />
+	<graphic clip="obj_plank" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="false" >
+		<shape type="poly" name="" col="8,13" sensor="8,2" shiftcom="false" rot="0" vertices="-50,-5, 50,-5, 50,5, -50,5" material="poly_breakable" />
+	</body>
+</physobj>
+
+<physobj name ="breakable_plank_fixed" inlibrary="true" initfunction="InitBreakable" initparams="fragment_wood" initfunction2="" editorrender="null" libclass="breakable" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<marker frame="0" x="-36" y="0" type="" radius="10" data="" />
+	<marker frame="0" x="-9" y="-1" type="" radius="10" data="" />
+	<marker frame="0" x="14" y="1" type="" radius="10" data="" />
+	<marker frame="0" x="37" y="-2" type="" radius="10" data="" />
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Behind" />
+	<parameter name="fixed" def="true" />
+	<graphic clip="obj_plank_fixed" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="false" >
+		<shape type="poly" name="" col="8,13" sensor="8,2" shiftcom="false" rot="0" vertices="-50,-5, 50,-5, 50,5, -50,5" material="poly_breakable" />
+	</body>
+</physobj>
+
+<physobj name ="breakable_plank_fixed_x2" inlibrary="true" initfunction="InitBreakable" initparams="fragment_wood" initfunction2="" editorrender="null" libclass="breakable" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<marker frame="0" x="-36" y="0" type="" radius="10" data="" />
+	<marker frame="0" x="-9" y="-1" type="" radius="10" data="" />
+	<marker frame="0" x="14" y="1" type="" radius="10" data="" />
+	<marker frame="0" x="37" y="-2" type="" radius="10" data="" />
+	<marker frame="0" x="-91" y="-1" type="" radius="10" data="" />
+	<marker frame="0" x="-59" y="0" type="" radius="10" data="" />
+	<marker frame="0" x="59" y="0" type="" radius="10" data="" />
+	<marker frame="0" x="83" y="-1" type="" radius="10" data="" />
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Behind" />
+	<parameter name="fixed" def="true" />
+	<graphic clip="obj_plank_fixed_x2" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="false" >
+		<shape type="poly" name="" col="8,13" sensor="8,2" shiftcom="false" rot="0" vertices="-100,-6, 99,-6, 99,5, -101,5" material="poly_breakable" />
+	</body>
+</physobj>
+
+<physobj name ="breakable_table" inlibrary="true" initfunction="InitBreakable" initparams="fragment_wood" initfunction2="" editorrender="null" libclass="breakable" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<marker frame="0" x="-26" y="-21" type="" radius="10" data="" />
+	<marker frame="0" x="-2" y="-21" type="" radius="10" data="" />
+	<marker frame="0" x="14" y="-21" type="" radius="10" data="" />
+	<marker frame="0" x="31" y="-21" type="" radius="10" data="" />
+	<marker frame="0" x="-3" y="-2" type="" radius="10" data="" />
+	<marker frame="0" x="-1" y="18" type="" radius="10" data="" />
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Behind" />
+	<parameter name="fixed" def="false" />
+	<graphic clip="obj_table_wood" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="false" >
+		<shape type="poly" name="" col="8,13" sensor="8,2" shiftcom="false" rot="0" vertices="-35,-25, 35,-25, 35,-15, 15,25, -15,25, -35,-15" material="poly_breakable" />
+	</body>
+</physobj>
+
+<physobj name ="breakable_table_alt" inlibrary="true" initfunction="InitBreakable" initparams="fragment_wood" initfunction2="" editorrender="null" libclass="breakable" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<marker frame="0" x="-29" y="-19" type="" radius="10" data="" />
+	<marker frame="0" x="-2" y="-20" type="" radius="10" data="" />
+	<marker frame="0" x="16" y="-20" type="" radius="10" data="" />
+	<marker frame="0" x="25" y="4" type="" radius="10" data="" />
+	<marker frame="0" x="11" y="12" type="" radius="10" data="" />
+	<marker frame="0" x="-11" y="11" type="" radius="10" data="" />
+	<marker frame="0" x="-29" y="3" type="" radius="10" data="" />
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Behind" />
+	<parameter name="fixed" def="false" />
+	<graphic clip="obj_table_wood_alt" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="false" >
+		<shape type="poly" name="" col="8,13" sensor="8,2" shiftcom="false" rot="0" vertices="-30,-25, 30,-25, 30,25, -30,25" material="poly_breakable" />
+	</body>
+</physobj>
+
+<physobj name ="breakable_vase" inlibrary="true" initfunction="InitBreakable" initparams="fragment_white" initfunction2="" editorrender="null" libclass="breakable" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<marker frame="0" x="-15" y="-9" type="" radius="10" data="" />
+	<marker frame="0" x="15" y="-9" type="" radius="10" data="" />
+	<marker frame="0" x="-11" y="12" type="" radius="10" data="" />
+	<marker frame="0" x="8" y="12" type="" radius="10" data="" />
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Behind" />
+	<parameter name="fixed" def="true" />
+	<graphic clip="obj_vase" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="true" >
+		<shape type="circle" name="" col="8,13" sensor="8,2" shiftcom="false" pos="0,0" radius="25" material="poly_breakable" />
+	</body>
+</physobj>
+
+<physobj name ="ball_fixed" inlibrary="true" initfunction="" initparams="" initfunction2="" editorrender="null" libclass="" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Behind" />
+	<parameter name="fixed" def="true" />
+	<graphic clip="obj_ball_fixed" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="false" >
+		<shape type="circle" name="" col="1,15" sensor="0,0" shiftcom="false" pos="0,0" radius="25" material="smooth" />
+	</body>
+</physobj>
+
+<physobj name ="ball_spiky" inlibrary="true" initfunction="InitPhysObj_Death" initparams="" initfunction2="" editorrender="null" libclass="" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Behind" />
+	<parameter name="fixed" def="false" />
+	<graphic clip="obj_ball_spiky" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="false" >
+		<shape type="circle" name="" col="1,15" sensor="0,0" shiftcom="false" pos="0,0" radius="25" material="average" />
+	</body>
+</physobj>
+
+<physobj name ="ball_smallhard" inlibrary="true" initfunction="" initparams="" initfunction2="" editorrender="null" libclass="" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Behind" />
+	<parameter name="fixed" def="false" />
+	<graphic clip="obj_ball_smallhard" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="false" >
+		<shape type="circle" name="" col="1,15" sensor="0,0" shiftcom="false" pos="0,0" radius="13" material="smooth" />
+	</body>
+</physobj>
+
+<physobj name ="ball_bouncy" inlibrary="true" initfunction="" initparams="" initfunction2="" editorrender="null" libclass="" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Behind" />
+	<parameter name="fixed" def="false" />
+	<graphic clip="obj_ball_bouncy" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="false" >
+		<shape type="circle" name="" col="1,15" sensor="0,0" shiftcom="false" pos="0,0" radius="24" material="rubber_light" />
+	</body>
+</physobj>
+
+<physobj name ="ball" inlibrary="true" initfunction="" initparams="" initfunction2="" editorrender="null" libclass="" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Behind" />
+	<parameter name="fixed" def="false" />
+	<graphic clip="obj_ball" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="false" >
+		<shape type="circle" name="" col="1,15" sensor="0,0" shiftcom="false" pos="0,0" radius="25" material="smooth" />
+	</body>
+</physobj>
+
+<physobj name ="barrel" inlibrary="true" initfunction="InitPhysObj_Sticky" initparams="" initfunction2="" editorrender="null" libclass="" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Behind" />
+	<parameter name="fixed" def="false" />
+	<graphic clip="obj_barrel" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="false" >
+		<shape type="poly" name="" col="1,15" sensor="0,0" shiftcom="false" rot="0" vertices="-20,-25, 20,-25, 20,25, -20,25" material="average" />
+	</body>
+</physobj>
+
+<physobj name ="barrel_explosive" inlibrary="true" initfunction="InitExplosiveBarrel" initparams="" initfunction2="" editorrender="null" libclass="" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Behind" />
+	<parameter name="fixed" def="false" />
+	<graphic clip="obj_barrel_explosive" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="false" >
+		<shape type="poly" name="" col="1,15" sensor="0,0" shiftcom="false" rot="0" vertices="-20,-25, 20,-25, 20,25, -20,25" material="average" />
+	</body>
+</physobj>
+
+<physobj name ="bar_metal" inlibrary="true" initfunction="" initparams="" initfunction2="" editorrender="null" libclass="movable" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Scenery_BG" />
+	<parameter name="fixed" def="false" />
+	<graphic clip="obj_bar_metal" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="false" >
+		<shape type="poly" name="" col="0,0" sensor="0,0" shiftcom="false" rot="0" vertices="-50,-7.5, 50,-7.5, 50,7.5, -50,7.5" material="average" />
+	</body>
+</physobj>
+
+<physobj name ="bar_metal_long" inlibrary="true" initfunction="" initparams="" initfunction2="" editorrender="null" libclass="movable" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Scenery_BG" />
+	<parameter name="fixed" def="false" />
+	<graphic clip="obj_bar_metal_long" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="false" >
+		<shape type="poly" name="" col="0,0" sensor="0,0" shiftcom="false" rot="0" vertices="-100,-7.5, 100,-7.5, 100,7.5, -100,7.5" material="average" />
+	</body>
+</physobj>
+
+<physobj name ="bench" inlibrary="true" initfunction="InitPhysObj_Sticky_CanRestart" initparams="" initfunction2="" editorrender="null" libclass="blocks" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Front" />
+	<parameter name="fixed" def="true" />
+	<graphic clip="obj_bench" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="true" >
+		<shape type="poly" name="" col="1,15" sensor="0,0" shiftcom="false" rot="0" vertices="-50,-25, 50,-25, 50,25, -50,25" material="average" />
+	</body>
+</physobj>
+
+<physobj name ="boat" inlibrary="true" initfunction="InitPhysObj_Sticky" initparams="" initfunction2="" editorrender="null" libclass="movable" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Front" />
+	<parameter name="fixed" def="false" />
+	<graphic clip="obj_boat" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="false" >
+		<shape type="poly" name="" col="1,15" sensor="0,0" shiftcom="false" rot="0" vertices="-50,-15, 50,-15, 30,15, -50,15" material="smooth" />
+	</body>
+</physobj>
+
+<physobj name ="boat_vent" inlibrary="true" initfunction="InitPhysObj_Sticky" initparams="" initfunction2="" editorrender="null" libclass="blocks" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Front" />
+	<parameter name="fixed" def="true" />
+	<graphic clip="obj_boat_vent" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="true" >
+		<shape type="poly" name="" col="1,15" sensor="0,0" shiftcom="false" rot="0" vertices="-18,-25, 0,-25, 10,-10, 10,25, -10,25, -10,-5, -18,-5" material="average" />
+	</body>
+</physobj>
+
+<physobj name ="bridge_rope" inlibrary="true" initfunction="InitPhysObj_Sticky_CanRestart" initparams="" initfunction2="" editorrender="null" libclass="blocks" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Front" />
+	<parameter name="fixed" def="true" />
+	<graphic clip="obj_bridge_rope" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="true" >
+		<shape type="poly" name="" col="1,15" sensor="0,0" shiftcom="false" rot="0" vertices="-100,-10, 100,-10, 100,10, -100,10" material="average" />
+	</body>
+</physobj>
+
+<physobj name ="branch_a" inlibrary="true" initfunction="InitPhysObj_Sticky_CanRestart" initparams="" initfunction2="" editorrender="null" libclass="blocks" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Behind" />
+	<parameter name="fixed" def="true" />
+	<graphic clip="obj_branch_a" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="true" >
+		<shape type="poly" name="" col="1,15" sensor="0,0" shiftcom="false" rot="0" vertices="-50,-5, 50,-5, 50,5, -50,5" material="average" />
+	</body>
+</physobj>
+
+<physobj name ="branch_b" inlibrary="true" initfunction="InitPhysObj_Sticky_CanRestart" initparams="" initfunction2="" editorrender="null" libclass="blocks" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Behind" />
+	<parameter name="fixed" def="true" />
+	<graphic clip="obj_branch_b" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="true" >
+		<shape type="poly" name="" col="1,15" sensor="0,0" shiftcom="false" rot="0" vertices="-50,-5, 50,-5, 50,5, -50,5" material="average" />
+	</body>
+</physobj>
+
+<physobj name ="blade_death" inlibrary="true" initfunction="InitBladeDeath" initparams="" initfunction2="" editorrender="null" libclass="blocks" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Front" />
+	<parameter name="fixed" def="true" />
+	<graphic clip="obj_blade_spinning" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="true" >
+		<shape type="circle" name="" col="1,15" sensor="0,0" shiftcom="false" pos="0,0" radius="40" material="light" />
+	</body>
+</physobj>
+
+<physobj name ="block_sticky" inlibrary="true" initfunction="InitPhysObj_Sticky_CanRestart" initparams="" initfunction2="" editorrender="null" libclass="blocks" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Front" />
+	<parameter name="fixed" def="true" />
+	<graphic clip="obj_block_sticky" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="true" >
+		<shape type="poly" name="" col="1,15" sensor="0,0" shiftcom="false" rot="0" vertices="-25,-25, 25,-25, 25,25, -25,25" material="average" />
+	</body>
+</physobj>
+
+<physobj name ="block_death" inlibrary="true" initfunction="InitPhysObj_Death" initparams="" initfunction2="" editorrender="null" libclass="blocks" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Front" />
+	<parameter name="fixed" def="true" />
+	<graphic clip="obj_block_deadly" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="true" >
+		<shape type="poly" name="" col="1,15" sensor="0,0" shiftcom="false" rot="0" vertices="-25,-25, 25,-25, 25,25, -25,25" material="average" />
+	</body>
+</physobj>
+
+<physobj name ="block_bouncy" inlibrary="true" initfunction="InitObjectBouncy" initparams="" initfunction2="" editorrender="null" libclass="blocks" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Front" />
+	<parameter name="fixed" def="true" />
+	<graphic clip="obj_block_bouncy" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="true" >
+		<shape type="poly" name="" col="1,15" sensor="0,0" shiftcom="false" rot="0" vertices="-25,-25, 25,-25, 25,25, -25,25" material="poly_bouncy" />
+	</body>
+</physobj>
+
+<physobj name ="block_smooth" inlibrary="true" initfunction="" initparams="" initfunction2="" editorrender="null" libclass="blocks" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Front" />
+	<parameter name="fixed" def="true" />
+	<graphic clip="obj_block_smooth" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="true" >
+		<shape type="poly" name="" col="1,15" sensor="0,0" shiftcom="false" rot="0" vertices="-25,-25, 25,-25, 25,25, -25,25" material="poly_slippery" />
+	</body>
+</physobj>
+
+<physobj name ="block_smooth_small" inlibrary="true" initfunction="" initparams="" initfunction2="" editorrender="null" libclass="blocks" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Front" />
+	<parameter name="fixed" def="true" />
+	<graphic clip="obj_block_small" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="true" >
+		<shape type="poly" name="" col="1,15" sensor="0,0" shiftcom="false" rot="0" vertices="-5,-5, 5,-5, 5,5, -5,5" material="poly_slippery" />
+	</body>
+</physobj>
+
+<physobj name ="block_smooth_slide" inlibrary="true" initfunction="" initparams="" initfunction2="" editorrender="null" libclass="blocks" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Front" />
+	<parameter name="fixed" def="true" />
+	<graphic clip="obj_block_smooth_slide" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="true" >
+		<shape type="poly" name="" col="1,15" sensor="0,0" shiftcom="false" rot="0" vertices="-25,-25, 25,25, -25,25" material="poly_slippery" />
+	</body>
+</physobj>
+
+<physobj name ="capstan_bouncy" inlibrary="true" initfunction="InitCollidableAnimatedBouncy" initparams="" initfunction2="" editorrender="null" libclass="" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Behind" />
+	<parameter name="fixed" def="true" />
+	<graphic clip="obj_capstan_bouncy" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="false" >
+		<shape type="circle" name="" col="1,15" sensor="0,0" shiftcom="false" pos="0,0" radius="25" material="poly_bouncy" />
+	</body>
+</physobj>
+
+<physobj name ="carriage" inlibrary="true" initfunction="InitPhysObj_Car" initparams="" initfunction2="" editorrender="null" libclass="" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Behind" />
+	<parameter name="fixed" def="false" />
+	<graphic clip="obj_carriage" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="true" >
+		<shape type="poly" name="" col="4,7" sensor="2,8" shiftcom="false" rot="0" vertices="-50,-10, -30,-20, 10,-20, 50,0, 50,7.5, 42.5,17.5, -42.5,17.5, -50,7.5" material="average" />
+	</body>
+</physobj>
+
+<physobj name ="car_a" inlibrary="true" initfunction="InitPhysObj_Car" initparams="" initfunction2="" editorrender="null" libclass="" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Behind" />
+	<parameter name="fixed" def="false" />
+	<graphic clip="obj_car_a" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="true" >
+		<shape type="poly" name="" col="4,7" sensor="2,8" shiftcom="false" rot="0" vertices="-93,-18, -63,-19, -39,-32, 9,-33, 39,-12, 82,-3, 91,9, 97,12, 97,34, 86,37, -96,31, -97,13" material="car" />
+	</body>
+</physobj>
+
+<physobj name ="car_b" inlibrary="true" initfunction="InitPhysObj_Car" initparams="" initfunction2="" editorrender="null" libclass="" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Behind" />
+	<parameter name="fixed" def="false" />
+	<graphic clip="obj_car_b" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="true" >
+		<shape type="poly" name="" col="4,7" sensor="2,8" shiftcom="false" rot="0" vertices="-93,-7, -66,-9, -41,-34, 23,-34, 54,-8, 92,-3, 98,0, 102,28, 92,39, -88,38, -96,30" material="car" />
+	</body>
+</physobj>
+
+<physobj name ="car_c" inlibrary="true" initfunction="InitPhysObj_Car" initparams="" initfunction2="" editorrender="null" libclass="" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Behind" />
+	<parameter name="fixed" def="false" />
+	<graphic clip="obj_car_c" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="false" >
+		<shape type="poly" name="" col="4,7" sensor="2,8" shiftcom="false" rot="0" vertices="-128,32, -127,-20, -116,-57, 71,-57, 98,-21, 127,-4, 128,35" material="car" />
+	</body>
+</physobj>
+
+<physobj name ="cloud_bouncy" inlibrary="true" initfunction="InitCollidableAnimatedBouncy" initparams="" initfunction2="" editorrender="null" libclass="" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Behind" />
+	<parameter name="fixed" def="true" />
+	<graphic clip="obj_cloud_bouncy" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="false" >
+		<shape type="poly" name="" col="1,15" sensor="0,0" shiftcom="false" rot="0" vertices="-75,-20, 0,-25, 75,-20, 75,20, -75,20" material="poly_bouncy" />
+	</body>
+</physobj>
+
+<physobj name ="chainlink" inlibrary="true" initfunction="" initparams="" initfunction2="" editorrender="null" libclass="movable" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Behind" />
+	<parameter name="fixed" def="false" />
+	<graphic clip="obj_chainlink" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="false" >
+		<shape type="poly" name="" col="1,15" sensor="0,0" shiftcom="false" rot="0" vertices="-9,-25, 10,-25, 11,24, -9,23" material="chain" />
+	</body>
+</physobj>
+
+<physobj name ="chainlink_end" inlibrary="true" initfunction="InitPhysObj_Sticky" initparams="" initfunction2="" editorrender="null" libclass="movable" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Behind" />
+	<parameter name="fixed" def="false" />
+	<graphic clip="obj_chainlink_end" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="false" >
+		<shape type="poly" name="" col="1,15" sensor="0,0" shiftcom="false" rot="0" vertices="-10,-14, 9,-14, 17,-1, 9,12, -3,15, -12,11, -16,-2" material="chain" />
+	</body>
+</physobj>
+
+<physobj name ="chainlink_hook" inlibrary="true" initfunction="InitPhysObj_Sticky" initparams="" initfunction2="" editorrender="null" libclass="movable" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Behind" />
+	<parameter name="fixed" def="false" />
+	<graphic clip="obj_chainlink_hook" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="false" >
+		<shape type="poly" name="" col="1,15" sensor="0,0" shiftcom="false" rot="0" vertices="-13,-33, 14,-33, 14,35, -13,36" material="chain" />
+	</body>
+</physobj>
+
+<physobj name ="cone" inlibrary="true" initfunction="" initparams="" initfunction2="" editorrender="null" libclass="movable" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Behind" />
+	<parameter name="fixed" def="false" />
+	<graphic clip="obj_cone" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="false" >
+		<shape type="poly" name="" col="1,15" sensor="0,0" shiftcom="false" rot="0" vertices="0,-32, 25,32, -25,32" material="average" />
+	</body>
+</physobj>
+
+<physobj name ="container_front" inlibrary="true" initfunction="InitPhysObj_Sticky" initparams="" initfunction2="" editorrender="null" libclass="movable" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Behind" />
+	<parameter name="fixed" def="false" />
+	<graphic clip="obj_container_front" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="false" >
+		<shape type="poly" name="" col="1,15" sensor="0,0" shiftcom="false" rot="0" vertices="-50,-50, 50,-50, 50,50, -50,50" material="average" />
+	</body>
+</physobj>
+
+<physobj name ="container_side" inlibrary="true" initfunction="InitPhysObj_Sticky" initparams="" initfunction2="" editorrender="null" libclass="movable" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Behind" />
+	<parameter name="fixed" def="false" />
+	<graphic clip="obj_container_side" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="false" >
+		<shape type="poly" name="" col="1,15" sensor="0,0" shiftcom="false" rot="0" vertices="-100,-50, 100,-50, 100,50, -100,50" material="average" />
+	</body>
+</physobj>
+
+<physobj name ="crumbly_platform" inlibrary="true" initfunction="InitStickyCrumbly" initparams="" initfunction2="" editorrender="null" libclass="enemy" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="game_layer" def="Objects_Front" />
+	<parameter name="editor_layer" def="1" />
+	<parameter name="fixed" def="true" />
+	<graphic clip="obj_platform_crumbly" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="true" >
+		<shape type="poly" name="" col="1,15" sensor="0,0" shiftcom="false" rot="0" vertices="-51,-11, 47,-10, 48,3, 25,15, -25,15, -50,7" material="kite" />
+	</body>
+</physobj>
+
+<physobj name ="exit" inlibrary="true" initfunction="InitExit" initparams="" initfunction2="" editorrender="null" libclass="scenery" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="game_layer" def="Objects_Behind" />
+	<parameter name="editor_layer" def="1" />
+	<parameter name="fixed" def="true" />
+	<graphic clip="obj_exit" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="true" >
+		<shape type="poly" name="" col="0,0" sensor="1,15" shiftcom="false" rot="0" vertices="-30,-50, 30,-50, 30,40, -30,40" material="average" />
+	</body>
+</physobj>
+
+<physobj name ="ferriswheel" inlibrary="true" initfunction="InitPhysObj_Sticky" initparams="" initfunction2="" editorrender="null" libclass="movable" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Front" />
+	<parameter name="fixed" def="false" />
+	<graphic clip="obj_ferriswheel" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="false" >
+		<shape type="poly" name="" col="1,15" sensor="0,0" shiftcom="false" rot="0" vertices="-70,-3, 70,-3, 70,3, -70,3" material="average" />
+		<shape type="poly" name="" col="1,15" sensor="0,0" shiftcom="false" rot="0" vertices="-3,-70, 3,-70, 3,70, -3,70" material="average" />
+	</body>
+</physobj>
+
+<physobj name ="fire_block" inlibrary="true" initfunction="InitPhysObj_Animated_Death" initparams="" initfunction2="" editorrender="null" libclass="blocks" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Front" />
+	<parameter name="fixed" def="true" />
+	<graphic clip="obj_fg_fire_block" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="true" >
+		<shape type="poly" name="" col="1,15" sensor="0,0" shiftcom="false" rot="0" vertices="-50,-15, 50,-15, 50,15, -50,15" material="average" />
+	</body>
+</physobj>
+
+<physobj name ="water_block" inlibrary="true" initfunction="InitAnimatedWaterBlock" initparams="" initfunction2="" editorrender="null" libclass="bg" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Front" />
+	<graphic clip="obj_fg_water_block" frame="1" pos="0,0" rot="0" />
+</physobj>
+
+<physobj name ="fire_hydrant" inlibrary="true" initfunction="InitPhysObj_Sticky_CanRestart" initparams="" initfunction2="" editorrender="null" libclass="breakable" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Behind" />
+	<parameter name="fixed" def="true" />
+	<graphic clip="obj_fire_hydrant" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="false" >
+		<shape type="poly" name="" col="1,15" sensor="0,0" shiftcom="false" rot="0" vertices="-15,-15, 0,-25, 15,-15, 15,25, -15,25" material="average" />
+	</body>
+</physobj>
+
+<physobj name ="fire_ball" inlibrary="true" initfunction="InitPhysObj_Death" initparams="" initfunction2="" editorrender="null" libclass="" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Enemy" />
+	<parameter name="fixed" def="false" />
+	<graphic clip="obj_fire_ball" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="false" >
+		<shape type="circle" name="" col="1,15" sensor="0,0" shiftcom="false" pos="0,0" radius="25" material="average" />
+	</body>
+</physobj>
+
+<physobj name ="fixed_joint" inlibrary="true" initfunction="" initparams="" initfunction2="" editorrender="null" libclass="breakable" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Front" />
+	<parameter name="fixed" def="true" />
+	<graphic clip="obj_fixed_joint" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="false" >
+		<shape type="circle" name="" col="1,15" sensor="0,0" shiftcom="false" pos="0,0" radius="10" material="poly_slippery" />
+	</body>
+</physobj>
+
+<physobj name ="fixed_joint_decor" inlibrary="true" initfunction="" initparams="" initfunction2="" editorrender="null" libclass="breakable" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Front" />
+	<parameter name="fixed" def="true" />
+	<graphic clip="obj_fg_fixed_joint" frame="1" pos="0,0" rot="0" />
+</physobj>
+
+<physobj name ="floor_wood" inlibrary="true" initfunction="InitPhysObj_Sticky_CanRestart" initparams="" initfunction2="" editorrender="null" libclass="blocks" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Front" />
+	<parameter name="fixed" def="true" />
+	<graphic clip="obj_floor_wood" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="true" >
+		<shape type="poly" name="" col="1,15" sensor="0,0" shiftcom="false" rot="0" vertices="-50,-7, 50,-7, 50,7, -50,7" material="average" />
+	</body>
+</physobj>
+
+<physobj name ="floor_wood_long" inlibrary="true" initfunction="InitPhysObj_Sticky_CanRestart" initparams="" initfunction2="" editorrender="null" libclass="blocks" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Front" />
+	<parameter name="fixed" def="true" />
+	<graphic clip="obj_floor_wood_long" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="true" >
+		<shape type="poly" name="" col="1,15" sensor="0,0" shiftcom="false" rot="0" vertices="-100,-7, 100,-7, 100,7, -100,7" material="average" />
+	</body>
+</physobj>
+
+<physobj name ="fountain" inlibrary="true" initfunction="InitPhysObj_Sticky_CanRestart" initparams="" initfunction2="" editorrender="null" libclass="blocks" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Front" />
+	<parameter name="fixed" def="true" />
+	<graphic clip="obj_fountain" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="true" >
+		<shape type="poly" name="" col="1,15" sensor="0,0" shiftcom="false" rot="0" vertices="-5,-50, 5,-50, 50,50, -50,50" material="average" />
+	</body>
+</physobj>
+
+<physobj name ="garagedoor" inlibrary="true" initfunction="InitPhysObj_Sticky" initparams="" initfunction2="" editorrender="null" libclass="blocks" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Behind" />
+	<parameter name="fixed" def="false" />
+	<graphic clip="obj_garagedoor" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="true" >
+		<shape type="poly" name="" col="1,15" sensor="0,0" shiftcom="false" rot="0" vertices="-5,-50, 5,-50, 5,50, -5,50" material="average" />
+	</body>
+</physobj>
+
+<physobj name ="garagedoor_large" inlibrary="true" initfunction="InitPhysObj_Sticky" initparams="" initfunction2="" editorrender="null" libclass="blocks" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Behind" />
+	<parameter name="fixed" def="false" />
+	<graphic clip="obj_garagedoor_large" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="true" >
+		<shape type="poly" name="" col="1,15" sensor="0,0" shiftcom="false" rot="0" vertices="-5,-100, 5,-100, 5,100, -5,100" material="average" />
+	</body>
+</physobj>
+
+<physobj name ="kite" inlibrary="true" initfunction="InitKite" initparams="" initfunction2="" editorrender="null" libclass="enemy" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="game_layer" def="Objects_Behind" />
+	<parameter name="editor_layer" def="1" />
+	<parameter name="fixed" def="false" />
+	<parameter name="kite_force" def="80" />
+	<graphic clip="obj_kite" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="false" >
+		<shape type="poly" name="" col="1,15" sensor="0,0" shiftcom="false" rot="0" vertices="-29,3, 0,-26, 29,1, 0,49" material="kite" />
+	</body>
+</physobj>
+
+<physobj name ="ladder" inlibrary="true" initfunction="InitPhysObj_Sticky_CanRestart" initparams="" initfunction2="" editorrender="null" libclass="" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Front" />
+	<parameter name="fixed" def="true" />
+	<graphic clip="obj_ladder" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="true" >
+		<shape type="poly" name="" col="1,15" sensor="0,0" shiftcom="false" rot="0" vertices="-12.5,-50, 12.5,-50, 12.5,50, -12.5,50" material="average" />
+	</body>
+</physobj>
+
+<physobj name ="lifebuoy" inlibrary="true" initfunction="" initparams="" initfunction2="" editorrender="null" libclass="" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Behind" />
+	<parameter name="fixed" def="false" />
+	<graphic clip="obj_lifebuoy" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="false" >
+		<shape type="circle" name="" col="1,15" sensor="0,0" shiftcom="false" pos="0,0" radius="25" material="bouncy" />
+	</body>
+</physobj>
+
+<physobj name ="lift" inlibrary="true" initfunction="InitPhysObj_Sticky" initparams="" initfunction2="" editorrender="null" libclass="blocks" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Front" />
+	<parameter name="fixed" def="false" />
+	<graphic clip="obj_lift" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="true" >
+		<shape type="poly" name="" col="1,15" sensor="0,0" shiftcom="false" rot="0" vertices="-100,-10, 100,-10, 100,10, -100,10" material="average" />
+	</body>
+</physobj>
+
+<physobj name ="lift_small" inlibrary="true" initfunction="InitPhysObj_Sticky" initparams="" initfunction2="" editorrender="null" libclass="blocks" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Front" />
+	<parameter name="fixed" def="false" />
+	<graphic clip="obj_lift_small" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="true" >
+		<shape type="poly" name="" col="1,15" sensor="0,0" shiftcom="false" rot="0" vertices="-50,-10, 50,-10, 50,10, -50,10" material="average" />
+	</body>
+</physobj>
+
+<physobj name ="log_50x25" inlibrary="true" initfunction="InitPhysObj_Sticky" initparams="" initfunction2="" editorrender="null" libclass="movable" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Behind" />
+	<parameter name="fixed" def="false" />
+	<graphic clip="obj_log_50x25" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="false" >
+		<shape type="poly" name="" col="1,15" sensor="0,0" shiftcom="false" rot="0" vertices="-25,-12, 25,-12, 25,12, -25,12" material="average" />
+	</body>
+</physobj>
+
+<physobj name ="log_100x10" inlibrary="true" initfunction="InitPhysObj_Sticky" initparams="" initfunction2="" editorrender="null" libclass="movable" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Front" />
+	<parameter name="fixed" def="false" />
+	<graphic clip="obj_log_100x10" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="false" >
+		<shape type="poly" name="" col="1,15" sensor="0,0" shiftcom="false" rot="0" vertices="-50,-5, 50,-5, 50,5, -50,5" material="light" />
+	</body>
+</physobj>
+
+<physobj name ="log_100x25" inlibrary="true" initfunction="InitPhysObj_Sticky" initparams="" initfunction2="" editorrender="null" libclass="movable" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Behind" />
+	<parameter name="fixed" def="false" />
+	<graphic clip="obj_log_100x25" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="false" >
+		<shape type="poly" name="" col="1,15" sensor="0,0" shiftcom="false" rot="0" vertices="-50,-12, 50,-12, 50,12, -50,12" material="average" />
+	</body>
+</physobj>
+
+<physobj name ="log_200x25" inlibrary="true" initfunction="InitPhysObj_Sticky" initparams="" initfunction2="" editorrender="null" libclass="movable" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Behind" />
+	<parameter name="fixed" def="false" />
+	<graphic clip="obj_log_200x25" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="false" >
+		<shape type="poly" name="" col="1,15" sensor="0,0" shiftcom="false" rot="0" vertices="-100,-12, 100,-12, 100,12, -100,12" material="average" />
+	</body>
+</physobj>
+
+<physobj name ="mushroom_bouncy" inlibrary="true" initfunction="InitCollidableAnimatedBouncy" initparams="" initfunction2="" editorrender="null" libclass="" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Behind" />
+	<parameter name="fixed" def="true" />
+	<graphic clip="obj_mushroom_bouncy" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="false" >
+		<shape type="circle" name="" col="1,15" sensor="0,0" shiftcom="false" pos="0,0" radius="25" material="poly_bouncy" />
+	</body>
+</physobj>
+
+<physobj name ="palm_leaves" inlibrary="true" initfunction="" initparams="" initfunction2="" editorrender="null" libclass="enemy" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="game_layer" def="Objects_Front" />
+	<parameter name="editor_layer" def="1" />
+	<parameter name="fixed" def="false" />
+	<graphic clip="obj_palm_leaves" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="false" >
+		<shape type="circle" name="" col="0,0" sensor="0,0" shiftcom="false" pos="0,0" radius="25" material="light" />
+	</body>
+</physobj>
+
+<physobj name ="palm_trunk" inlibrary="true" initfunction="InitPhysObj_Sticky" initparams="" initfunction2="" editorrender="null" libclass="movable" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Behind" />
+	<parameter name="fixed" def="false" />
+	<graphic clip="obj_palm_trunk" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="false" >
+		<shape type="poly" name="" col="1,15" sensor="0,0" shiftcom="false" rot="0" vertices="-10,-25, 10,-25, 10,25, -10,25" material="average" />
+	</body>
+</physobj>
+
+<physobj name ="parachute" inlibrary="true" initfunction="" initparams="" initfunction2="" editorrender="null" libclass="enemy" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="game_layer" def="Objects_Behind" />
+	<parameter name="editor_layer" def="1" />
+	<parameter name="fixed" def="false" />
+	<parameter name="kite_force" def="80" />
+	<graphic clip="obj_parachute" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="false" >
+		<shape type="poly" name="" col="1,15" sensor="0,0" shiftcom="false" rot="0" vertices="-62,-20, -29,-55, 28,-56, 62,-18" material="kite" />
+	</body>
+</physobj>
+
+<physobj name ="parasol_bouncy" inlibrary="true" initfunction="InitCollidableAnimatedBouncy" initparams="" initfunction2="" editorrender="null" libclass="" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Behind" />
+	<parameter name="fixed" def="true" />
+	<graphic clip="obj_parasol_bouncy" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="false" >
+		<shape type="circle" name="" col="1,15" sensor="0,0" shiftcom="false" pos="0,-50" radius="50" material="poly_bouncy" />
+	</body>
+</physobj>
+
+<physobj name ="pillar_50x150" inlibrary="true" initfunction="InitPhysObj_Sticky_CanRestart" initparams="" initfunction2="" editorrender="null" libclass="blocks" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Front" />
+	<parameter name="fixed" def="true" />
+	<graphic clip="obj_pillar_50x150" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="true" >
+		<shape type="poly" name="" col="1,15" sensor="0,0" shiftcom="false" rot="0" vertices="-25,-75, 25,-75, 25,75, -25,75" material="average" />
+	</body>
+</physobj>
+
+<physobj name ="pillar_square_50x150" inlibrary="true" initfunction="InitPhysObj_Sticky_CanRestart" initparams="" initfunction2="" editorrender="null" libclass="blocks" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Front" />
+	<parameter name="fixed" def="true" />
+	<graphic clip="obj_pillar_square_50x150" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="true" >
+		<shape type="poly" name="" col="1,15" sensor="0,0" shiftcom="false" rot="0" vertices="-25,-75, 25,-75, 25,75, -25,75" material="average" />
+	</body>
+</physobj>
+
+<physobj name ="pipe_slide" inlibrary="true" initfunction="" initparams="" initfunction2="" editorrender="null" libclass="blocks" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Front" />
+	<parameter name="fixed" def="true" />
+	<graphic clip="obj_pipe_slide" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="true" >
+		<shape type="poly" name="" col="1,15" sensor="0,0" shiftcom="false" rot="0" vertices="-7.5,-50, 0,-52, 7.5,-50, 7.5,50, 0,52, -7.5,50" material="poly_slippery" />
+	</body>
+</physobj>
+
+<physobj name ="platform_metal" inlibrary="true" initfunction="InitPhysObj_Sticky_CanRestart" initparams="" initfunction2="" editorrender="null" libclass="blocks" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Front" />
+	<parameter name="fixed" def="true" />
+	<graphic clip="obj_platform_metal" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="true" >
+		<shape type="poly" name="" col="1,15" sensor="0,0" shiftcom="false" rot="0" vertices="-50,-12.5, 50,-12.5, 50,12.5, -50,12.5" material="average" />
+	</body>
+</physobj>
+
+<physobj name ="platform_metal_x4" inlibrary="true" initfunction="InitPhysObj_Sticky_CanRestart" initparams="" initfunction2="" editorrender="null" libclass="blocks" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Front" />
+	<parameter name="fixed" def="true" />
+	<graphic clip="obj_platform_metal_x4" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="true" >
+		<shape type="poly" name="" col="1,15" sensor="0,0" shiftcom="false" rot="0" vertices="-200,-12.5, 200,-12.5, 200,12.5, -200,12.5" material="average" />
+	</body>
+</physobj>
+
+<physobj name ="platform_metal_white" inlibrary="true" initfunction="InitPhysObj_Sticky_CanRestart" initparams="" initfunction2="" editorrender="null" libclass="blocks" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Front" />
+	<parameter name="fixed" def="true" />
+	<graphic clip="obj_platform_metal_white" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="true" >
+		<shape type="poly" name="" col="1,15" sensor="0,0" shiftcom="false" rot="0" vertices="-50,-12.5, 50,-12.5, 50,12.5, -50,12.5" material="average" />
+	</body>
+</physobj>
+
+<physobj name ="platform_metal_white_x4" inlibrary="true" initfunction="InitPhysObj_Sticky_CanRestart" initparams="" initfunction2="" editorrender="null" libclass="blocks" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Front" />
+	<parameter name="fixed" def="true" />
+	<graphic clip="obj_platform_metal_white_x4" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="true" >
+		<shape type="poly" name="" col="1,15" sensor="0,0" shiftcom="false" rot="0" vertices="-200,-12.5, 200,-12.5, 200,12.5, -200,12.5" material="average" />
+	</body>
+</physobj>
+
+<physobj name ="platform_stone" inlibrary="true" initfunction="InitPhysObj_Sticky_CanRestart" initparams="" initfunction2="" editorrender="null" libclass="blocks" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Front" />
+	<parameter name="fixed" def="true" />
+	<graphic clip="obj_platform_stone" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="true" >
+		<shape type="poly" name="" col="1,15" sensor="0,0" shiftcom="false" rot="0" vertices="-50,-12.5, 50,-12.5, 50,12.5, -50,12.5" material="average" />
+	</body>
+</physobj>
+
+<physobj name ="platform_stone_x4" inlibrary="true" initfunction="InitPhysObj_Sticky_CanRestart" initparams="" initfunction2="" editorrender="null" libclass="blocks" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Front" />
+	<parameter name="fixed" def="true" />
+	<graphic clip="obj_platform_stone_x4" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="true" >
+		<shape type="poly" name="" col="1,15" sensor="0,0" shiftcom="false" rot="0" vertices="-200,-12.5, 200,-12.5, 200,12.5, -200,12.5" material="average" />
+	</body>
+</physobj>
+
+<physobj name ="rope" inlibrary="true" initfunction="" initparams="" initfunction2="" editorrender="null" libclass="movable" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Behind" />
+	<parameter name="fixed" def="false" />
+	<graphic clip="obj_rope" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="false" >
+		<shape type="poly" name="" col="1,15" sensor="0,0" shiftcom="false" rot="0" vertices="-2.5,-25, 2.5,-25, 2.5,25, -2.5,25" material="chain" />
+	</body>
+</physobj>
+
+<physobj name ="rope_long" inlibrary="true" initfunction="" initparams="" initfunction2="" editorrender="null" libclass="movable" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Behind" />
+	<parameter name="fixed" def="false" />
+	<graphic clip="obj_rope_long" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="false" >
+		<shape type="poly" name="" col="1,15" sensor="0,0" shiftcom="false" rot="0" vertices="-2.5,-50, 2.5,-50, 2.5,50, -2.5,50" material="chain" />
+	</body>
+</physobj>
+
+<physobj name ="rock" inlibrary="true" initfunction="InitSticky_BarrelExplode" initparams="" initfunction2="" editorrender="null" libclass="blocks" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Behind" />
+	<parameter name="fixed" def="true" />
+	<graphic clip="obj_rock" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="false" >
+		<shape type="poly" name="" col="1,15" sensor="0,0" shiftcom="false" rot="0" vertices="-16,24, -25,18, -25,-4, -18,-11, -16,-21, -8,-26, 10,-25, 18,-14, 18,-5, 24,6, 23,19, 15,26" material="chain" />
+	</body>
+</physobj>
+
+<physobj name ="rock_big" inlibrary="true" initfunction="InitSticky_BarrelExplode" initparams="" initfunction2="" editorrender="null" libclass="movable" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Behind" />
+	<parameter name="fixed" def="false" />
+	<graphic clip="obj_rock_big" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="false" >
+		<shape type="poly" name="" col="1,15" sensor="0,0" shiftcom="false" rot="0" vertices="-48,19, -45,-24, -20,-48, 18,-48, 46,-19, 48,19, 21,47, -19,48" material="chain" />
+	</body>
+</physobj>
+
+<physobj name ="roof" inlibrary="true" initfunction="InitPhysObj_Sticky_CanRestart" initparams="" initfunction2="" editorrender="null" libclass="blocks" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Behind" />
+	<parameter name="fixed" def="true" />
+	<graphic clip="obj_roof" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="false" >
+		<shape type="poly" name="" col="1,15" sensor="0,0" shiftcom="false" rot="0" vertices="-50,-25, 50,-25, 50,25, -50,25" material="average" />
+	</body>
+</physobj>
+
+<physobj name ="roof_bouncy" inlibrary="true" initfunction="" initparams="" initfunction2="" editorrender="null" libclass="blocks" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Behind" />
+	<parameter name="fixed" def="true" />
+	<graphic clip="obj_roof_bouncy" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="false" >
+		<shape type="poly" name="" col="1,15" sensor="0,0" shiftcom="false" rot="0" vertices="-50,-23, 0,-25, 50,-23, 50,25, -50,25" material="bouncy" />
+	</body>
+</physobj>
+
+<physobj name ="roof_vent" inlibrary="true" initfunction="" initparams="" initfunction2="" editorrender="null" libclass="blocks" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Behind" />
+	<parameter name="fixed" def="true" />
+	<graphic clip="obj_roof_vent" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="true" >
+		<shape type="poly" name="" col="1,15" sensor="0,0" shiftcom="false" rot="0" vertices="-25,-20, 25,0, 25,20, -25,20" material="average" />
+	</body>
+</physobj>
+
+<physobj name ="pipe_slide_45" inlibrary="true" initfunction="" initparams="" initfunction2="" editorrender="null" libclass="blocks" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Front" />
+	<parameter name="fixed" def="true" />
+	<graphic clip="obj_pipe_slide_45" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="true" >
+		<shape type="poly" name="" col="1,15" sensor="0,0" shiftcom="false" rot="0" vertices="-60,50, 40,-50, 60,-50, -40,50" material="poly_slippery" />
+	</body>
+</physobj>
+
+<physobj name ="shark" inlibrary="true" initfunction="InitSpawnedObject_Shark" initparams="" initfunction2="" editorrender="null" libclass="enemy" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Enemy" />
+	<parameter name="fixed" def="false" />
+	<graphic clip="obj_shark" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="true" >
+		<shape type="poly" name="" col="1,2" sensor="0,0" shiftcom="false" rot="0" vertices="0,-50, 25,-20, 25,20, 0,50, -25,20, -25,-20" material="average" />
+	</body>
+</physobj>
+
+<physobj name ="skateboard" inlibrary="true" initfunction="InitPhysObj_Car" initparams="" initfunction2="" editorrender="null" libclass="movable" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Front" />
+	<parameter name="fixed" def="false" />
+	<graphic clip="obj_skateboard" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="false" >
+		<shape type="poly" name="" col="1,15" sensor="0,0" shiftcom="false" rot="0" vertices="-45,-8, 45,-8, 35,8, -35,8" material="smooth" />
+	</body>
+</physobj>
+
+<physobj name ="trolley" inlibrary="true" initfunction="InitPhysObj_Car" initparams="" initfunction2="" editorrender="null" libclass="movable" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Front" />
+	<parameter name="fixed" def="false" />
+	<graphic clip="obj_trolley" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="false" >
+		<shape type="poly" name="" col="1,15" sensor="0,0" shiftcom="false" rot="0" vertices="-40,-21, 41,-21, 29,35, -35,35, -40,25" material="smooth" />
+	</body>
+</physobj>
+
+<physobj name ="ship" inlibrary="true" initfunction="InitPhysObj_Sticky" initparams="" initfunction2="" editorrender="null" libclass="movable" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Front" />
+	<parameter name="fixed" def="false" />
+	<graphic clip="obj_ship" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="false" >
+		<shape type="poly" name="" col="1,15" sensor="0,0" shiftcom="false" rot="0" vertices="-100,-25, -60,-25, -60,0, 60,0, 60,-25, 100,-25, 90,30, 0,35, -80,30, -100,0" material="smooth" />
+	</body>
+</physobj>
+
+<physobj name ="skull" inlibrary="true" initfunction="" initparams="" initfunction2="" editorrender="null" libclass="scenery" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Behind" />
+	<parameter name="fixed" def="false" />
+	<graphic clip="obj_skull" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="false" >
+		<shape type="circle" name="" col="1,15" sensor="0,0" shiftcom="false" pos="0,0" radius="13" material="light" />
+	</body>
+</physobj>
+
+<physobj name ="spikebar" inlibrary="true" initfunction="InitPhysObj_Death" initparams="" initfunction2="" editorrender="null" libclass="blocks" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Behind" />
+	<parameter name="fixed" def="true" />
+	<graphic clip="obj_spikebar" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="true" >
+		<shape type="poly" name="" col="1,15" sensor="0,0" shiftcom="false" rot="0" vertices="-50,-8, 50,-8, 50,8, -50,8" material="average" />
+	</body>
+</physobj>
+
+<physobj name ="spikebar_small" inlibrary="true" initfunction="InitPhysObj_Death" initparams="" initfunction2="" editorrender="null" libclass="blocks" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Behind" />
+	<parameter name="fixed" def="true" />
+	<graphic clip="obj_spikebar_small" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="true" >
+		<shape type="poly" name="" col="1,15" sensor="0,0" shiftcom="false" rot="0" vertices="-25,-8, 25,-8, 25,8, -25,8" material="average" />
+	</body>
+</physobj>
+
+<physobj name ="spring_bouncy" inlibrary="true" initfunction="InitCollidableAnimatedBouncy" initparams="" initfunction2="" editorrender="null" libclass="bouncy" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Behind" />
+	<parameter name="fixed" def="true" />
+	<graphic clip="obj_spring_bouncy" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="false" >
+		<shape type="circle" name="" col="1,15" sensor="0,0" shiftcom="false" pos="0,0" radius="25" material="poly_bouncy" />
+	</body>
+</physobj>
+
+<physobj name ="steps_wood" inlibrary="true" initfunction="InitPhysObj_Sticky_CanRestart" initparams="" initfunction2="" editorrender="null" libclass="blocks" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Front" />
+	<parameter name="fixed" def="true" />
+	<graphic clip="obj_steps_wood" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="true" >
+		<shape type="poly" name="" col="1,15" sensor="0,0" shiftcom="false" rot="0" vertices="-60,50, 40,-50, 60,-50, -40,50" material="average" />
+	</body>
+</physobj>
+
+<physobj name ="surfboard" inlibrary="true" initfunction="InitPhysObj_Sticky" initparams="" initfunction2="" editorrender="null" libclass="movable" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Front" />
+	<parameter name="fixed" def="false" />
+	<graphic clip="obj_surfboard" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="false" >
+		<shape type="poly" name="" col="1,15" sensor="0,0" shiftcom="false" rot="0" vertices="-70,-3, 70,-3, 70,3, -70,3" material="smooth" />
+	</body>
+</physobj>
+
+<physobj name ="switch_once" inlibrary="true" initfunction="InitPhysObj_StickyNinja_SwitchOnce" initparams="" initfunction2="" editorrender="null" libclass="scenery" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="game_layer" def="Objects_Behind" />
+	<parameter name="editor_layer" def="1" />
+	<parameter name="fixed" def="true" />
+	<graphic clip="obj_switch" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="true" >
+		<shape type="poly" name="" col="0,0" sensor="1,15" shiftcom="false" rot="0" vertices="-24,-24, 26,-24, 26,26, -23,26" material="average" />
+	</body>
+</physobj>
+
+<physobj name ="switchblock" inlibrary="true" initfunction="InitSwitchedBlock" initparams="" initfunction2="" editorrender="null" libclass="blocks" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Behind" />
+	<parameter name="fixed" def="true" />
+	<graphic clip="obj_block_vanish" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="true" >
+		<shape type="poly" name="" col="1,15" sensor="0,0" shiftcom="false" rot="0" vertices="-25,-25, 25,-25, 25,25, -25,25" material="average" />
+	</body>
+</physobj>
+
+<physobj name ="subwaycar" inlibrary="true" initfunction="InitPhysObj_Sticky" initparams="" initfunction2="" editorrender="null" libclass="movable" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Front" />
+	<parameter name="fixed" def="false" />
+	<graphic clip="obj_subwaycar" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="true" >
+		<shape type="poly" name="" col="1,15" sensor="0,0" shiftcom="false" rot="0" vertices="-165,-75, 165,-75, 165,45, 140,70, -140,70, -165,45" material="chain" />
+	</body>
+</physobj>
+
+<physobj name ="track" inlibrary="true" initfunction="InitPhysObj_Death" initparams="" initfunction2="" editorrender="null" libclass="blocks" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Behind" />
+	<parameter name="fixed" def="true" />
+	<graphic clip="obj_track" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="true" >
+		<shape type="poly" name="" col="1,15" sensor="0,0" shiftcom="false" rot="0" vertices="-50,-5, 50,-5, 50,5, -50,5" material="average" />
+	</body>
+</physobj>
+
+<physobj name ="track_long" inlibrary="true" initfunction="InitPhysObj_Death" initparams="" initfunction2="" editorrender="null" libclass="blocks" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Behind" />
+	<parameter name="fixed" def="true" />
+	<graphic clip="obj_track_long" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="true" >
+		<shape type="poly" name="" col="1,15" sensor="0,0" shiftcom="false" rot="0" vertices="-100,-5, 100,-5, 100,5, -100,5" material="average" />
+	</body>
+</physobj>
+
+<physobj name ="triangle" inlibrary="true" initfunction="" initparams="" initfunction2="" editorrender="null" libclass="null" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Behind" />
+	<parameter name="fixed" def="true" />
+	<graphic clip="obj_triangle" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="true" >
+		<shape type="poly" name="" col="1,15" sensor="0,0" shiftcom="false" rot="0" vertices="0,-25, 25,0, -25,0" material="poly_slippery" />
+	</body>
+</physobj>
+
+<physobj name ="waterwheel" inlibrary="true" initfunction="InitPhysObj_Sticky" initparams="" initfunction2="" editorrender="null" libclass="movable" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Front" />
+	<parameter name="fixed" def="false" />
+	<graphic clip="obj_waterwheel" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="false" >
+		<shape type="poly" name="" col="1,15" sensor="0,0" shiftcom="false" rot="0" vertices="-70,-3, 70,-3, 70,3, -70,3" material="average" />
+		<shape type="poly" name="" col="1,15" sensor="0,0" shiftcom="false" rot="0" vertices="-3,-70, 3,-70, 3,70, -3,70" material="average" />
+	</body>
+</physobj>
+
+<physobj name ="wheel" inlibrary="true" initfunction="" initparams="" initfunction2="" editorrender="null" libclass="movable" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Front" />
+	<parameter name="fixed" def="false" />
+	<graphic clip="obj_wheel" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="false" >
+		<shape type="circle" name="" col="1,15" sensor="0,0" shiftcom="false" pos="0,0" radius="25" material="light" />
+	</body>
+</physobj>
+
+<physobj name ="wheel_small" inlibrary="true" initfunction="" initparams="" initfunction2="" editorrender="null" libclass="movable" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Front" />
+	<parameter name="fixed" def="false" />
+	<graphic clip="obj_wheel_small" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="false" >
+		<shape type="circle" name="" col="1,15" sensor="0,0" shiftcom="false" pos="0,0" radius="19" material="light" />
+	</body>
+</physobj>
+
+<physobj name ="wheel_large" inlibrary="true" initfunction="" initparams="" initfunction2="" editorrender="null" libclass="movable" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Front" />
+	<parameter name="fixed" def="false" />
+	<graphic clip="obj_wheel_large" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="false" >
+		<shape type="circle" name="" col="1,15" sensor="0,0" shiftcom="false" pos="0,0" radius="39" material="light" />
+	</body>
+</physobj>
+
+<physobj name ="wheel_tyre" inlibrary="true" initfunction="InitPhysObj_Sticky" initparams="" initfunction2="" editorrender="null" libclass="movable" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Front" />
+	<parameter name="fixed" def="false" />
+	<graphic clip="obj_wheel_tyre" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="false" >
+		<shape type="circle" name="" col="1,15" sensor="0,0" shiftcom="false" pos="0,0" radius="19" material="light" />
+	</body>
+</physobj>
+
+<physobj name ="obj_bg_bush_a" inlibrary="true" initfunction="" initparams="" initfunction2="" editorrender="null" libclass="bg" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Scenery_BG" />
+	<graphic clip="obj_bg_bush_a" frame="1" pos="0,0" rot="0" />
+</physobj>
+
+<physobj name ="obj_bg_bush_b" inlibrary="true" initfunction="" initparams="" initfunction2="" editorrender="null" libclass="bg" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Scenery_BG" />
+	<graphic clip="obj_bg_bush_b" frame="1" pos="0,0" rot="0" />
+</physobj>
+
+<physobj name ="obj_bg_bush_c" inlibrary="true" initfunction="" initparams="" initfunction2="" editorrender="null" libclass="bg" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Scenery_BG" />
+	<graphic clip="obj_bg_bush_c" frame="1" pos="0,0" rot="0" />
+</physobj>
+
+<physobj name ="obj_bg_garage" inlibrary="true" initfunction="" initparams="" initfunction2="" editorrender="null" libclass="bg" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Scenery_BG" />
+	<graphic clip="obj_bg_garage" frame="1" pos="0,0" rot="0" />
+</physobj>
+
+<physobj name ="obj_bg_garage_close" inlibrary="true" initfunction="" initparams="" initfunction2="" editorrender="null" libclass="bg" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Scenery_BG" />
+	<graphic clip="obj_bg_garage_close" frame="1" pos="0,0" rot="0" />
+</physobj>
+
+<physobj name ="obj_bg_glasspane" inlibrary="true" initfunction="" initparams="" initfunction2="" editorrender="null" libclass="bg" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Scenery_BG" />
+	<graphic clip="obj_bg_glasspane" frame="1" pos="0,0" rot="0" />
+</physobj>
+
+<physobj name ="obj_bg_lamppost_day" inlibrary="true" initfunction="" initparams="" initfunction2="" editorrender="null" libclass="bg" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Scenery_BG" />
+	<graphic clip="obj_bg_lamppost_day" frame="1" pos="0,0" rot="0" />
+</physobj>
+
+<physobj name ="obj_bg_lamppost_night" inlibrary="true" initfunction="" initparams="" initfunction2="" editorrender="null" libclass="bg" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Scenery_BG" />
+	<graphic clip="obj_bg_lamppost_night" frame="1" pos="0,0" rot="0" />
+</physobj>
+
+<physobj name ="obj_bg_torch" inlibrary="true" initfunction="InitFlamingTorch" initparams="" initfunction2="" editorrender="null" libclass="bg" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Scenery_BG" />
+	<graphic clip="obj_bg_torch" frame="1" pos="0,0" rot="0" />
+</physobj>
+
+<physobj name ="obj_bg_tree_a" inlibrary="true" initfunction="" initparams="" initfunction2="" editorrender="null" libclass="bg" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Scenery_BG" />
+	<graphic clip="obj_bg_tree_a" frame="1" pos="0,0" rot="0" />
+</physobj>
+
+<physobj name ="obj_bg_tree_b" inlibrary="true" initfunction="" initparams="" initfunction2="" editorrender="null" libclass="bg" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Scenery_BG" />
+	<graphic clip="obj_bg_tree_b" frame="1" pos="0,0" rot="0" />
+</physobj>
+
+<physobj name ="obj_bg_tree_c" inlibrary="true" initfunction="" initparams="" initfunction2="" editorrender="null" libclass="bg" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Scenery_BG" />
+	<graphic clip="obj_bg_tree_c" frame="1" pos="0,0" rot="0" />
+</physobj>
+
+<physobj name ="obj_bg_wirefence" inlibrary="true" initfunction="" initparams="" initfunction2="" editorrender="null" libclass="bg" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Scenery_BG" />
+	<graphic clip="obj_bg_wirefence" frame="1" pos="0,0" rot="0" />
+</physobj>
+
+<physobj name ="obj_bg_window_a" inlibrary="true" initfunction="" initparams="" initfunction2="" editorrender="null" libclass="bg" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Scenery_BG" />
+	<graphic clip="obj_bg_window_a" frame="1" pos="0,0" rot="0" />
+</physobj>
+
+<physobj name ="obj_bg_window_b" inlibrary="true" initfunction="" initparams="" initfunction2="" editorrender="null" libclass="bg" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Scenery_BG" />
+	<graphic clip="obj_bg_window_b" frame="1" pos="0,0" rot="0" />
+</physobj>
+
+<physobj name ="obj_fg_guide_sign" inlibrary="true" initfunction="" initparams="" initfunction2="" editorrender="null" libclass="fg" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Scenery_BG" />
+	<graphic clip="obj_fg_guide_sign" frame="1" pos="0,0" rot="0" />
+</physobj>
+
+<physobj name ="obj_fg_guide_sign_neon" inlibrary="true" initfunction="" initparams="" initfunction2="" editorrender="null" libclass="fg" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Scenery_BG" />
+	<graphic clip="obj_fg_guide_sign_neon" frame="1" pos="0,0" rot="0" />
+</physobj>
+
+<physobj name ="obj_fg_lamp" inlibrary="true" initfunction="" initparams="" initfunction2="" editorrender="null" libclass="fg" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Scenery_BG" />
+	<graphic clip="obj_fg_lamp" frame="1" pos="0,0" rot="0" />
+</physobj>
+
+<physobj name ="obj_fg_lamp_unlit" inlibrary="true" initfunction="" initparams="" initfunction2="" editorrender="null" libclass="fg" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Scenery_BG" />
+	<graphic clip="obj_fg_lamp_unlit" frame="1" pos="0,0" rot="0" />
+</physobj>
+
+<physobj name ="obj_fg_lantern" inlibrary="true" initfunction="" initparams="" initfunction2="" editorrender="null" libclass="fg" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Scenery_BG" />
+	<graphic clip="obj_fg_lantern" frame="1" pos="0,0" rot="0" />
+</physobj>
+
+<physobj name ="obj_fg_lantern" inlibrary="true" initfunction="" initparams="" initfunction2="" editorrender="null" libclass="fg" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Scenery_BG" />
+	<graphic clip="obj_fg_lantern" frame="1" pos="0,0" rot="0" />
+</physobj>
+
+<physobj name ="treasure" inlibrary="true" initfunction="InitTreasurePickup" initparams="" initfunction2="" editorrender="null" libclass="movable" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Behind" />
+	<parameter name="fixed" def="true" />
+	<graphic clip="obj_treasure_diamond" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="true" >
+		<shape type="circle" name="" col="0,0" sensor="1,15" shiftcom="false" pos="0,0" radius="20" material="average" />
+	</body>
+</physobj>
+
+<physobj name ="pickup_shuriken" inlibrary="true" initfunction="InitWeaponPickup" initparams="2" initfunction2="" editorrender="null" libclass="weapon" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Behind" />
+	<parameter name="fixed" def="true" />
+	<graphic clip="powerup_shuriken_anim" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="true" >
+		<shape type="circle" name="" col="0,0" sensor="1,15" shiftcom="false" pos="0,0" radius="25" material="poly_average" />
+	</body>
+</physobj>
+
+<physobj name ="pickup_life" inlibrary="true" initfunction="InitLifePickup" initparams="1" initfunction2="" editorrender="null" libclass="weapon" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Objects_Behind" />
+	<parameter name="fixed" def="true" />
+	<graphic clip="powerup_life_anim" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="true" >
+		<shape type="circle" name="" col="0,0" sensor="1,15" shiftcom="false" pos="0,0" radius="25" material="poly_average" />
+	</body>
+</physobj>
+
+<physobj name ="weapon_1" inlibrary="false" initfunction="InitWeapon" initparams="0" initfunction2="" editorrender="null" libclass="weapon" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Centre" />
+	<parameter name="fixed" def="true" />
+	<graphic clip="obj_waterbomb" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="false" >
+		<shape type="circle" name="" col="8,5" sensor="0,0" shiftcom="false" pos="0,0" radius="10" material="poly_average" />
+	</body>
+</physobj>
+
+<physobj name ="weapon_2" inlibrary="false" initfunction="InitWeapon" initparams="0" initfunction2="" editorrender="null" libclass="weapon" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Centre" />
+	<parameter name="fixed" def="true" />
+	<graphic clip="obj_shuriken" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="false" >
+		<shape type="circle" name="" col="8,5" sensor="0,0" shiftcom="false" pos="0,0" radius="10" material="poly_average" />
+	</body>
+</physobj>
+
+<physobj name ="weapon_3" inlibrary="false" initfunction="InitWeapon" initparams="0" initfunction2="" editorrender="null" libclass="weapon" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Centre" />
+	<parameter name="fixed" def="true" />
+	<graphic clip="obj_tetsubishi" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="false" >
+		<shape type="circle" name="" col="8,5" sensor="0,0" shiftcom="false" pos="0,0" radius="10" material="poly_average" />
+	</body>
+</physobj>
+
+<physobj name ="spawned_fire_ball" inlibrary="true" initfunction="InitSpawnedObject_Fireball" initparams="" initfunction2="" editorrender="null" libclass="" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Enemy" />
+	<parameter name="fixed" def="false" />
+	<graphic clip="obj_fire_ball" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="false" >
+		<shape type="circle" name="" col="0,0" sensor="1,15" shiftcom="false" pos="0,0" radius="25" material="average" />
+	</body>
+</physobj>
+
+<physobj name ="spawner_fireball" inlibrary="true" initfunction="InitSpawner" initparams="" initfunction2="" editorrender="null" libclass="normal" hasphysics="false" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="spawner_initialdelay" def="0" />
+	<parameter name="spawner_frequency" def="3" />
+	<parameter name="spawner_spawnobject" def="spawned_fire_ball" />
+	<parameter name="spawner_totalamount" def="0" />
+	<parameter name="spawner_angle" def="0" />
+	<parameter name="spawner_velocity" def="500" />
+	<parameter name="spawner_object_timeout" def="0" />
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Enemy" />
+	<parameter name="fixed" def="true" />
+	<graphic clip="obj_fire_spawner" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="true" >
+		<shape type="circle" name="" col="0,0" sensor="0,0" shiftcom="false" pos="0,0" radius="10" material="average" />
+	</body>
+</physobj>
+
+<physobj name ="spawner" inlibrary="true" initfunction="InitSpawner" initparams="" initfunction2="" editorrender="null" libclass="normal" hasphysics="false" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="spawner_initialdelay" def="0" />
+	<parameter name="spawner_frequency" def="3" />
+	<parameter name="spawner_spawnobject" def="fire_ball" />
+	<parameter name="spawner_totalamount" def="0" />
+	<parameter name="spawner_angle" def="0" />
+	<parameter name="spawner_velocity" def="1" />
+	<parameter name="spawner_visible" def="true" />
+	<parameter name="spawner_frame" def="1" />
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Enemy" />
+	<parameter name="fixed" def="true" />
+	<graphic clip="obj_fire_spawner" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="true" >
+		<shape type="circle" name="" col="0,0" sensor="0,0" shiftcom="false" pos="0,0" radius="10" material="average" />
+	</body>
+</physobj>
+
+<physobj name ="path_object" inlibrary="true" initfunction="InitPhysObj_Path_Virtual" initparams="" initfunction2="" editorrender="null" libclass="platform" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="path_startmode" def="start" />
+	<parameter name="path_endmode" def="stop" />
+	<parameter name="path_switchmode" def="stop" />
+	<parameter name="path_line" def="" />
+	<parameter name="path_speed" def="30" />
+	<parameter name="path_ease" def="linear" />
+	<parameter name="path_easevalue" def="1" />
+	<parameter name="path_startpos" def="0" />
+	<parameter name="path_rotatetopath" def="false" />
+	<parameter name="path_pointtoobject" def="" />
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Centre" />
+	<parameter name="fixed" def="true" />
+	<graphic clip="editor_linker" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="true" >
+		<shape type="poly" name="" col="0,0" sensor="0,0" shiftcom="false" rot="0" vertices="-34,-6, 34,-6, 34,6, -34,6" material="average" />
+	</body>
+</physobj>
+
+<physobj name ="path_object_log" inlibrary="true" initfunction="InitPhysObj_Path_Sticky" initparams="" initfunction2="" editorrender="null" libclass="platform" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="path_startmode" def="start" />
+	<parameter name="path_endmode" def="stop" />
+	<parameter name="path_switchmode" def="stop" />
+	<parameter name="path_line" def="" />
+	<parameter name="path_speed" def="30" />
+	<parameter name="path_ease" def="linear" />
+	<parameter name="path_easevalue" def="1" />
+	<parameter name="path_startpos" def="0" />
+	<parameter name="path_rotatetopath" def="false" />
+	<parameter name="path_pointtoobject" def="" />
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Centre" />
+	<parameter name="fixed" def="true" />
+	<graphic clip="obj_log_100x25" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="false" >
+		<shape type="poly" name="" col="1,15" sensor="0,0" shiftcom="false" rot="0" vertices="-50,-12, 50,-12, 50,12, -50,12" material="average" />
+	</body>
+</physobj>
+
+<physobj name ="path_object_circular" inlibrary="true" initfunction="InitPathObjectCircular" initparams="" initfunction2="" editorrender="RenderPathObjectCircular" libclass="platform" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="circlepath_radius" def="100" />
+	<parameter name="circlepath_startang" def="0" />
+	<parameter name="circlepath_angvel" def="5" />
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Centre" />
+	<parameter name="fixed" def="true" />
+	<graphic clip="editor_linker" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="true" >
+		<shape type="poly" name="" col="0,0" sensor="0,0" shiftcom="false" rot="0" vertices="-34,-6, 34,-6, 34,6, -34,6" material="average" />
+	</body>
+</physobj>
+
+<physobj name ="path_object_pendulum" inlibrary="true" initfunction="InitPathObjectPendulum" initparams="" initfunction2="" editorrender="RenderPathObjectPendulum" libclass="platform" hasphysics="true" staticobj="false" snaptofloor="false" wakefunction="" >
+	<parameter name="circlepath_radius" def="100" />
+	<parameter name="circlepath_startang" def="0" />
+	<parameter name="pendulum_accel" def="0.0001" />
+	<parameter name="pendulum_maxvel" def="0.01" />
+	<parameter name="path_rotatetopath" def="false" />
+	<parameter name="editor_layer" def="1" />
+	<parameter name="game_layer" def="Centre" />
+	<parameter name="fixed" def="true" />
+	<graphic clip="editor_linker" frame="1" pos="0,0" rot="0" />
+	<body name="fix" pos="0,0" fixed="true" >
+		<shape type="poly" name="" col="0,0" sensor="0,0" shiftcom="false" rot="0" vertices="-34,-6, 34,-6, 34,6, -34,6" material="average" />
+	</body>
+</physobj>
+
+</data>
